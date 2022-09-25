@@ -1,5 +1,5 @@
 ---
-layout: default_no_footer
+layout: page
 title: 👋 Howdy, I'm Daniel Bernal
 permalink: /about/
 ---
