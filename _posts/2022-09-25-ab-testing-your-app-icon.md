@@ -5,6 +5,7 @@ author: Daniel
 layout: post
 image: /posts/2022-09-25-ab-testing-your-app-icon//header.jpg
 permalink: /2022-09-25-ab-testing-your-app-icon/
+twitterlink: 'https://twitter.com/afterxleep/status/1574171533307691009'
 categories:    
     - product
 ---
@@ -70,8 +71,6 @@ Sources & Refs:
 *   [Product Page Optimization (Apple)](https://help.apple.com/app-store-connect/#/dev6aa9d8d7b)
 *   [Configuring App to use Alternate Icons (Apple)](https://developer.apple.com/documentation/xcode/asset_management/configuring_your_app_to_use_alternate_app_icons)
 *   [Product Page Optimization Tutorial (Apple)](https://developer.apple.com/app-store/product-page-optimization/)
-
-* * *
 
 <sup>Photo by [Harpal Singh](https://unsplash.com/@aquatium?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</sup>
   

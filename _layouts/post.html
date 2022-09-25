@@ -16,6 +16,9 @@ layout: default
   {% endif %}
   <div class="entry">
     {{ content }}
+    {% if page.twitterlink %}
+      {% include twitter.html %}
+    {% endif %}
   </div>
 
   <div class="metadata">
@@ -34,7 +37,7 @@ layout: default
     </div>
   </div>
 
-
+<!--
   <div class="pagination">
     {% if page.previous.url %}
       <span class="prev" >
@@ -51,6 +54,7 @@ layout: default
       </span>
     {% endif %}
   </div>
+-->
 
-  {% include disqus.html %}
+  
 </article>
