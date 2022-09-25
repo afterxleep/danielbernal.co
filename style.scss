@@ -696,10 +696,13 @@ button {
   padding:8px;
   border-radius: 8px;
   font-weight: $light-font-weight;
-  vertical-align: top;
+  display: inline-block;
+  padding-right: 10px;
 
   img {    
-    vertical-align: text-bottom;
+    vertical-align: bottom;    
+    float:left;
+    margin-right:5px; 
   }
 
 }
