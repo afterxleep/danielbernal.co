@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Daniel Bernal // Blog
+name: Daniel Bernal – Blog
 
 # Short bio or description (displayed in the header)
 description: I'm Daniel Bernal (aka. afterXleep) and this is my personal blog.  I write about iOS, mobile apps, software development and technology management.
@@ -34,29 +34,7 @@ navigation:
 paginate: 8
 
 # Includes an icon in the footer for each username you enter
-footer-links:
-  behance: # https://www.behance.net/<username>
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: afterxleep
-  googleplus: # anything in your profile username that comes after plus.google.com/
-  instagram:
-  linkedin: danielbernalm
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  tumblr: # https://<username>.tumblr.com
-  twitter: afterxleep
-  youtube: # channel/<your_long_string> or user/<user-name>
 
-# Text under the icons in footer
-footer-text: 
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-#disqus: afterxleep
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: UA-174341233-1
@@ -71,12 +49,7 @@ url: https://danielbernal.co
 # then add in the baseurl here, like this: "/repository-name"
 baseurl:
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-
-permalink: /:title/
+permalink: /:year/:month/:day/:title/
 paginate_path: /page:num/
 
 # The release of Jekyll Now that you're using
@@ -110,7 +83,5 @@ exclude:
   - CNAME
 
 excerpt_separator: <!--more-->
-
 future: false
-
 highlighter: rouge
