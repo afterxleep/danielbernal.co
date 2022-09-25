@@ -30,7 +30,8 @@ There is a chance you never had to provide a ValueTransformer before, and that�
 
 By using the default attributes (see below), you can use the Transformable type to store any object of the top-level class list, (*NSArray,* *NSDictionary,* *NSSet,* *NSString,* *NSNumber,* *NSDate,* *NSData,* *NSURL,* *NSUUID* and NSNull), without doing anything else.
 
-<figure class="wp-block-image size-large">![](https://danielbernal.co/wp-content/uploads/2020/10/Screen-Shot-2020-10-28-at-10.05.50-PM-1024x393.png)</figure>## NSSecureCoding
+![](/assets//posts/2020-10-29-coredata-transformable-and-nssecurecoding-in-ios-13//ss1.png)
+## NSSecureCoding
 
 While NSCoding is available from iOS 2, it was extended by NSSecureCoding on iOS 6 to enable object transformation more securely.
 
@@ -42,8 +43,7 @@ A correct implementation of the the NSSecureCoding protocol in your class, means
 
 Here’s a quick example of a class fully conforming to NSSecureCoding.
 
-```
-<pre class="wp-block-code">```swift
+```swift
 class MyTestClass: NSSecureCoding {
 
     var name: String = ""
@@ -69,7 +69,6 @@ class MyTestClass: NSSecureCoding {
 
 }
 ```
-```
 
 As you can see, we first set the `supportsSecureEncoding `variable to true, and then explicitly define the type of object in advance when decoding our objects.
 
@@ -85,14 +84,11 @@ The warning also means that in a future version of iOS, Apple will change the de
 
 To use the new Secure Transformer, we can set it up in our CoreData attributes panel as follows:
 
-<figure class="wp-block-image size-large">![](https://danielbernal.co/wp-content/uploads/2020/10/CoreDataSecure-1024x372.png)</figure>## What about custom (non top-level) classes?
-
 If you want to securely store any other class that is not part of the top-level classes list, you will have to implement a custom Value Transformer, which basically helps the unarchiver figure out which class it should check for. If you don’t provide one, you’ll get an exception, and the application will crash.
 
 Fortunately, creating a custom ValueTransformer for this purpose is simple. You need to create a subclass of NSSecureUnarchiveDataTransofrmer, and add your class to the `allowedTopLevelClasses `array Let’s write a custom ValueTransformer for our `MyTestClass` class above.
 
-```
-<pre class="wp-block-code">```swift
+```swift
 <em>// It has to be a subclass of `NSSecureUnarchiveFromDataTransformer` and we need to expose it to ObjC.</em>
 
 @objc(MyTestClassValueTransformer)
@@ -113,7 +109,6 @@ final class MyTestClassValueTransformer: NSSecureUnarchiveFromDataTransformer {
     }
 }
 ```
-```
 
 Here’s what’s happening:
 
@@ -133,8 +128,7 @@ Now that you have your ValueTransformer ready, it’s time to put it to work, bu
 
 A good place to do that is during your CoreData stack initialization, but make sure you do it before setting up your Persistent Container.
 
-```
-<pre class="wp-block-code">```swift
+```swift
 <em>// ... Make sure to register before initializing your persistent container</em>
 
 <em>// Register the transformer</em>
@@ -142,11 +136,12 @@ MyTestClassValueTransformer.register()
 
 <em>// .. Continue initializing Persistent Container</em>
 ```
-```
 
 Lastly, configure your model to use your brand new ValueTransformer as follows:
 
-<figure class="wp-block-image size-large">![](https://danielbernal.co/wp-content/uploads/2020/10/CoreDataCustomVT-1024x381.png)</figure>## Note
+![](/assets//posts/2020-10-29-coredata-transformable-and-nssecurecoding-in-ios-13//ss2.png)
+
+## Note
 
 When I tested this, I had a typo in the Transformer Class name on the Core Data Model. The Xcode warning disappeared, but everything seemed to work fine in the app (although the transformer was never used).
 
