@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: Find yourself some time
 image: time-for-yourself.jpeg
-tags:
-  - lifehacks
+categories:
+    - life
 ---
 
 There is nothing better than giving yourself time not to do anything so that you can do a bunch of things without obligation.

@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: Mentoring Junior Engineers (and new hires)
 image: engineers2.jpg
-tags:
-  - management software  
+categories:
+    - work   
 ---
 
 

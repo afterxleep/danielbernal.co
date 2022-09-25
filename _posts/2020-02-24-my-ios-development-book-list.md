@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: My iOS development book list
 image: books.jpeg
-tags:
-  - development
+categories:
+    - code
 ---
 
 There are thousands of iOS development books flying around. Still, many are outdated, incomplete, or not the best option (not to say mediocre), so whether if you are starting with iOS development or want to improve your skills, this is an excellent place to start.

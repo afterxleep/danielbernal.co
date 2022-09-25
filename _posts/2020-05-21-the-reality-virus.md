@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: The reality virus
 image: video-call.jpg
-tags:
-  - untagged
+categories:
+    - life
 ---
 
 It's a lot of fun to take a peek at improvised home offices set up by reporters, actors, politicians, and people on TV.  It adds some sort of warmth and coziness to the news, even if reality is crude and difficult.

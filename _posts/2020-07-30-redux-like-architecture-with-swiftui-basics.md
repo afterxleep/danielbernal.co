@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: Redux-like architecture with SwiftUI&#58; Basics
 image: /posts/2020-07-30-redux-like-architecture-with-swiftui-basics/header.png
-tags:
-  - development ios swift
+categories:
+    - code  
 ---
 
 Since the beta release of iOS 14 and now that SwiftUI is a little more mature, I have been exploring different architectures that better fit its patterns. After working with React for a while, I got curious about using something similar to Redux on iOS.<!--more-->

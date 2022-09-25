@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: Redux-like architecture with SwiftUI&#58; Error Handling
 image: /posts/2020-08-07-redux-like-architecture-with-swiftui-error-handling/header.png
-tags:
-  - development ios swift
+categories:
+    - code  
 ---
 
 In the [previous post]({{ site.url }}/redux-like-architecture-with-swiftui-middleware/), we’ve implemented Middleware support to facilitate asynchronous operations and extended functionality, and today we will be following up with Error handling and improving our User Experience<!--more-->.

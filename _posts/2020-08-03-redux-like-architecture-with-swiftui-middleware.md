@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: Redux-like architecture with SwiftUI&#58; Side Effects
 image: /posts/2020-08-03-redux-like-architecture-with-swiftui-middleware/header.png
-tags:
-  - development ios swift
+categories:
+    - code  
 ---
 
 In the [previous post]({{ site.url }}/redux-like-architecture-with-swiftui-basics/) we went through setting up the basic architecture for iOS with Redux-like approach, and now we will be following up with additional optimizations and support for asynchronous functions or side effects.<!--more-->

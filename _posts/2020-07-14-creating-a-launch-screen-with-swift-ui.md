@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: Launch Screens and the SwiftUI App Life Cycle on iOS 14
 image: ios14.jpg
-tags:
-  - development ios swift swiftui ios14
+categories:
+    - code 
 ---
 
 I have decided to rewrite [Bouncer](https://github.com/afterxleep/Bouncer) from scratch using the latest SwiftUI version available in iOS 14.  This includes using the new SwiftUI App Lifecycle, which allows you to skip UIKit entirely, alongside the AppDelegate and Storyboards.

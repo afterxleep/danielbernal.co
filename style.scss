@@ -271,7 +271,7 @@ a.footnote {
 
 // Image
 img {
-  border-radius: 5px;
+  border-radius: 5px;  
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -425,6 +425,10 @@ article {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 12px;
+  }
+
+  img {
+    max-width:100% !important;
   }
 }
 

@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: Life with the iPad Pro
 image: ipad-pro-phone.jpg
-tags:
-  - gadgets
+categories:
+    - life
 ---
 
 Some time ago, as an experiment, I decided to use an iPad Pro as my primary computing device.  Expectations were low, so I kept my laptop in a drawer and gave it a chance for a couple of weeks.

@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: Do your best work
 image:
-tags:
-  - untagged
+categories:
+    - life
 ---
 
 It's nice to see everyone trying to help and do something about this virus, but I honestly don't think we can change much by posting more stuff on social networks.

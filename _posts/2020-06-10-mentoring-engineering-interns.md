@@ -3,8 +3,8 @@ layout: post
 comments: true
 title: Mentoring Engineering Interns
 image: engineers1.jpg
-tags:
-  - management software  
+categories:
+    - work  
 ---
 
 So the company decided to run a new internship program, and you are now a mentor for the next batch. That's good news, but whether you are new to engineering management or have some experience already, mentoring and motivating interns is not an easy task.
