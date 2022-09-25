@@ -1,7 +1,6 @@
 ---
 id: 530
 title: 'Hello Spain! 🇪🇸'
-date: '2021-03-21T06:43:47+01:00'
 author: Daniel
 layout: post
 guid: 'https://danielbernal.co/?p=530'

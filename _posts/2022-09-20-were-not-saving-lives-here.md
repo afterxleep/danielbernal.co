@@ -1,7 +1,6 @@
 ---
 id: 737
 title: 'We&#8217;re not saving lives here'
-date: '2022-09-20T20:16:00+02:00'
 author: Daniel
 layout: post
 guid: 'https://danielbernal.co/?p=737'

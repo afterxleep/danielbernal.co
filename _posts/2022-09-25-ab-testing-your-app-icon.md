@@ -1,6 +1,6 @@
 ---
 title: 'A/B testing your app icon'
-date: '2022-09-25T20:16:00+02:00'
+date: '2022-09-25T00:16:00+02:00'
 author: Daniel
 layout: post
 image: /posts/2022-09-25-ab-testing-your-app-icon//header.jpg

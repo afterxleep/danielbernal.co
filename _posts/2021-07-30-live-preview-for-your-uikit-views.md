@@ -1,7 +1,6 @@
 ---
 id: 562
 title: 'Live preview for your UIKit views'
-date: '2021-07-30T11:07:00+02:00'
 author: Daniel
 layout: post
 guid: 'https://danielbernal.co/?p=562'

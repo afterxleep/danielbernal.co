@@ -1,7 +1,6 @@
 ---
 id: 345
 title: 'Getting a job at Automattic'
-date: '2020-12-13T16:53:09+01:00'
 author: Daniel
 layout: post
 guid: 'https://danielbernal.co/?p=345'

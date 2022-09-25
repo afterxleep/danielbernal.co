@@ -1,7 +1,6 @@
 ---
 id: 284
 title: 'CoreData Transformable and NSSecureCoding in iOS 13+'
-date: '2020-10-29T00:31:36+01:00'
 author: Daniel
 layout: post
 guid: 'https://danielbernal.co/?p=284'

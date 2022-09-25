@@ -1,7 +1,6 @@
 ---
 id: 714
 title: 'A/B test your design, not your product.'
-date: '2022-07-17T17:55:00+02:00'
 author: Daniel
 layout: post
 guid: 'https://danielbernal.co/?p=714'

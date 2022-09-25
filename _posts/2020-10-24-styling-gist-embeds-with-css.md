@@ -1,6 +1,5 @@
 ---
 title: 'Styling  Gist embeds with CSS'
-date: '2020-10-24T00:35:56+02:00'
 author: Daniel
 layout: post
 permalink: /styling-gist-embeds-with-css/

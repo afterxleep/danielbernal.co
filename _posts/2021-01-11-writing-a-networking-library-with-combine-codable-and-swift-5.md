@@ -1,7 +1,6 @@
 ---
 id: 464
 title: 'Writing a Networking Library with Combine, Codable and Swift 5'
-date: '2021-01-11T00:03:11+01:00'
 author: Daniel
 layout: post
 guid: 'https://danielbernal.co/?p=464'
