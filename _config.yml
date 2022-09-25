@@ -19,6 +19,8 @@ description: I'm Daniel Bernal (aka. afterXleep) and this is my personal blog.  
 navigation:
   - name: Home
     url: /
+  - name: Apps
+    url: /apps
   - name: About
     url: /about
   #- name: Archive
