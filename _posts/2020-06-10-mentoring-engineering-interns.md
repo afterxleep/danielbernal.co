@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Mentoring Engineering Interns
 image: engineers1.jpg
+permalink: /mentoring-engineering-interns/
 categories:
     - work  
 ---
