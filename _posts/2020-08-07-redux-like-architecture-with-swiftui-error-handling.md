@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Redux-like architecture with SwiftUI&#58; Error Handling
 image: /posts/2020-08-07-redux-like-architecture-with-swiftui-error-handling/header.png
+permalink: /redux-like-architecture-with-swiftui-error-handling/
 categories:
     - code  
 ---

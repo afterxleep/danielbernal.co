@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Redux-like architecture with SwiftUI&#58; Real World App
 image: /posts/2020-08-21-redux-like-architecture-with-swiftui-real-world-app/header.png
+permalink: /redux-like-architecture-with-swiftui-real-world-app/
 categories:
     - code  
 ---
