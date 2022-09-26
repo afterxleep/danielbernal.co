@@ -8,7 +8,7 @@ categories:
     - code  
 ---
 
-In the [previous post]({{ site.url }}/redux-like-architecture-with-swiftui-middleware/), we’ve implemented Middleware support to facilitate asynchronous operations and extended functionality, and today we will be following up with Error handling and improving our User Experience<!--more-->.
+In the [previous post](/redux-like-architecture-with-swiftui-middleware/), we’ve implemented Middleware support to facilitate asynchronous operations and extended functionality, and today we will be following up with Error handling and improving our User Experience<!--more-->.
 
  >This project is based on the code we wrote in the [Side Effects post]({{ site.url }}/redux-like-architecture-with-swiftui-middleware/).  Before starting, grab a clean copy from [this repository.](https://github.com/afterxleep/Redux-Architecture-SwiftUI-SideEffects)
 
@@ -474,10 +474,10 @@ As usual, you can get a fresh copy of the code from the [Repo](https://github.co
 
 ---
 Posts in this series
-1. [The Basics]({{ site.url }}/redux-like-architecture-with-swiftui-basics/)
-2. [Side Effects]({{ site.url }}/redux-like-architecture-with-swiftui-middleware/)
+1. [The Basics](/redux-like-architecture-with-swiftui-basics/)
+2. [Side Effects](/redux-like-architecture-with-swiftui-middleware/)
 3. Error Handling (This Post)
-4. [Real World App]({{ site.url }}/redux-like-architecture-with-swiftui-real-world-app/)
+4. [Real World App](/redux-like-architecture-with-swiftui-real-world-app/)
 
 
 ---
