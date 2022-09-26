@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Mentoring Junior Engineers (and new hires)
+permalink: /mentoring-engineering-interns/
 image: engineers2.jpg
 categories:
     - work   

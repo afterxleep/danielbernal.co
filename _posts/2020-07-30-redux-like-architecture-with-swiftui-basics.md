@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Redux-like architecture with SwiftUI&#58; Basics
 image: /posts/2020-07-30-redux-like-architecture-with-swiftui-basics/header.png
+permalink: /redux-like-architecture-with-swiftui-basics/
 categories:
     - code  
 ---

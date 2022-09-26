@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Switching jobs does not have to be painful
 image: this-must-be-the-place.jpg
+permalink: /switching-jobs-does-not-have-to-be-painful/
 categories:
     - life
 ---

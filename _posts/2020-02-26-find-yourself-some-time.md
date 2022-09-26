@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Find yourself some time
 image: time-for-yourself.jpeg
+permalink: /find-yourself-some-time/
 categories:
     - life
 ---
