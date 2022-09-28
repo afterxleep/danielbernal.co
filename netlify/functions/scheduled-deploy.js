@@ -1,4 +1,4 @@
-const = require('node-fetch')
+require('node-fetch')
 import { schedule } from '@netlify/functions'
 
 // Build Hook
