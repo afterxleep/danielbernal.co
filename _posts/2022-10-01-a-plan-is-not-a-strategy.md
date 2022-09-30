@@ -18,5 +18,5 @@ Planning makes us feel we're in control and think we are moving forward, but whi
 
 Strategy is also more than a list of goals.  It has to be backed by a theory that explains and consolidates "WHY" and "HOW" in a coherent way.
 
-<iframe width="750" height="490" src="https://www.youtube.com/embed/iuYlGRnC7J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="750" height="420" src="https://www.youtube.com/embed/iuYlGRnC7J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
