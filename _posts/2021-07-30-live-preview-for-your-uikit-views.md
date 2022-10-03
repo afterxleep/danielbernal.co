@@ -6,6 +6,7 @@ layout: post
 guid: 'https://danielbernal.co/?p=562'
 permalink: /live-preview-for-your-uikit-views/
 image: /posts/2021-07-30-live-preview-for-your-uikit-views/header.jpg
+twitterlink: 'https://twitter.com/afterxleep/status/1421166247559974913'
 categories:
     - code
 ---

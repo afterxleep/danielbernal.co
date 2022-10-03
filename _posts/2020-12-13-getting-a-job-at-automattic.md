@@ -6,6 +6,7 @@ layout: post
 guid: 'https://danielbernal.co/?p=345'
 permalink: /getting-a-job-at-automattic/
 image: /posts/2020-12-13-getting-a-job-at-automattic/IMG_0553.jpeg
+twitterlink: 'https://twitter.com/afterxleep/status/1383521601178640395'
 categories:
     - life
 ---
