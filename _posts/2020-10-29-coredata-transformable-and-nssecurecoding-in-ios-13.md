@@ -5,6 +5,7 @@ author: Daniel
 layout: post
 guid: 'https://danielbernal.co/?p=284'
 permalink: /coredata-transformable-and-nssecurecoding-in-ios-13/
+twitterlink: 'https://twitter.com/afterxleep/status/1322183734179909634'
 image: /posts/2020-10-29-coredata-transformable-and-nssecurecoding-in-ios-13/CoreDataSecure.png
 categories:
     - code

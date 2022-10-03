@@ -5,6 +5,7 @@ author: Daniel
 layout: post
 guid: 'https://danielbernal.co/?p=464'
 permalink: /writing-a-networking-library-with-combine-codable-and-swift-5/
+twitterlink: 'https://twitter.com/afterxleep/status/1348495658102239232'
 image: /posts/2021-01-11-writing-a-networking-library-with-combine-codable-and-swift-5/header.jpg
 categories:
     - code

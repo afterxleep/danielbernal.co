@@ -4,6 +4,7 @@ comments: true
 title: Redux-like architecture with SwiftUI&#58; Side Effects
 image: /posts/2020-08-03-redux-like-architecture-with-swiftui-middleware/header.png
 permalink: /redux-like-architecture-with-swiftui-middleware/
+twitterlink: 'https://twitter.com/afterxleep/status/1291098661699620867'
 categories:
     - code  
 ---
