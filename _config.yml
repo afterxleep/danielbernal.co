@@ -3,35 +3,14 @@
 #
 
 # Name of your site (displayed in the header)
-name: Daniel Bernal – Blog
+name: Daniel Bernal
 
 # Short bio or description (displayed in the header)
-description: I'm Daniel Bernal (aka. afterXleep) and this is my personal blog.  I write about iOS, mobile apps, software development and technology management.
+description: I'm Daniel Bernal and I write apps while tinkering on the interweb from Spain.
 
-#
-# Flags below are optional
-#
-
-
-# Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
-# and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
-# it from the list(Delete '- name: ' and 'url: ', too!)
-navigation:
-  - name: Home
-    url: /
-  - name: Apps
-    url: /apps
-  - name: About
-    url: /about
-  #- name: Archive
-  #  url: /archive
-  #- name: Tags
-  #  url: /tags
-  #- name: Theme
-  #  url: https://github.com/AWEEKJ/kiko-now
 
 # Pagination
-paginate: 20
+paginate: 100
 
 # Includes an icon in the footer for each username you enter
 
@@ -69,7 +48,6 @@ sass:
 # Use the following plug-ins
 plugins:
   - jekyll-paginate
-  - jekyll-feed
   - jekyll-sitemap
 
 # Exclude these files from your production _site

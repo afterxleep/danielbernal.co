@@ -1,13 +1,11 @@
 ---
-layout: page
+layout: default
 title: Archive
 permalink: /archive/
 ---
 
-{% if site.posts.size == 0 %}
-  <h2>No post found</h2>
-{% endif %}
-
+<h1>The Archive</h1>
+<p>I'm now writing via <a href="https://world.hey.com/danielbernal">HEY World,</a> but here are a few old posts in case you're looking for something specific.</p>
 <ul class="archive">
   {% for post in site.posts %}
     {% unless post.next %}
