@@ -6,7 +6,7 @@ layout: page
 
 This is a dynamic list of the apps and projects I’m currently (or recently have been) working on. Most are open-source playgrounds to test new ideas, patterns, or features.
 
-![bouncer.png](/uploads/bouncer.png)
+![bouncer.png](/images/bouncer.png)
 
 ### **Bouncer**
 
