@@ -15,7 +15,7 @@ It made a lot of sense. I could host it on Github pages and forget about securit
 
 It took me a couple of hours to set up [Jekyll](https://jekyllrb.com), import a few posts, migrate my WordPress template, and connect the domain. Pretty cheap for a super-fast, highly reliable, pure HTML blog, right?
 
-No. I wasted two hours trying to post the above paragraphs this morning. 
+Well, no. I wasted two hours trying to post the above paragraphs from an iPad last night. 
 
 It went like this:
 
