@@ -6,7 +6,6 @@ layout: post
 guid: 'https://danielbernal.co/?p=530'
 permalink: /hello-spain/
 image: /posts/2021-03-21-hello-spain/header.jpg
-twitterlink: 'https://twitter.com/afterxleep/status/1373601233987067907'
 categories:
     - life
 ---

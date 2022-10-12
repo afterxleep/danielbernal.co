@@ -4,7 +4,6 @@ comments: true
 title: Find yourself some time
 image: time-for-yourself.jpeg
 permalink: /find-yourself-some-time/
-twitterlink: 'https://twitter.com/afterxleep/status/1577051889044230172'
 categories:
     - life
 ---

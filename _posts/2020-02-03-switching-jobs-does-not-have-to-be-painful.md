@@ -4,7 +4,6 @@ comments: true
 title: Switching jobs does not have to be painful
 image: this-must-be-the-place.jpg
 permalink: /switching-jobs-does-not-have-to-be-painful/
-twitterlink: 'https://twitter.com/afterxleep/status/1288244552374128642'
 categories:
     - life
 ---

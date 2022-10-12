@@ -5,7 +5,6 @@ author: Daniel
 layout: post
 image: /posts/2022-09-25-ab-testing-your-app-icon//header.jpg
 permalink: /2022-09-25-ab-testing-your-app-icon/
-twitterlink: 'https://twitter.com/afterxleep/status/1574171533307691009'
 categories:    
     - product
 ---

@@ -3,7 +3,6 @@ title: 'A plan is not a strategy'
 date: '2022-10-03T00:16:00+02:00'
 author: Daniel
 layout: post
-twitterlink: 'https://twitter.com/afterxleep/status/1576910299894091776'
 categories:    
     - product
 ---

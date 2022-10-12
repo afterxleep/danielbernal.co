@@ -5,7 +5,6 @@ author: Daniel
 layout: post
 guid: 'https://danielbernal.co/?p=737'
 permalink: /were-not-saving-lives-here/
-twitterlink: https://twitter.com/afterxleep/status/1574178677637668864
 categories:
     - life
 ---

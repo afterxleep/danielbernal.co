@@ -5,7 +5,6 @@ author: Daniel
 layout: post
 guid: 'https://danielbernal.co/?p=714'
 permalink: /a-b-test-your-design-not-your-product/
-twitterlink: 'https://twitter.com/afterxleep/status/1574171533307691009'
 image: /posts/2022-07-17-a-b-test-your-design-not-your-product/header.jpg
 categories:
     - product

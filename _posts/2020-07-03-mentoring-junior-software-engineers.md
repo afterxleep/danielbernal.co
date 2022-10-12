@@ -4,7 +4,6 @@ comments: true
 title: Mentoring Junior Engineers (and new hires)
 permalink: /mentoring-junior-software-engineers/
 image: engineers2.jpg
-twitterlink: 'https://twitter.com/afterxleep/status/1281272018508435456'
 categories:
     - work   
 ---
