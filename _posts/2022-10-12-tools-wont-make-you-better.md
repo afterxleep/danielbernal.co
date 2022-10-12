@@ -9,9 +9,9 @@ layout: post
 
 I moved this out of [WordPress](https://wordpress.org).  It has too many moving parts for my needs and the amount of content I put online. 
 
-Since I don't need fancy templates, plugins, databases, comments, stats, a store, and much less dealing with security updates, backups, and hosting providers, I wanted to try a static solution.
+Since I don't need fancy templates, plugins, databases, comments, stats, a store, and much less dealing with security updates, backups, and hosting providers, I wanted to try a static solution.<!-- more -->
 
-It made a lot of sense. I could host it on Github pages and <!-- more -->forget about security or hosting providers, and my posts would live in beautiful, clean markdown files.
+It made a lot of sense. I could host it on Github pages and forget about security or hosting providers, and my posts would live in beautiful, clean markdown files.
 
 It took me a couple of hours to set up [Jekyll](https://jekyllrb.com), import a few posts, migrate my WordPress template, and connect the domain. Pretty cheap for a super-fast, highly reliable, pure HTML blog, right?
 
