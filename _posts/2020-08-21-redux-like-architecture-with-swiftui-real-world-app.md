@@ -1,11 +1,12 @@
 ---
+title: Redux-like architecture with SwiftUI&#58; Real World App
+date: 2020-08-21 00:00:00 Z
+permalink: "/redux-like-architecture-with-swiftui-real-world-app/"
+categories:
+- code
 layout: post
 comments: true
-title: Redux-like architecture with SwiftUI&#58; Real World App
-image: /posts/2020-08-21-redux-like-architecture-with-swiftui-real-world-app/header.png
-permalink: /redux-like-architecture-with-swiftui-real-world-app/
-categories:
-    - code  
+image: "/posts/2020-08-21-redux-like-architecture-with-swiftui-real-world-app/header.png"
 ---
 
 After looking at the Redux approach, figuring things out and writing the previous set of posts ([The Basics]({{ site.url }}/redux-like-architecture-with-swiftui-basics/), [Side Effects]({{ site.url }}/redux-like-architecture-with-swiftui-middleware/) and [Error Handling]({{ site.url }}/redux-like-architecture-with-swiftui-error-handling/)), I wanted to put it all in practice with a real app, and decided to rewrite Bouncer (again).<!--more-->

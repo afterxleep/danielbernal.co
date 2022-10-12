@@ -1,13 +1,14 @@
 ---
+title: CoreData Transformable and NSSecureCoding in iOS 13+
+date: 2020-10-29 00:00:00 Z
+permalink: "/coredata-transformable-and-nssecurecoding-in-ios-13/"
+categories:
+- code
 id: 284
-title: 'CoreData Transformable and NSSecureCoding in iOS 13+'
 author: Daniel
 layout: post
-guid: 'https://danielbernal.co/?p=284'
-permalink: /coredata-transformable-and-nssecurecoding-in-ios-13/
-image: /posts/2020-10-29-coredata-transformable-and-nssecurecoding-in-ios-13/CoreDataSecure.png
-categories:
-    - code
+guid: https://danielbernal.co/?p=284
+image: "/posts/2020-10-29-coredata-transformable-and-nssecurecoding-in-ios-13/CoreDataSecure.png"
 ---
 
 If you are using Transformable properties in CoreData, there is a chance (probably when dropping iOS 12 support) that you eventually face compiler warnings about your model properties not using secure Value transformers. While figuring this out, I decided to write a post, so here it is.<!--more-->
