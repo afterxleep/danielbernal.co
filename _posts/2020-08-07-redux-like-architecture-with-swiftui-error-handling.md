@@ -1,12 +1,13 @@
 ---
+title: Redux-like architecture with SwiftUI&#58; Error Handling
+date: 2020-08-07 00:00:00 Z
+permalink: "/redux-like-architecture-with-swiftui-error-handling/"
+categories:
+- code
 layout: post
 comments: true
-title: Redux-like architecture with SwiftUI&#58; Error Handling
-image: /posts/2020-08-07-redux-like-architecture-with-swiftui-error-handling/header.png
-twitterlink: 'https://twitter.com/afterxleep/status/1292178524288290817'
-permalink: /redux-like-architecture-with-swiftui-error-handling/
-categories:
-    - code  
+image: "/posts/2020-08-07-redux-like-architecture-with-swiftui-error-handling/header.png"
+twitterlink: https://twitter.com/afterxleep/status/1292178524288290817
 ---
 
 In the [previous post](/redux-like-architecture-with-swiftui-middleware/), we’ve implemented Middleware support to facilitate asynchronous operations and extended functionality, and today we will be following up with Error handling and improving our User Experience<!--more-->.

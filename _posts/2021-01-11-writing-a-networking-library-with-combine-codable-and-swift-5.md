@@ -1,15 +1,16 @@
 ---
+title: Writing a Networking Library with Combine, Codable and Swift 5
+date: 2021-01-11 00:00:00 Z
+permalink: "/writing-a-networking-library-with-combine-codable-and-swift-5/"
+categories:
+- code
+- learn
 id: 464
-title: 'Writing a Networking Library with Combine, Codable and Swift 5'
 author: Daniel
 layout: post
-guid: 'https://danielbernal.co/?p=464'
-permalink: /writing-a-networking-library-with-combine-codable-and-swift-5/
-twitterlink: 'https://twitter.com/afterxleep/status/1348495658102239232'
-image: /posts/2021-01-11-writing-a-networking-library-with-combine-codable-and-swift-5/header.jpg
-categories:
-    - code
-    - learn
+guid: https://danielbernal.co/?p=464
+twitterlink: https://twitter.com/afterxleep/status/1348495658102239232
+image: "/posts/2021-01-11-writing-a-networking-library-with-combine-codable-and-swift-5/header.jpg"
 ---
 
 Most of our apps rely on network calls to work, and thanks to [URLSession](https://developer.apple.com/documentation/foundation/urlsession) and [Codable](https://developer.apple.com/documentation/swift/codable), consuming REST APIs has become a lot easier these days. That said, we are still writing quite a bit of code to deal with async calls, JSON encoding and decoding, HTTP error handling, and more.<!--more-->

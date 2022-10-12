@@ -1,11 +1,11 @@
 ---
-title: 'A plan is not a strategy'
-date: '2022-10-03T00:16:00+02:00'
+title: A plan is not a strategy
+date: 2022-10-02 22:16:00 Z
+categories:
+- product
 author: Daniel
 layout: post
-twitterlink: 'https://twitter.com/afterxleep/status/1576910299894091776'
-categories:    
-    - product
+twitterlink: https://twitter.com/afterxleep/status/1576910299894091776
 ---
 
 I've found a reference to [this video](https://www.youtube.com/watch?v=iuYlGRnC7J8) in [Shawn Blanc's blog](https://shawnblanc.net/2022/09/plan-vs-strategy-and-why-a-plan-is-not-a-strategy/) the other day and loved how it explains the difference between the two concepts.

@@ -1,11 +1,12 @@
 ---
-title: 'Styling  Gist embeds with CSS'
+title: Styling  Gist embeds with CSS
+date: 2020-10-24 00:00:00 Z
+permalink: "/styling-gist-embeds-with-css/"
+categories:
+- code
+- learn
 author: Daniel
 layout: post
-permalink: /styling-gist-embeds-with-css/
-categories:
-    - code
-    - learn
 ---
 
 [Gists](https://gist.github.com/discover) are short bits of code you can share and reuse. They act as lightweight repos, feature version control, and can include anything from a string to multiple files. You can also embed them on any website, which is excellent to share examples, but unfortunately, there’s no way to change the default syntax highlighting. Let’s fix that.<!--more-->

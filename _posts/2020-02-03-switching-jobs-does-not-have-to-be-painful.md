@@ -1,12 +1,13 @@
 ---
+title: Switching jobs does not have to be painful
+date: 2020-02-03 00:00:00 Z
+permalink: "/switching-jobs-does-not-have-to-be-painful/"
+categories:
+- life
 layout: post
 comments: true
-title: Switching jobs does not have to be painful
 image: this-must-be-the-place.jpg
-permalink: /switching-jobs-does-not-have-to-be-painful/
-twitterlink: 'https://twitter.com/afterxleep/status/1288244552374128642'
-categories:
-    - life
+twitterlink: https://twitter.com/afterxleep/status/1288244552374128642
 ---
 
 Seven hundred days ago, I quit my job at [Globant](http://www.globant.com) to join [Endava](http://www.endava.com), and it's time to do it again.  Most people think that two years is too little to do something (especially on a management role) and therefore the decision comes with lots of noise and questions, but, should it be that way?

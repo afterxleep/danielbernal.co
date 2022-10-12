@@ -1,14 +1,15 @@
 ---
+title: Getting a job at Automattic
+date: 2020-12-13 00:00:00 Z
+permalink: "/getting-a-job-at-automattic/"
+categories:
+- life
 id: 345
-title: 'Getting a job at Automattic'
 author: Daniel
 layout: post
-guid: 'https://danielbernal.co/?p=345'
-permalink: /getting-a-job-at-automattic/
-image: /posts/2020-12-13-getting-a-job-at-automattic/IMG_0553.jpeg
-twitterlink: 'https://twitter.com/afterxleep/status/1383521601178640395'
-categories:
-    - life
+guid: https://danielbernal.co/?p=345
+image: "/posts/2020-12-13-getting-a-job-at-automattic/IMG_0553.jpeg"
+twitterlink: https://twitter.com/afterxleep/status/1383521601178640395
 ---
 
 I’ve been with Automattic for some time, and it’s been a fantastic ride. Since I joined, people have asked me about the hiring process, so I decided to write about my experience.<!--more-->

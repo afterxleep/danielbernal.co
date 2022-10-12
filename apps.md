@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Apps
-permalink: /apps/
+permalink: "/apps/"
+layout: page
 ---
 
 This is a dynamic list of the apps and projects I’m currently (or recently have been) working on. Most are open-source playgrounds to test new ideas, patterns, or features.

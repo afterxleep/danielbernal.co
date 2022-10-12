@@ -1,9 +1,10 @@
 ---
+title: Last day at Endava
+date: 2020-02-14 00:00:00 Z
+categories:
+- life
 layout: post
 comments: true
-title: Last day at Endava
-categories:
-    - life
 ---
 
 After two years, today is my last day here.  I joined back in March 2018 to lead the Mobile Discipline and later on became Head of Development for the Bogotá Delivery Unit.

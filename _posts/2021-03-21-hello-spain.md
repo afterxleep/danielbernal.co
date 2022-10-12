@@ -1,14 +1,15 @@
 ---
+title: "Hello Spain! \U0001F1EA\U0001F1F8"
+date: 2021-03-21 00:00:00 Z
+permalink: "/hello-spain/"
+categories:
+- life
 id: 530
-title: 'Hello Spain! 🇪🇸'
 author: Daniel
 layout: post
-guid: 'https://danielbernal.co/?p=530'
-permalink: /hello-spain/
-image: /posts/2021-03-21-hello-spain/header.jpg
-twitterlink: 'https://twitter.com/afterxleep/status/1373601233987067907'
-categories:
-    - life
+guid: https://danielbernal.co/?p=530
+image: "/posts/2021-03-21-hello-spain/header.jpg"
+twitterlink: https://twitter.com/afterxleep/status/1373601233987067907
 ---
 
 Back in November 2020, and after a few long conversations, we decided to sell everything we owned and move to Spain. Between preparations, paperwork, and a long garage sale we finally got here last week, with just a few suitcases and both our pets, Tesla and Oli.<!--more-->
