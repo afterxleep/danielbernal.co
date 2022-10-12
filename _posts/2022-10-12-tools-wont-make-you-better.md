@@ -1,6 +1,6 @@
 ---
 title: Tools won't make you better
-date: 2022-10-22 22:16:00 Z
+date: 2022-10-22 9:16:00 Z
 categories:
 - life
 author: Daniel
