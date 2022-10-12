@@ -1,12 +1,13 @@
 ---
+title: We&#8217;re not saving lives here
+date: 2022-09-20 00:00:00 Z
+permalink: "/were-not-saving-lives-here/"
+categories:
+- life
 id: 737
-title: 'We&#8217;re not saving lives here'
 author: Daniel
 layout: post
-guid: 'https://danielbernal.co/?p=737'
-permalink: /were-not-saving-lives-here/
-categories:
-    - life
+guid: https://danielbernal.co/?p=737
 ---
 
 Back in the days when I worked in consulting, most folks on my team (myself included) were tired, burned out, and fed up with working nights and weekends. <!--more-->

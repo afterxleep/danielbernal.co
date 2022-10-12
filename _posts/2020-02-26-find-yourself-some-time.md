@@ -1,11 +1,12 @@
 ---
+title: Find yourself some time
+date: 2020-02-26 00:00:00 Z
+permalink: "/find-yourself-some-time/"
+categories:
+- life
 layout: post
 comments: true
-title: Find yourself some time
 image: time-for-yourself.jpeg
-permalink: /find-yourself-some-time/
-categories:
-    - life
 ---
 
 There is nothing better than giving yourself time not to do anything so that you can do a bunch of things without obligation.

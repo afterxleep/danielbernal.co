@@ -1,13 +1,13 @@
 ---
+title: Mentoring Junior Engineers (and new hires)
+date: 2020-07-03 00:00:00 Z
+permalink: "/mentoring-junior-software-engineers/"
+categories:
+- work
 layout: post
 comments: true
-title: Mentoring Junior Engineers (and new hires)
-permalink: /mentoring-junior-software-engineers/
 image: engineers2.jpg
-categories:
-    - work   
 ---
-
 
 In a [previous post]({{ site.url }}/mentoring-engineering-interns/), we discussed strategies to hire, motivate and mentor Engineering Interns and is time to move up the ladder and talk about the recently hired, more Junior members of your team. Let's get down to it.<!--more-->
 

@@ -1,13 +1,14 @@
 ---
+title: Live preview for your UIKit views
+date: 2021-07-30 00:00:00 Z
+permalink: "/live-preview-for-your-uikit-views/"
+categories:
+- code
 id: 562
-title: 'Live preview for your UIKit views'
 author: Daniel
 layout: post
-guid: 'https://danielbernal.co/?p=562'
-permalink: /live-preview-for-your-uikit-views/
-image: /posts/2021-07-30-live-preview-for-your-uikit-views/header.jpg
-categories:
-    - code
+guid: https://danielbernal.co/?p=562
+image: "/posts/2021-07-30-live-preview-for-your-uikit-views/header.jpg"
 ---
 
 One of the best features of SwiftUI is being able to preview your code during development, but did you know that you can also use SwiftUI to preview your old-fashioned UIKit ViewControllers and Views?

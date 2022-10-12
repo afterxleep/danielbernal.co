@@ -1,12 +1,12 @@
 ---
-title: 'A/B testing your app icon'
-date: '2022-09-25T00:16:00+02:00'
+title: A/B testing your app icon
+date: 2022-09-24 22:16:00 Z
+permalink: "/2022-09-25-ab-testing-your-app-icon/"
+categories:
+- product
 author: Daniel
 layout: post
-image: /posts/2022-09-25-ab-testing-your-app-icon//header.jpg
-permalink: /2022-09-25-ab-testing-your-app-icon/
-categories:    
-    - product
+image: "/posts/2022-09-25-ab-testing-your-app-icon//header.jpg"
 ---
 
 Speaking of [A/B tests](/a-b-test-your-design-not-your-product/), Apple has a pretty good set of tools to test (and optimize) your app’s App Store page. They call them «_test treatments_», and you can use them to test different versions of your App’s screenshots to see what drives more downloads.

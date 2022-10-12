@@ -1,13 +1,14 @@
 ---
+title: A/B test your design, not your product.
+date: 2022-07-17 00:00:00 Z
+permalink: "/a-b-test-your-design-not-your-product/"
+categories:
+- product
 id: 714
-title: 'A/B test your design, not your product.'
 author: Daniel
 layout: post
-guid: 'https://danielbernal.co/?p=714'
-permalink: /a-b-test-your-design-not-your-product/
-image: /posts/2022-07-17-a-b-test-your-design-not-your-product/header.jpg
-categories:
-    - product
+guid: https://danielbernal.co/?p=714
+image: "/posts/2022-07-17-a-b-test-your-design-not-your-product/header.jpg"
 ---
 
 A/B testing is instrumental in measuring anything that a computer can count. It’s great to measure simple actions, such as a user tapping a button or conversions, but you shouldn’t base long-term product decisions on these results.<!--more-->
