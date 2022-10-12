@@ -15,7 +15,7 @@ It made a lot of sense. I could host it on Github pages and forget about securit
 
 It took me a couple of hours to set up [Jekyll](https://jekyllrb.com), import a few posts, migrate my WordPress template, and connect the domain. Pretty cheap for a super-fast, highly reliable, pure HTML blog, right?
 
-Err... no. I spent another two hours trying to post the above paragraphs to my new blog this morning. 
+No. I wasted two hours trying to post the above paragraphs this morning. 
 
 It went like this:
 
@@ -29,7 +29,7 @@ It went like this:
 - Create a git commit and push it to the repository.
 - Notice the attached photo was broken.
 - Remove the image.
-- Create another and push it to the repo again.
+- Create another commit and push it to the repo again.
 
 Fuck that. I'm out.
 
