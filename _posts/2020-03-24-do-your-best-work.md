@@ -1,10 +1,11 @@
 ---
+title: Do your best work
+date: 2020-03-24 00:00:00 Z
+categories:
+- life
 layout: post
 comments: true
-title: Do your best work
-image:
-categories:
-    - life
+image: 
 ---
 
 It's nice to see everyone trying to help and do something about this virus, but I honestly don't think we can change much by posting more stuff on social networks.

@@ -1,10 +1,11 @@
 ---
+title: The reality virus
+date: 2020-05-21 00:00:00 Z
+categories:
+- life
 layout: post
 comments: true
-title: The reality virus
 image: video-call.jpg
-categories:
-    - life
 ---
 
 It's a lot of fun to take a peek at improvised home offices set up by reporters, actors, politicians, and people on TV.  It adds some sort of warmth and coziness to the news, even if reality is crude and difficult.

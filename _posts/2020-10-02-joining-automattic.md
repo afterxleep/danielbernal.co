@@ -1,10 +1,11 @@
 ---
+title: I'm joining Automattic!
+date: 2020-10-02 00:00:00 Z
+categories:
+- life
 layout: post
 comments: true
-title: I'm joining Automattic!
-image: /posts/2020-10-02-joining-automattic/header.png
-categories:
-    - life 
+image: "/posts/2020-10-02-joining-automattic/header.png"
 ---
 
 Most of my recent experience is in IT Consulting firms, where you usually get the chance to work on short term projects (mostly), or [staff augmentation gigs](https://en.wikipedia.org/wiki/Staff_augmentation), but opportunities to work on real product development are slim.<!--more-->

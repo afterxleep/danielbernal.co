@@ -1,9 +1,8 @@
 ---
+title: "\U0001F44B Howdy, I'm Daniel Bernal"
+permalink: "/about/"
 layout: page_no_footer
-title: 👋 Howdy, I'm Daniel Bernal
-permalink: /about/
 ---
-
 
 I write iOS apps and enjoy putting things online.  
 

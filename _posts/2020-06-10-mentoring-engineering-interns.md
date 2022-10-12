@@ -1,11 +1,12 @@
 ---
+title: Mentoring Engineering Interns
+date: 2020-06-10 00:00:00 Z
+permalink: "/mentoring-engineering-interns/"
+categories:
+- work
 layout: post
 comments: true
-title: Mentoring Engineering Interns
 image: engineers1.jpg
-permalink: /mentoring-engineering-interns/
-categories:
-    - work  
 ---
 
 So the company decided to run a new internship program, and you are now a mentor for the next batch. That's good news, but whether you are new to engineering management or have some experience already, mentoring and motivating interns is not an easy task.

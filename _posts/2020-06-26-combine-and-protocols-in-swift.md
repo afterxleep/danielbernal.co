@@ -1,10 +1,11 @@
 ---
+title: Protocols and Combine&#58; Using @Published in your Protocol declaration
+date: 2020-06-26 00:00:00 Z
+categories:
+- code
 layout: post
 comments: true
-title: Protocols and Combine&#58; Using @Published in your Protocol declaration
-image: /posts/2020-07-01-combine-and-protocols-in-swift/header.jpg
-categories:
-    - code
+image: "/posts/2020-07-01-combine-and-protocols-in-swift/header.jpg"
 ---
 
 The [@ObservableObject and @Published](https://www.hackingwithswift.com/quick-start/swiftui/what-is-the-published-property-wrapper) property wrappers are the sauce of Combine powered apps. With Combine and SwiftUI, it's easy to use the @Published wrapper in our ViewModel properties and have the Views automatically update as changes to these happen.
