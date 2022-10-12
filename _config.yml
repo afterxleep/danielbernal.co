@@ -1,5 +1,5 @@
 ---
-title: Danielbernal.Co
+title: danielbernal.co
 timezone: UTC
 collections:
   posts:
@@ -22,7 +22,7 @@ kramdown:
   syntax_highlighter_opts:
     css_class: highlight
 sass:
-  style: :compressed
+  style: compressed
 plugins:
 - jekyll-paginate
 - jekyll-sitemap
