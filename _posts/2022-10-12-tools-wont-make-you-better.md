@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tools won't make you better
+title: Moving out of WordPress
 date: 2022-10-12 9:16:00 Z
 categories:
   - life
@@ -30,6 +30,12 @@ It went like this:
 * Remove the image.
 * Create another commit and push it to the repo again.
 
-Pretty rough, huh? Well, I may not be posting much from my iPad, and I just learned about [Netlify CMS](https://www.netlifycms.org/), which is Open Source, plays well with all static site flavors, and may take care of the problem.
+Pretty rough, huh? 
+
+I thought about switching to HEY World for a while, but I don't want to lose the flexibility, so I guess I'll not be posting much from the iPad as I figure things out.
+
+###UPDATE:
+I just learned about [Netlify CMS](https://www.netlifycms.org/), which is Open Source, plays well with all static site flavors, and may take care of the problem.
 
 Too good to be true? We'll see.
+
