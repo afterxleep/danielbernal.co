@@ -6,9 +6,9 @@ categories:
   - life
 author: Daniel
 ---
-I moved this blog out of [WordPress](https://wordpress.org/). It has too many moving parts for my needs and the amount of content I put online. 
+I moved this blog out of [WordPress](https://wordpress.org/). Don't get me wrong, I still work at Automattic, but WordPress has too many moving parts for my needs and the amount of content I put online. 
 
-Since I don't need fancy templates, plugins, databases, comments, stats, a store, and much less dealing with security updates, backups, and hosting providers, I wanted to try a static solution.
+Since I don't need fancy templates, plugins, databases, comments, stats, a store, and much less dealing with security updates, backups, and hosting providers, I wanted to try a static solution.<!--more-->
 
 It made a lot of sense. I could host it on Github pages and forget about security or hosting providers, and my posts would live in beautiful, clean markdown files.
 
