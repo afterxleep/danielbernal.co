@@ -11,7 +11,7 @@ collections:
 name: Daniel Bernal
 description: I'm Daniel Bernal and I write apps while tinkering on the interweb from
   Spain.
-paginate: 100
+paginate: 25
 url: https://danielbernal.co
 baseurl: 
 permalink: "/:year/:month/:day/:title/"
@@ -26,6 +26,7 @@ sass:
 plugins:
 - jekyll-paginate
 - jekyll-sitemap
+- jekyll-feed
 exclude:
 - LICENSE
 - README.md
