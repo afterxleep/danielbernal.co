@@ -1,38 +1,42 @@
 ---
-title: Tools won't make you better
+layout: post
+title: Moving out of WordPress
 date: 2022-10-12 9:16:00 Z
 categories:
-- life
+  - life
 author: Daniel
-layout: post
 ---
-
-I moved this blog out of [WordPress](https://wordpress.org).  It has too many moving parts for my needs and the amount of content I put online. 
+I moved this blog out of [WordPress](https://wordpress.org/). Don't get me wrong, I still work at Automattic, but WordPress has too many moving parts for my needs and the amount of content I put online. 
 
 Since I don't need fancy templates, plugins, databases, comments, stats, a store, and much less dealing with security updates, backups, and hosting providers, I wanted to try a static solution.<!--more-->
 
 It made a lot of sense. I could host it on Github pages and forget about security or hosting providers, and my posts would live in beautiful, clean markdown files.
 
-It took me a couple of hours to set up [Jekyll](https://jekyllrb.com), import a few posts, migrate my WordPress template, and connect the domain. Pretty cheap for a super-fast, highly reliable, pure HTML blog, right?
+It took me a couple of hours to set up [Jekyll](https://jekyllrb.com/), import a few posts, migrate my WordPress template, and connect the domain. Pretty cheap for a super-fast, highly reliable, pure HTML blog, right?
 
-Well, no. I wasted two hours trying to post the above paragraphs from an iPad last night. 
+Well, maybe, but I spent two hours trying to post the above paragraphs from an iPad last night. 
 
 It went like this:
 
-- Purchase and install a good text editor with Files App support ([Textastic](https://www.textasticapp.com)).
-- Purchase and install a git client with Files App support ([Working Copy](https://workingcopy.app)).
-- Create a file by hand with a particular name.
-- Copy and paste some config options.
-- Write the post.
-- Add a picture to a folder.
-- Link the image by hand using markdown.
-- Create a git commit and push it to the repository.
-- Notice the attached photo was broken.
-- Remove the image.
-- Create another commit and push it to the repo again.
+* Purchase and install a good text editor with Files App support ([Textastic](https://www.textasticapp.com/)).
+* Purchase and install a git client with Files App support ([Working Copy](https://workingcopy.app/)).
+* Create a file by hand with a particular name.
+* Copy and paste some config options.
+* Write the post.
+* Add a picture to a folder.
+* Link the image by hand using markdown.
+* Create a git commit and push it to the repository.
+* Notice the attached photo was broken.
+* Remove the image.
+* Create another commit and push it to the repo again.
 
-Fuck that. I'm out.
+Pretty rough, huh? 
 
-I thought about switching to [HEY World](https://world.hey.com) for a while, but I didn't want to lose my tools. Still, these tools are not making me a better writer. They're just getting in the way.  
+I thought about switching to [HEY World](https://world.hey.com/) for a while, but I don't want to lose the flexibility (yet), so I guess I'll not be posting much from the iPad as I figure things out.
 
-See you [there](https://world.hey.com/danielbernal)
+UPDATE:
+---
+I just learned about [Netlify CMS](https://www.netlifycms.org/), which is Open Source, plays well with all static site flavors, and may take care of the problem.
+
+Too good to be true? We'll see.
+
