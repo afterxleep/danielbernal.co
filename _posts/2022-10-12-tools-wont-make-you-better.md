@@ -34,9 +34,8 @@ Pretty rough, huh?
 
 I thought about switching to [HEY World](https://world.hey.com/) for a while, but I don't want to lose the flexibility (yet), so I guess I'll not be posting much from the iPad as I figure things out.
 
-UPDATE:
----
-I just learned about [Netlify CMS](https://www.netlifycms.org/), which is Open Source, plays well with all static site flavors, and may take care of the problem.
+### UPDATE:
+I just learned about [Netlify CMS](https://www.netlifycms.org/), which is serverless, Open Source, plays well with all static site flavors, and may take care of the problem.
 
 Too good to be true? We'll see.
 
