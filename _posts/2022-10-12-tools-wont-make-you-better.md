@@ -6,15 +6,15 @@ categories:
   - life
 author: Daniel
 ---
-I moved this blog out of [WordPress](https://wordpress.org/). Don't get me wrong, I still work at Automattic, but WordPress has too many moving parts for my needs and the amount of content I put online. 
+I moved this blog out of [WordPress](https://wordpress.org/). Don't get me wrong, I still work at Automattic, but WordPress has too many moving parts for my needs and the amount of content I put online.
 
 Since I don't need fancy templates, plugins, databases, comments, stats, a store, and much less dealing with security updates, backups, and hosting providers, I wanted to try a static solution.<!--more-->
 
 It made a lot of sense. I could host it on Github pages and forget about security or hosting providers, and my posts would live in beautiful, clean markdown files.
 
-It took me a couple of hours to set up [Jekyll](https://jekyllrb.com/), import a few posts, migrate my WordPress template, and connect the domain. Pretty cheap for a super-fast, highly reliable, pure HTML blog, right?
+Setting up [Jekyll](https://jekyllrb.com/), importint a few posts, migrating my [WordPress template](https://github.com/afterxleep/danielbernal_co), and connecting the domain took me a couple of hours. Pretty cheap for a super-fast, highly reliable, pure HTML blog, right?
 
-Well, maybe, but I spent two hours trying to post the above paragraphs from an iPad last night. 
+Well, maybe, but I spent two hours trying to post the above paragraphs from an iPad last night. 🤔
 
 It went like this:
 
@@ -35,7 +35,6 @@ Pretty rough, huh?
 I thought about switching to [HEY World](https://world.hey.com/) for a while, but I don't want to lose the flexibility (yet), so I guess I'll not be posting much from the iPad as I figure things out.
 
 ### UPDATE:
-I just learned about [Netlify CMS](https://www.netlifycms.org/), which is serverless, Open Source, plays well with all static site flavors, and may take care of the problem.
+I just learned about [Netlify CMS](https://www.netlifycms.org/), which is serverless, Open Source, plays well with all static site flavors, and may take care of the problem.
 
 Too good to be true? We'll see.
-
