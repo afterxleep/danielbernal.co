@@ -6,7 +6,7 @@ categories:
 - code
 layout: post
 comments: true
-image: "/posts/2020-08-03-redux-like-architecture-with-swiftui-middleware/header.png"
+image: "redux2.png"
 ---
 
 In the [previous post](/redux-like-architecture-with-swiftui-basics/) we went through setting up the basic architecture for iOS with Redux-like approach, and now we will be following up with additional optimizations and support for asynchronous functions or side effects.<!--more-->
@@ -178,7 +178,7 @@ With those changes in place we will keep things tidy and clean, when the app gro
 
 This is also a good time to reorganize our functions and Types into different files and groups.  Here’s an example that would work for most small to medium size apps.
 
-![](/assets/posts/2020-08-03-redux-like-architecture-with-swiftui-middleware/files.png)
+![](/assets/files.png)
 
 ## Implementing our Middleware
 The animalMiddleware will receive a copy of the current State and an Action and returns a Publisher.   We will be using the new service we’ve created, to fetch an animal, and generate a new Action, that will be sent back for dispatch.
@@ -291,7 +291,7 @@ func animalReducer(state: inout AnimalState, action: AnimalAction) -> Void {
 
 As you can see, I’m just modifying our state when that actions arrives.  Now try and run the app again, and you should get something like this:
 
-<img src="/assets/posts/2020-08-03-redux-like-architecture-with-swiftui-middleware/result.gif" width="400">
+<img src="/assets/result.gif" width="400">
 
 ## The Power of Middlewares
 Having Middlewares in place, allows us to do all sorts of things in the application, as we can easily intercept any action that passes through our Store.

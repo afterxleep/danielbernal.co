@@ -8,7 +8,7 @@ id: 345
 author: Daniel
 layout: post
 guid: https://danielbernal.co/?p=345
-image: "/posts/2020-12-13-getting-a-job-at-automattic/IMG_0553.jpeg"
+image: "IMG_0553.jpeg"
 ---
 
 I’ve been with Automattic for some time, and it’s been a fantastic ride. Since I joined, people have asked me about the hiring process, so I decided to write about my experience.<!--more-->

@@ -8,7 +8,7 @@ id: 562
 author: Daniel
 layout: post
 guid: https://danielbernal.co/?p=562
-image: "/posts/2021-07-30-live-preview-for-your-uikit-views/header.jpg"
+image: "swift.jpg"
 ---
 
 One of the best features of SwiftUI is being able to preview your code during development, but did you know that you can also use SwiftUI to preview your old-fashioned UIKit ViewControllers and Views?
@@ -19,7 +19,7 @@ We will be using a protocol called [`UIViewControllerRepresentable`](https://dev
 
 Start by creating a simple iOS App in Xcode, and choosing a `UIKit App Delegate `Lifecycle.
 
-![](/assets/posts/2021-07-30-live-preview-for-your-uikit-views/screenshot1.png)
+![](/assets/screenshot1.png)
 
 Then, in your app main `ViewController`, create a struct that conforms to the `UIViewControllerRepresentable` protocol, and accepts a closure with a `ViewController` return type.
 
@@ -88,7 +88,7 @@ And that’s it! After you add your previewer, Xcode will automatically start ge
 
 ## Here’s a demo
 
-![](/assets/posts/2021-07-30-live-preview-for-your-uikit-views/demo.gif)
+![](/assets/demo-preview.gif)
 
 ## What about an extension?
 

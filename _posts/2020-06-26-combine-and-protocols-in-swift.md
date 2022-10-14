@@ -5,7 +5,7 @@ categories:
 - code
 layout: post
 comments: true
-image: "/posts/2020-07-01-combine-and-protocols-in-swift/header.jpg"
+image: "protocol_code.jpg"
 ---
 
 The [@ObservableObject and @Published](https://www.hackingwithswift.com/quick-start/swiftui/what-is-the-published-property-wrapper) property wrappers are the sauce of Combine powered apps. With Combine and SwiftUI, it's easy to use the @Published wrapper in our ViewModel properties and have the Views automatically update as changes to these happen.
@@ -74,7 +74,7 @@ PlaygroundPage.current.setLiveView(TheView())
 ```
 
 #### And voilá. Here is the result
-<img src="/assets/posts/2020-07-01-combine-and-protocols-in-swift/demo.gif" width="400">
+<img src="/assets/demo.gif" width="400">
 
 ### The components:
 
@@ -121,7 +121,7 @@ class AnimalGenerator: Generator, ObservableObject {
 
 #### Houston, we have a problem
 
-![](/assets/posts/2020-07-01-combine-and-protocols-in-swift/wrapper-error.png)
+![](/assets/wrapper-error.png)
 `Property declared inside a protocol cannot have a wrapper.`
 
 The error is reminding us what I was mentioning at the beginning: Wrappers and Stored properties are not allowed in Swift protocols and extensions (at least for now).

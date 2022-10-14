@@ -13,7 +13,7 @@ layout: post
 
 I recently moved all the code examples from my posts from inline &lt;code&gt; to[ Gists](https://gist.github.com/discover) as it’s a lot easier to maintain them, reuse them, and keep them up to date. The default syntax highlighting style for Swift looks like this:
 
-![Gist Sample](/assets/posts/2020-10-24-styling-gist-embeds-with-css/gist.png)
+![Gist Sample](/assets/gist.png)
 
 After a little bit of digging online, I found about [Github Dark,](https://github.com/StylishThemes/GitHub-Dark#available-syntax-highlighting-themes-demo) by [Stylish themes](https://github.com/StylishThemes), which allows you, as you would imagine, to override github.com’s CSS with your own to produce a fancy ‘dark’ mode, including the code views for which they have some [syntax highlighting themes](https://stylishthemes.github.io/GitHub-Dark/).
 

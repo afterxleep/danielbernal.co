@@ -6,7 +6,7 @@ categories:
 - code
 layout: post
 comments: true
-image: "/posts/2020-07-30-redux-like-architecture-with-swiftui-basics/header.png"
+image: "redux1.png"
 ---
 
 Since the beta release of iOS 14 and now that SwiftUI is a little more mature, I have been exploring different architectures that better fit its patterns. After working with React for a while, I got curious about using something similar to Redux on iOS.<!--more-->
@@ -21,7 +21,7 @@ Redux architecture is about strict, unidirectional data flow.  All data in the a
 With Redux (and Flux), all the data in your app follows a single direction, and it's kept at the same place (the App State), which is the single point of truth.  Check out the data flow below.
 
 #### Data Flow
-![](/assets/posts/2020-07-30-redux-like-architecture-with-swiftui-basics/diagram1.png)
+![](/assets/diagram1.png)
 
 
 ### Action
@@ -45,7 +45,7 @@ Views have read-only access to the Application State.  This is a huge advantage 
 In Redux, the only way to update the State is through a dispatcher, which you can call from the views, based on user interaction like the tap of a button or typing on a text field.  (As you can see in the diagram below)
 
 #### Data Flow (Dispatching from a View)
-![](/assets/posts/2020-07-30-redux-like-architecture-with-swiftui-basics/diagram2.png)
+![](/diagram2.png)
 
 ---
 
@@ -55,7 +55,7 @@ For his example, we will be re-building the same animal name generator from the 
 
 #### The final result
 <br>
-<img src="/assets/posts/2020-07-01-combine-and-protocols-in-swift/demo.gif" width="400">
+<img src="/assets/demo.gif" width="400">
 <br>
 
 
@@ -64,7 +64,7 @@ I will be using Xcode 12, (currently in Beta), and creating a new app with the n
 
 To create the app, select these options.
 
-![](/assets/posts/2020-07-30-redux-like-architecture-with-swiftui-basics/xcode.png)
+![](/assets/xcode.png)
 
 ---
 

@@ -6,7 +6,7 @@ categories:
 - product
 author: Daniel
 layout: post
-image: "/posts/2022-09-25-ab-testing-your-app-icon//header.jpg"
+image: "icons.jpg"
 ---
 
 Speaking of [A/B tests](/a-b-test-your-design-not-your-product/), Apple has a pretty good set of tools to test (and optimize) your app’s App Store page. They call them «_test treatments_», and you can use them to test different versions of your App’s screenshots to see what drives more downloads.
@@ -15,7 +15,7 @@ Most people don’t know that test treatments support **A/B testing your app ico
 
 We’ll be running a little experiment with slight variations of the app icon as follows:
 
-![](/assets/posts//2022-09-25-ab-testing-your-app-icon/screen1.png)
+![](/assets/screen1.png)
 
 ### Adding multiple icons to your app
 
@@ -25,7 +25,7 @@ Start by creating a new Asset Catalog _(File > New > Asset Catalog)_ and adding 
 
 Now let’s configure the build system to support alternative icons. In your app’s target build settings, set the» **Include All App Icon Assets**» option to Yes, and pick the icon you want to use as primary. In my case, I’m using the «**Light**» version.
 
-![](/assets/posts//2022-09-25-ab-testing-your-app-icon/screen2.png)  
+![](/assets/screen2.png)  
 
 The remainder of the changes are performed via App Store Connect after publishing your app to the store, so go ahead, create an archive, submit and come back when it’s approved and available to users.
 
@@ -33,11 +33,11 @@ The remainder of the changes are performed via App Store Connect after publishin
 
 Once your app is approved and released, go to the «Product Page Optimization» page in App Store Connect, and once you’re there, hit the **«+»** button to create a new product page test.
 
-![](/assets/posts//2022-09-25-ab-testing-your-app-icon/screen3.png)
+![](/assets/screen3.png)
 
 You’ll need to pick a name for the experiment and define the number of treatments you want. I’ll pick two in this case as I have the original icon and two options.
 
-![](/assets/posts//2022-09-25-ab-testing-your-app-icon/screen4.png)
+![](/assets/screen4.png)
 
 ### Creating a treatment
 
@@ -47,7 +47,7 @@ The traffic proportion is the percentage of users that will be presented with an
 
 After you create the test, select the «App Icon» section at the top, and then pick a different icon from your Asset catalog for each treatment. When you’re ready, Hit «Start Test»
 
-![](/assets/posts//2022-09-25-ab-testing-your-app-icon/screen5.png)
+![](/assets/screen5.png)
 
 > Tip: If you don’t see the «App Icon» section at the top, it means you have not added your app icons correctly, so time to go back to the beginning.
 

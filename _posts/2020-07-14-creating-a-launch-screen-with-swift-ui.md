@@ -15,7 +15,7 @@ As I got closer to finishing the app, I decided to replace the default (white) S
 After a little digging, I could not find much in the documentation, but after watching the ["What's new on SwiftUI"](https://developer.apple.com/wwdc20/10041) video from WWDC20 and digging a little into Plist options, found that Apple has provided a new Key in the info.plist to help you create a basic LaunchScreen:  *The "Launch Screen" (UILaunchScreen)*  
 
 ### The Setting:
-![](/assets/posts/2020-07-15-creating-a-launch-screen-with-swift-ui/info-plist.png)
+![](/assets/info-plist.png)
 
 By default is empty, but autocomplete helps you figure out what you can do with it.  Unfortunately it does not allow much customization and you cannot create your custom design using SwiftUI, which I was expecting, but there's enough to get by.
 
@@ -36,7 +36,7 @@ As you may know, [Apple's recommendation for Launch Screens](https://developer.a
 These options will allow you to display a mocked, navigation bar, tab bar, or toolbar on the Launch Screen.  When enabling them, you will have the option to provide an image from your asset catalog, but if you leave it blank, a default UI empty navigation bar, tab bar, or toolbar is used instead. (See example below)
 
 ### Here's an example:
-![](/assets/posts/2020-07-15-creating-a-launch-screen-with-swift-ui/example.png)
+![](/assets/example.png)
 
 On the left, I'm using background color and a transparent version of the Bouncer logo.  Note that the image is not resized or scaled, so you will need to provide the correct dimensions.  In this case, I added @1x, @2x, and @3x versions, being the smallest 200x200px.
 

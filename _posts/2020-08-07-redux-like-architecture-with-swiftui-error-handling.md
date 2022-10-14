@@ -6,7 +6,7 @@ categories:
 - code
 layout: post
 comments: true
-image: "/posts/2020-08-07-redux-like-architecture-with-swiftui-error-handling/header.png"
+image: "redux3.png"
 ---
 
 In the [previous post](/redux-like-architecture-with-swiftui-middleware/), we’ve implemented Middleware support to facilitate asynchronous operations and extended functionality, and today we will be following up with Error handling and improving our User Experience<!--more-->.
@@ -227,7 +227,7 @@ Let's use *[replaceError](https://developer.apple.com/documentation/combine/publ
 
 As the *map* operator fails, we will return a new Action that has a default value of “Oops,” which will cause that text to render in the Label.
 
-<img src="/assets/posts/2020-08-07-redux-like-architecture-with-swiftui-error-handling/result1.gif" width="400">
+<img src="/assets/result1.gif" width="400">
 
 ### .catch()
 Since the AnimalService can fail with different types of errors, we might want to show different information to the user. Using *replaceError* is not enough.  
@@ -330,7 +330,7 @@ func animalReducer(state: inout AnimalState, action: AnimalAction) -> Void {
 
 We are getting there!
 
-<img src="/assets/posts/2020-08-07-redux-like-architecture-with-swiftui-error-handling/result2.gif" width="400">
+<img src="/assets/result2.gif" width="400">
 
 
 ### Alert Window
@@ -460,7 +460,7 @@ func animalReducer(state: inout AnimalState, action: AnimalAction) -> Void {
     }
 }
 ```
-<img src="/assets/posts/2020-08-07-redux-like-architecture-with-swiftui-error-handling/result3.gif" width="400">
+<img src="/assets/result3.gif" width="400">
 
 Pretty cool, huh?  😎
 

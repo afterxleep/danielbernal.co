@@ -8,7 +8,7 @@ id: 284
 author: Daniel
 layout: post
 guid: https://danielbernal.co/?p=284
-image: "/posts/2020-10-29-coredata-transformable-and-nssecurecoding-in-ios-13/CoreDataSecure.png"
+image: "CoreDataSecure.png"
 ---
 
 If you are using Transformable properties in CoreData, there is a chance (probably when dropping iOS 12 support) that you eventually face compiler warnings about your model properties not using secure Value transformers. While figuring this out, I decided to write a post, so here it is.<!--more-->
@@ -31,7 +31,7 @@ There is a chance you never had to provide a ValueTransformer before, and that�
 
 By using the default attributes (see below), you can use the Transformable type to store any object of the top-level class list, (*NSArray,* *NSDictionary,* *NSSet,* *NSString,* *NSNumber,* *NSDate,* *NSData,* *NSURL,* *NSUUID* and NSNull), without doing anything else.
 
-![](/assets//posts/2020-10-29-coredata-transformable-and-nssecurecoding-in-ios-13//ss1.png)
+![](/assets/ss1.png)
 ## NSSecureCoding
 
 While NSCoding is available from iOS 2, it was extended by NSSecureCoding on iOS 6 to enable object transformation more securely.
@@ -50,15 +50,15 @@ class MyTestClass: NSSecureCoding {
     var name: String = ""
     var last_name: String = ""
 
-    <em>// Make sure you add this property</em>
+    // Make sure you add this property
     static var supportsSecureCoding: Bool = true
 
     required init?(coder: NSCoder) {
-        <em>// NSCoding</em>
-        <em>//name = coder.decodeObject(forKey: "name") as? String ?? ""</em>
-        <em>//last_name = coder.decodeObject(forKey: "last_name") as? String ?? ""</em>
+        // NSCoding
+        //name = coder.decodeObject(forKey: "name") as? String ?? ""
+        //last_name = coder.decodeObject(forKey: "last_name") as? String ?? ""
 
-        <em>// NSSecureCoding</em>
+        // NSSecureCoding<
         name = coder.decodeObject(of: NSString.self, forKey: "name") as String? ?? ""
         last_name = coder.decodeObject(of: NSString.self, forKey: "last_name") as String? ?? ""
     }
@@ -90,20 +90,20 @@ If you want to securely store any other class that is not part of the top-level 
 Fortunately, creating a custom ValueTransformer for this purpose is simple. You need to create a subclass of NSSecureUnarchiveDataTransofrmer, and add your class to the `allowedTopLevelClasses `array Let’s write a custom ValueTransformer for our `MyTestClass` class above.
 
 ```swift
-<em>// It has to be a subclass of `NSSecureUnarchiveFromDataTransformer` and we need to expose it to ObjC.</em>
+// It has to be a subclass of `NSSecureUnarchiveFromDataTransformer` and we need to expose it to ObjC.
 
 @objc(MyTestClassValueTransformer)
 final class MyTestClassValueTransformer: NSSecureUnarchiveFromDataTransformer {
 
-    <em>// The name of the transformer. This is what we will use to register the transformer `ValueTransformer.setValueTrandformer(_"forName:)`.</em>
+    // The name of the transformer. This is what we will use to register the transformer `ValueTransformer.setValueTrandformer(_"forName:)`.
     static let name = NSValueTransformerName(rawValue: String(describing: MyTestClassValueTransformer.self))
 
-    <em>// Our class `Test` should in the allowed class list. (This is what the unarchiver uses to check for the right class)</em>
+    // Our class `Test` should in the allowed class list. (This is what the unarchiver uses to check for the right class)
     override static var allowedTopLevelClasses: [AnyClass] {
         return [MyTestClass.self]
     }
 
-    <em>/// Registers the transformer.</em>
+    /// Registers the transformer.
     public static func register() {
         let transformer = MyTestClassValueTransformer()
         ValueTransformer.setValueTransformer(transformer, forName: name)
@@ -130,17 +130,17 @@ Now that you have your ValueTransformer ready, it’s time to put it to work, bu
 A good place to do that is during your CoreData stack initialization, but make sure you do it before setting up your Persistent Container.
 
 ```swift
-<em>// ... Make sure to register before initializing your persistent container</em>
+// ... Make sure to register before initializing your persistent container
 
-<em>// Register the transformer</em>
+// Register the transformer
 MyTestClassValueTransformer.register()
 
-<em>// .. Continue initializing Persistent Container</em>
+// .. Continue initializing Persistent Container
 ```
 
 Lastly, configure your model to use your brand new ValueTransformer as follows:
 
-![](/assets//posts/2020-10-29-coredata-transformable-and-nssecurecoding-in-ios-13//ss2.png)
+![](/assets/ss2.png)
 
 ## Note
 
