@@ -30,10 +30,12 @@ layout: default
       </h2>
       <div class="entry">
         <div class="excerpt">
-          {% if post.image != "" %}
-          <div class="excerpt-image">
-            <img src="/assets/{{post.image}}" />
-          </div>
+          {% if post.image %}
+            {% unless post.image == empty %}
+            <div class="excerpt-image">
+              <img src="/assets/{{post.image}}" />
+            </div>
+            {% endunless %}
           {% endif %}
           {{ post.excerpt }}
           <span class="read-more">
