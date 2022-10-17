@@ -9,7 +9,7 @@ layout: default
     </span>
 
   <h1>{{ page.title }}</h1>
-  {% if page.image %}
+  {% if post.image != "" %}
   <div class="post-header-image">
     <img src="/assets/{{page.image}}" />
   </div>
@@ -37,7 +37,7 @@ layout: default
     </div>
   </div>
 
-<!--
+
   <div class="pagination">
     {% if page.previous.url %}
       <span class="prev" >
@@ -54,7 +54,6 @@ layout: default
       </span>
     {% endif %}
   </div>
--->
 
   
 </article>
