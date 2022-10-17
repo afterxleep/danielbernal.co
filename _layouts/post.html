@@ -51,14 +51,14 @@ layout: default
     {% if page.previous.url %}
       <span class="prev" >
           <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
-            <button>< {{ page.previous.title }}</button>
+            <button>← {{ page.previous.title }}</button>
           </a>
       </span>
     {% endif %}
     {% if page.next.url %}
       <span class="next" >
           <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
-            <button>{{ page.next.title }} ></button>
+            <button>{{ page.next.title }} →</button>
           </a>
       </span>
     {% endif %}
