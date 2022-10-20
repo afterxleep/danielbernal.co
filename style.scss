@@ -570,6 +570,7 @@ article {
   > .next {
     text-align: right;
     width: 50%;
+    float:right;
     a {
       color: $pagination-color;
       &:hover, &:focus {
