@@ -88,6 +88,9 @@ body {
 #app #main .main-content .socials .social.email {
   background: url("data:image/svg+xml,%3Csvg%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%220%200%2040%2040%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M12.875%2012H27.875C28.9063%2012%2029.75%2012.8437%2029.75%2013.875V25.125C29.75%2026.1563%2028.9063%2027%2027.875%2027H12.875C11.8437%2027%2011%2026.1563%2011%2025.125V13.875C11%2012.8437%2011.8437%2012%2012.875%2012Z%22%20stroke%3D%22%231B1B1B%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%3Cpath%20d%3D%22M29.75%2013.875L20.375%2020.4375L11%2013.875%22%20stroke%3D%22%231B1B1B%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%3C%2Fsvg%3E%0A") no-repeat center;
 }
+#app #main .main-content .socials .social.github {
+  background: url("../images/github-mark.png") no-repeat center;
+}
 #app #main .main-content .socials .social.facebook {
   background: url("data:image/svg+xml,%3Csvg%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%220%200%2040%2040%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M21.8748%2013.75H24.9996V10H21.8748C19.4628%2010%2017.5003%2011.9625%2017.5003%2014.3746V16.2496H15V20H17.4995V30H21.2499V20H24.3748L24.9996%2016.2496H21.2499V14.3746C21.2499%2014.0357%2021.536%2013.7497%2021.8748%2013.7497V13.7501L21.8748%2013.75Z%22%20fill%3D%22%231B1B1B%22%2F%3E%0A%3C%2Fsvg%3E%0A") no-repeat center;
 }
@@ -1561,6 +1564,10 @@ body .cta_footer {
   color: #000;
   text-decoration: none;
 }
+.ella a.colored {
+  color: rgb(18, 55, 116);
+  text-decoration: underline;
+}
 .ella img {
   text-indent: 100%;
   white-space: nowrap;
@@ -1625,7 +1632,7 @@ body .cta_footer {
 }
 .ella #app .cover-photo-wrapper .cover-photo img {
   object-fit: cover;
-  width: 100%;
+  width: 170%;
 }
 .ella #app .cover-photo-wrapper .cover-photo.placeholder {
   background: #e8ebea;
@@ -1772,12 +1779,11 @@ body .cta_footer {
   border: 1px dashed #979797;
 }
 .ella #app #main .links .link img {
-  box-shadow: 0px 6px 28px rgba(0, 0, 0, 0.12);
   object-fit: cover;
   border-radius: 2px;
   margin-right: 8px;
-  width: 56px;
-  height: 56px;
+  width: 20x;
+  height: 20px;
   flex-shrink: 0;
   display: block;
 }
