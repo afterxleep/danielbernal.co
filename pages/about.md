@@ -1,6 +1,6 @@
 ---
 title: "\U0001F44B Howdy, I'm Daniel Bernal"
-permalink: "/about/"
+permalink: "/about"
 layout: page_no_footer
 ---
 
