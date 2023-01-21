@@ -1770,6 +1770,7 @@ body .cta_footer {
   margin: 16px 0;
   min-height: 64px;
   padding: 4px;
+  border-radius: 15px;
 }
 .ella #app #main .links .link.with-thumbnail {
   justify-content: left;
