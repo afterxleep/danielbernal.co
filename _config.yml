@@ -9,13 +9,12 @@ collections:
     title: Uploads
     output: true
 name: Daniel Bernal
-description: I'm Daniel Bernal and I write apps while tinkering on the interweb from
-  Spain.
-paginate: 10
+description: I WRITE IOS APPS WHILE TINKERING ON THE INTERWEBS FROM BEAUTIFUL VALENCIA.
 url: https://danielbernal.co
 baseurl: 
 permalink: "/:year/:month/:day/:title/"
-paginate_path: "/page:num/"
+paginate: 10
+paginate_path: /blog/page:num/
 kramdown:
   input: GFM
   syntax_highlighter: rouge

@@ -33,7 +33,7 @@ It went like this:
 
 Pretty rough, huh? 
 
-I thought about switching to [HEY World](https://world.hey.com/) for a while, and although I don't really want to loose the flexibility of having my own thing, I don't want to be slaved by it, so see you in [Hey World](https://world.hey.com/danielbernal)
+I thought about switching to [HEY World](https://world.hey.com/) for a while, and although I don't really want to loose the flexibility of having my own thing yet, so I'll try to stick with Jekyll for a little bit longer, see what comes out.
 
 
 ---
