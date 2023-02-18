@@ -6,7 +6,7 @@ collections:
     title: Posts
     output: true
     baseurl: /blog
-	paginate_path: /blog/page:num/
+    paginate_path: /blog/page:num/
 name: Daniel Bernal
 description: I WRITE IOS APPS WHILE TINKERING ON THE INTERWEBS FROM BEAUTIFUL VALENCIA.
 url: https://danielbernal.co
