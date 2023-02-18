@@ -11,7 +11,6 @@ description: I WRITE IOS APPS WHILE TINKERING ON THE INTERWEBS FROM BEAUTIFUL VA
 url: https://danielbernal.co
 permalink: "/:year/:month/:day/:title/"
 paginate: 10
-paginate_path: /blog/page:num/
 kramdown:
   input: GFM
   syntax_highlighter: rouge
