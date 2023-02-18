@@ -5,16 +5,13 @@ collections:
   posts:
     title: Posts
     output: true
-  uploads:
-    title: Uploads
-    output: true
+	baseurl: /blog
+	permalink: "/:year/:month/:day/:title/"
+	paginate: 10
+	paginate_path: /blog/page:num/
 name: Daniel Bernal
 description: I WRITE IOS APPS WHILE TINKERING ON THE INTERWEBS FROM BEAUTIFUL VALENCIA.
 url: https://danielbernal.co
-baseurl: 
-permalink: "/:year/:month/:day/:title/"
-paginate: 10
-paginate_path: /blog/page:num/
 kramdown:
   input: GFM
   syntax_highlighter: rouge
