@@ -6,7 +6,7 @@ categories:
 - code
 layout: post
 comments: true
-image: "redux3.png"
+image: "/assets/redux3.png"
 ---
 
 In the [previous post](/redux-like-architecture-with-swiftui-middleware/), we’ve implemented Middleware support to facilitate asynchronous operations and extended functionality, and today we will be following up with Error handling and improving our User Experience<!--more-->.

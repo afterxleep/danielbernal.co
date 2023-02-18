@@ -2,7 +2,7 @@
 layout: post
 title: I'm not rich enough to buy cheap things
 date: 2023-01-27T22:00:00.000Z
-image: pennies.jpg
+image: /assets/pennies.jpg
 categories:
   - life
 author: Daniel

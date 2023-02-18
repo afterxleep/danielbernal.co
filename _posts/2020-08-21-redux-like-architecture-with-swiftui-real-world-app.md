@@ -6,7 +6,7 @@ categories:
 - code
 layout: post
 comments: true
-image: "redux4.png"
+image: "/assets/redux4.png"
 ---
 
 After looking at the Redux approach, figuring things out and writing the previous set of posts ([The Basics]({{ site.url }}/redux-like-architecture-with-swiftui-basics/), [Side Effects]({{ site.url }}/redux-like-architecture-with-swiftui-middleware/) and [Error Handling]({{ site.url }}/redux-like-architecture-with-swiftui-error-handling/)), I wanted to put it all in practice with a real app, and decided to rewrite Bouncer (again).<!--more-->

@@ -8,7 +8,7 @@ id: 714
 author: Daniel
 layout: post
 guid: https://danielbernal.co/?p=714
-image: "wireframes.jpg"
+image: "/assets/wireframes.jpg"
 ---
 
 A/B testing is instrumental in measuring anything that a computer can count. It’s great to measure simple actions, such as a user tapping a button or conversions, but you shouldn’t base long-term product decisions on these results.<!--more-->

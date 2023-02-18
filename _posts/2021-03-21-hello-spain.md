@@ -8,7 +8,7 @@ id: 530
 author: Daniel
 layout: post
 guid: https://danielbernal.co/?p=530
-image: "spain.jpg"
+image: "/assets/spain.jpg"
 ---
 
 Back in November 2020, and after a few long conversations, we decided to sell everything we owned and move to Spain. Between preparations, paperwork, and a long garage sale we finally got here last week, with just a few suitcases and both our pets, Tesla and Oli.<!--more-->

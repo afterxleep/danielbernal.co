@@ -2,7 +2,7 @@
 layout: post
 title: Moving out of WordPress
 date: 2022-10-11T22:00:00.000Z
-image: wordpress.jpg
+image: /assets/wordpress.jpg
 categories:
   - life
 author: Daniel

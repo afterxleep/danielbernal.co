@@ -2,7 +2,7 @@
 layout: post
 title: "See you on the Duck side"
 date: 2023-02-14T22:00:00.000Z
-image: ddg.jpg
+image: /assets/ddg.jpg
 categories:
   - life
 author: Daniel

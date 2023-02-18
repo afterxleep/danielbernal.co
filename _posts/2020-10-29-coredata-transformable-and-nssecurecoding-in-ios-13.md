@@ -8,7 +8,7 @@ id: 284
 author: Daniel
 layout: post
 guid: https://danielbernal.co/?p=284
-image: "CoreDataSecure.png"
+image: "/assets/CoreDataSecure.png"
 ---
 
 If you are using Transformable properties in CoreData, there is a chance (probably when dropping iOS 12 support) that you eventually face compiler warnings about your model properties not using secure Value transformers. While figuring this out, I decided to write a post, so here it is.<!--more-->

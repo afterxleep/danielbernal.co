@@ -5,7 +5,7 @@ categories:
 - code
 layout: post
 comments: true
-image: "protocol_code.jpg"
+image: "/assets/protocol_code.jpg"
 ---
 
 The [@ObservableObject and @Published](https://www.hackingwithswift.com/quick-start/swiftui/what-is-the-published-property-wrapper) property wrappers are the sauce of Combine powered apps. With Combine and SwiftUI, it's easy to use the @Published wrapper in our ViewModel properties and have the Views automatically update as changes to these happen.
