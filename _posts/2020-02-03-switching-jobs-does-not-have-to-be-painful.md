@@ -6,7 +6,7 @@ permalink: /switching-jobs-does-not-have-to-be-painful/
 categories:
   - life
 comments: true
-image: /assets/wireframes.jpg
+image: /assets/this-must-be-the-place.jpg
 ---
 
 Seven hundred days ago, I quit my job at [Globant](http://www.globant.com) to join [Endava](http://www.endava.com), and it's time to do it again.  Most people think that two years is too little to do something (especially on a management role) and therefore the decision comes with lots of noise and questions, but, should it be that way?
