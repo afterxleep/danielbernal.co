@@ -3,7 +3,7 @@ title: danielbernal.co
 timezone: UTC
 collections:
   posts:
-    output: truk
+    output: true
     baseurl: /blog
     permalink: "/:year/:month/:day/:title/"
     paginate: 10
