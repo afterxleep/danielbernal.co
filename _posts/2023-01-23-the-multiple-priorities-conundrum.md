@@ -2,7 +2,7 @@
 layout: post
 title: The multiple priorities conundrum
 date: 2023-01-27T22:00:00.000Z
-image: priorities.jpg
+image: /assets/priorities.jpg
 categories:
   - life
 author: Daniel

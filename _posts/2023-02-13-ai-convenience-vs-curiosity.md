@@ -2,7 +2,7 @@
 layout: post
 title: "AI: Convenience Vs. Curiosity"
 date: 2023-02-13T22:00:00.000Z
-image: ai.jpg
+image: /assets/ai.jpg
 categories:
   - life
 author: Daniel

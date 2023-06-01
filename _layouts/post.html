@@ -12,14 +12,14 @@ layout: default
   {% if post.image %}
     {% unless post.image == empty %}
     <div class="post-header-image">
-      <img src="/assets/{{post.image}}" />
+      <img src="{{post.image}}" />
     </div>
     {% endunless %}
   {% endif %}
   {% if page.image %}
     {% unless page.image == empty %}
     <div class="post-header-image">
-      <img src="/assets/{{page.image}}" />
+      <img src="{{page.image}}" />
     </div>
     {% endunless %}
   {% endif %}

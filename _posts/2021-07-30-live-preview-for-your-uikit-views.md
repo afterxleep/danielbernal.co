@@ -8,7 +8,7 @@ id: 562
 author: Daniel
 layout: post
 guid: https://danielbernal.co/?p=562
-image: "swift.jpg"
+image: "/assets/swift.jpg"
 ---
 
 One of the best features of SwiftUI is being able to preview your code during development, but did you know that you can also use SwiftUI to preview your old-fashioned UIKit ViewControllers and Views?

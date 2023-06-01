@@ -6,7 +6,7 @@ categories:
 - product
 author: Daniel
 layout: post
-image: "icons.jpg"
+image: "/assets/icons.jpg"
 ---
 
 Speaking of [A/B tests](/a-b-test-your-design-not-your-product/), Apple has a pretty good set of tools to test (and optimize) your app’s App Store page. They call them «_test treatments_», and you can use them to test different versions of your App’s screenshots to see what drives more downloads.

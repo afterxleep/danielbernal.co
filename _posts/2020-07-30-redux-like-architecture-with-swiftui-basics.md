@@ -6,7 +6,7 @@ categories:
 - code
 layout: post
 comments: true
-image: "redux1.png"
+image: "/assets/redux1.png"
 ---
 
 Since the beta release of iOS 14 and now that SwiftUI is a little more mature, I have been exploring different architectures that better fit its patterns. After working with React for a while, I got curious about using something similar to Redux on iOS.<!--more-->

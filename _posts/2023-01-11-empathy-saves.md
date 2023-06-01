@@ -2,7 +2,7 @@
 layout: post
 title: Empathy Saves
 date: 2023-01-11T22:00:00.000Z
-image: empathy-saves.jpeg
+image: /assets/empathy-saves.jpeg
 categories:
   - life
 author: Daniel

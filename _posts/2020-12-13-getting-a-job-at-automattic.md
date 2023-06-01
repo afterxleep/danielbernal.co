@@ -8,7 +8,7 @@ id: 345
 author: Daniel
 layout: post
 guid: https://danielbernal.co/?p=345
-image: "IMG_0553.jpeg"
+image: "/assets/IMG_0553.jpeg"
 ---
 
 I’ve been with Automattic for some time, and it’s been a fantastic ride. Since I joined, people have asked me about the hiring process, so I decided to write about my experience.<!--more-->

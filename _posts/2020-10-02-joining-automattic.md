@@ -5,7 +5,7 @@ categories:
 - life
 layout: post
 comments: true
-image: "automattic_logos.png"
+image: "/assets/automattic_logos.png"
 ---
 
 Most of my recent experience is in IT Consulting firms, where you usually get the chance to work on short term projects (mostly), or [staff augmentation gigs](https://en.wikipedia.org/wiki/Staff_augmentation), but opportunities to work on real product development are slim.<!--more-->
