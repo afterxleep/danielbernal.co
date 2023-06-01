@@ -2,14 +2,14 @@
 layout: post
 title: "@backDeployed: Could SwiftUI be backward compatible?"
 date: 2023-02-22T22:00:00.000Z
-image: back.jpg
+image: /assets/back.jpg
 categories:
   - life
 author: Daniel
 
 ---
 
-One of the most exciting (yet obscure) changes with iOS 16.4 is the @backDeployed attribute in Swift.
+One of the most exciting (yet obscure) changes with iOS 16.4 is the @backDeployed attribute in Swift.<!--more--> 
 
 @backDeployed will allow you to mark certain functions or properties as backward-compatible. When using it, the Swift compiler generates code that checks at runtime whether the feature is available on the target device. If not, it will generate fallback code that allows the feature to work as expected on older versions of iOS.
 
@@ -19,7 +19,7 @@ Here’s a quick example of how this works.
 
  Let’s assume iOS 17 adds a new function to convert temperatures that looks like this:
 
-```
+```swift
 @available(iOS 17, *)
 func farenheitToToCelsius(_ temperature: Double) -> Double {
   return (temperature - 32) * 5/9
@@ -28,7 +28,7 @@ func farenheitToToCelsius(_ temperature: Double) -> Double {
 
 If your app is targeting an older version, you’ll have to do something like this:
 
-```
+```swift
 if #available(iOS 17, *) {
  let temperature = farenheitToCelsius(temp)
 } else {
@@ -38,7 +38,7 @@ if #available(iOS 17, *) {
 
 With @backDeployed, there will no longer be a need for conditionals or re-implementation, and Apple could make this method available to older versions like this:
 
-```
+```swift
 @available(iOS 13, *)
 @backDeployed(before: iOS 17)
 func farenheitToToCelsius(_ temperature: Double) -> Double {
