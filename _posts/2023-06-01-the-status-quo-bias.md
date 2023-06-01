@@ -8,7 +8,7 @@ categories:
 author: Daniel
 
 ---
-Many times, we become victims of our own choices. Not just the bad ones, but even worse, the choices that stick around well past their expiration date.
+Many times, we become victims of our own choices. Not just the bad ones, but even worse, the choices that stick around well past their expiration date.<!-- more-->
 
 We become hostages to the 'business as usual' mentality, a cognitive straightjacket that stifles change and breeds complacency, and all those stubborn bad choices that we can’t just seem to shake off. That’s the Status Quo bias.
 
