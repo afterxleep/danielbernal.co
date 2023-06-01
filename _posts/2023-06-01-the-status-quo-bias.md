@@ -3,7 +3,6 @@ layout: post
 title: "The status quo bias"
 date: 2023-06-01T08:00:00.000Z
 image: /assets/walking.jpg
-permalink: /2023/06/01/the-status-quo-bias/
 categories:
   - life
 author: Daniel
