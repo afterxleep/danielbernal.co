@@ -1,14 +1,15 @@
 ---
 layout: post
 title: "The status quo bias"
-date: 2023-06-01T22:00:00.000Z
+date: 2023-06-01T08:00:00.000Z
 image: /assets/walking.jpg
+permalink: /2023/06/01/the-status-quo-bias/
 categories:
   - life
 author: Daniel
 
 ---
-Many times, we become victims of our own choices. Not just the bad ones, but even worse, the choices that stick around well past their expiration date.<!-- more-->
+Many times, we become victims of our own choices. Not just the bad ones, but even worse, the choices that stick around well past their expiration date.<!--more-->
 
 We become hostages to the 'business as usual' mentality, a cognitive straightjacket that stifles change and breeds complacency, and all those stubborn bad choices that we can’t just seem to shake off. That’s the Status Quo bias.
 
