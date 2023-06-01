@@ -11,7 +11,7 @@
     {% if page.excerpt %}
       <meta name="description" content="{{ page.excerpt| strip_html }}" />
       <meta property="og:type" content="article">
-      <meta property="og:image" content="{{ site.url }}/assets/{{ page.image }}" />
+      <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
       <meta property="article:publisher" content="https://www.twitter.com.com/afterxleep" />
       <meta property="article:author" content="https://www.twitter.com.com/afterxleep" />
       <meta property="article:published_time" content="{{ page.date }}" />
@@ -22,6 +22,7 @@
       <meta name="twitter:site" content="@afterxleep" />
       <meta name="twitter:creator" content="@afterxleep">
       <meta name="twitter:card" content="summary">
+      <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
     {% else %}
       <meta name="description" content="{{ site.description }}">
       <meta property="og:description" content="{{ site.description }}" />
