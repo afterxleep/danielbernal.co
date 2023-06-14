@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "0.2 seconds faster"
-date: 2023-06-14T08:00:00.000Z
+date: 2023-06-14T07:29:00.000Z
 image: /assets/faster.jpg
 categories:
   - life
