@@ -12,7 +12,7 @@ Over the past few days I watched a <a href="https://www.netflix.com/us/title/812
 
 Besides just recounting the events, portrayed from the view of the plant manager, the series carves out some space to pose uncomfortable questions, and touches on human ambition, power dynamics and it’s inevitable clash with reality.  
 
-Oddly enough, this got me ruminating about the stark disparity between the seemingly important everyday choices we deem important and the decisions that possess the power to genuinely alter lives, for better or worse.
+Oddly enough, this got me ruminating about the stark disparity between the seemingly important everyday choices we make and the decisions that possess the power to genuinely alter lives, for better or worse.
 
 Just a few weeks ago, I was ensnared at work, debating the optimization of a one-time migration code, attempting to shave off 0.2 seconds from the process.  The absurdity of the situation struck me even then, but watching this reinforced a realization: the value we believe we’re creating through our jobs is often, regrettably, ephemeral and devoid of deep meaning.
 
