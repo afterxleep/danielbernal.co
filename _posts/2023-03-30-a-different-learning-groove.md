@@ -3,6 +3,7 @@ layout: post
 title: "A different learning groove"
 date: 2023-03-30T22:00:00.000Z
 image: /assets/learning.jpg
+permalink: "/2023/03/22/finding-your-learning-groove/"
 categories:
   - life
 author: Daniel
