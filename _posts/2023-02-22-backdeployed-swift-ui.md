@@ -6,7 +6,7 @@ image: /assets/back.jpg
 categories:
   - life
 author: Daniel
-permalink: "/backdeployed-could-swiftui-be-backward-compatible/"
+permalink: "/2023/02/22/backdeployed-could-swiftui-be-backward-compatible/"
 
 ---
 
