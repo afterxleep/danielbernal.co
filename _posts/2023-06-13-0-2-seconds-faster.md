@@ -8,7 +8,7 @@ categories:
 author: Daniel
 
 ---
-Over the past few days I watched a <a href="https://www.netflix.com/us/title/81233755?s=i&trkid=0&vlang=en&clip=81682069">“The Days”</a>, a Netflix series about the 2011 Fukushima nuclear disaster.  Far from flawless and clearly inferior to <a href="https://www.hbo.com/chernobyl">HBO’s Chernobyl</a>, it is still well produced and manages to seize your attention and keep you locked in the seat.<!--more-->
+Over the past few days I watched <a href="https://www.netflix.com/us/title/81233755?s=i&trkid=0&vlang=en&clip=81682069">“The Days”</a>, a Netflix series about the 2011 Fukushima nuclear disaster.  Far from flawless and clearly inferior to <a href="https://www.hbo.com/chernobyl">HBO’s Chernobyl</a>, it is still well produced and manages to seize your attention and keep you locked in the seat.<!--more-->
 
 Besides just recounting the events, portrayed from the view of the plant manager, the series carves out some space to pose uncomfortable questions and touches on human ambition, power dynamics, and its inevitable clash with reality.
 
