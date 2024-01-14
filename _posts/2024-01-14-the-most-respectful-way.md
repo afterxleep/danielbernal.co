@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The most respectful way"
-date: 2023-06-14T07:29:00.000Z
+date: 2024-01-12T07:29:00.000Z
 image: /assets/blue-ink.jpg
 categories:
   - life
