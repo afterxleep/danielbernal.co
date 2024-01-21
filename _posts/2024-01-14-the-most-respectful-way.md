@@ -11,7 +11,7 @@ author: Daniel
 ---
 The "Most Respectful Interpretation" model has sneaked into the remote working culture. It explains that you are supposed to interpret every message in the best possible light, believing the sender had only the best intentions.  
   
-While at its core, MRI aims to foster a positive environment by encouraging people to assume good intentions in others, it is overly idealistic and can open the door to abuse, and camouflage a toxic communication culture. 
+While at its core, MRI aims to foster a positive environment by encouraging people to assume good intentions in others, it is overly idealistic and can open the door to abuse, and camouflage a toxic communication culture. <!--more-->
 
 Think about it. You get a message loaded with passive-aggressive jabs, dripping in condescension. Yet, the "Most Respectful Interpretation" expects you to gloss over the toxicity and pretend it's all wrapped in positivity and goodwill. Why should you warp your perception to find a silver lining? Why should you bend backward to see the 'good'?
 
