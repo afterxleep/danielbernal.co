@@ -1,10 +1,10 @@
 ---
+title: See you on the Duck side
+date: 2023-02-14 22:00:00 Z
 layout: post
-title: "See you on the Duck side"
-date: 2023-02-14T22:00:00.000Z
-image: /assets/ddg.jpg
+image: "/assets/ddg.jpg"
 categories:
-  - life
+- life
 author: Daniel
 ---
 

@@ -6,7 +6,7 @@ categories:
 - life
 layout: post
 comments: true
-image: /assets/time-for-yourself.jpeg
+image: "/assets/time-for-yourself.jpeg"
 ---
 
 There is nothing better than giving yourself time not to do anything so that you can do a bunch of things without obligation.

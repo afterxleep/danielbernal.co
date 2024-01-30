@@ -1,14 +1,14 @@
 ---
-layout: post
-title: "The most respectful way"
-date: 2024-01-12T07:29:00.000Z
-image: /assets/blue-ink.jpg
+title: The most respectful way
+date: 2024-01-12 07:29:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
+image: "/assets/blue-ink.jpg"
 author: Daniel
-
 ---
+
 The "Most Respectful Interpretation" model has sneaked into the remote working culture. It explains that you are supposed to interpret every message in the best possible light, believing the sender had only the best intentions. <!--more-->  
   
 While at its core, MRI aims to foster a positive environment by encouraging people to assume good intentions in others, it is overly idealistic and can open the door to abuse, and camouflage a toxic communication culture.

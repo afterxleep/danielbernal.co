@@ -1,14 +1,14 @@
 ---
-layout: post
-title: "A different learning groove"
-date: 2023-03-30T22:00:00.000Z
-image: /assets/learning.jpg
+title: A different learning groove
+date: 2023-03-30 22:00:00 Z
 permalink: "/2023/03/22/finding-your-learning-groove/"
 categories:
-  - life
+- life
+layout: post
+image: "/assets/learning.jpg"
 author: Daniel
-
 ---
+
 Not all learning has to be confined within classroom walls or follow a rigid checklist. Often, the most valuable lessons emerge as we venture off the beaten path.<!--more-->
 
 As someone who embraces “Experiential learning” – learning by doing and making mistakes – my approach differs from the traditional method of lectures, readings, and exercises. Instead, I set a goal and dive right into it.

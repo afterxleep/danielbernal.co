@@ -6,7 +6,7 @@ categories:
 - work
 layout: post
 comments: true
-image: /assets/engineers2.jpg
+image: "/assets/engineers2.jpg"
 ---
 
 In a [previous post]({{ site.url }}/mentoring-engineering-interns/), we discussed strategies to hire, motivate and mentor Engineering Interns and is time to move up the ladder and talk about the recently hired, more Junior members of your team. Let's get down to it.<!--more-->

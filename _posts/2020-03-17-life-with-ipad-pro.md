@@ -5,7 +5,7 @@ categories:
 - life
 layout: post
 comments: true
-image: /assets/ipad-pro-phone.jpg
+image: "/assets/ipad-pro-phone.jpg"
 ---
 
 Some time ago, as an experiment, I decided to use an iPad Pro as my primary computing device.  Expectations were low, so I kept my laptop in a drawer and gave it a chance for a couple of weeks.

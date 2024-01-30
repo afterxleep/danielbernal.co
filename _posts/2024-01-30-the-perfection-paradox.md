@@ -1,13 +1,12 @@
 ---
-layout: post
-title: "A paradox of perfection"
-date: 2024-01-30T07:29:00.000Z
-image: /assets/duality.jpg
+title: A paradox of perfection
+date: 2024-01-30 07:29:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
+image: "/assets/duality.jpg"
 author: Daniel
-
 ---
 
 There's a narrative in tech companies that often goes untold: "Open product feedback."  It's a tale of transformation. Not the kind celebrated in startup blogs, but the kind that slowly eats into the company itself. A vibrant and innovative culture turned into an over-calculated shadow of its past.<!--more-->

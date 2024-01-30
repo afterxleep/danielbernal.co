@@ -1,12 +1,13 @@
 ---
-layout: post
 title: Moving out of WordPress
-date: 2022-10-11T22:00:00.000Z
-image: /assets/wordpress.jpg
+date: 2022-10-11 22:00:00 Z
 categories:
-  - life
+- life
+layout: post
+image: "/assets/wordpress.jpg"
 author: Daniel
 ---
+
 I moved this blog out of [WordPress](https://wordpress.org/). Don't get me wrong, I still work at [Automattic](https://automattic.com), but WordPress has too many moving parts for my needs.
 
 Since I don't need fancy templates, plugins<!--more-->, databases, comments, stats, a store, and much less dealing with security updates, backups, and hosting providers, I wanted to try a static solution.
