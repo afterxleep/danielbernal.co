@@ -1,26 +1,30 @@
----
-layout: empty
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/site.css">
+    
+    <title>Daniel Bernal</title>
+    
+    <link rel="canonical" href="https://danielbernal.co/">
+    <meta name="description" content="Daniel Bernal - Writing iOS apps and websites while tinkering on the interwebs from beautiful Valencia.">
 
-<html lang="en" data-react-helmet="lang">
-<head><meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/site.css" rel="stylesheet">
-  <title>Daniel Bernal</title>
-  <link rel="canonical" href="https://danielbernal.co" data-react-helmet="true">
-    <meta name="description" content="Daniel Bernal" data-react-helmet="true">
-  <meta charset="UTF-8" data-react-helmet="true">
-  <meta property="og:type" content="website" data-react-helmet="true">
-  <meta property="og:title" content="Daniel Bernal - Home" data-react-helmet="true">
-  <meta property="og:description" content="Daniel Bernal" data-react-helmet="true">
-  <meta property="og:url" content="https://danielbernal.co" data-react-helmet="true">
-  <meta property="og:image" content="images/profile.jpg" data-react-helmet="true">
-  <meta property="og:image:alt" content="Daniel Bernal" data-react-helmet="true">
-  <meta name="twitter:title" content="Daniel Bernal" data-react-helmet="true">
-  <meta name="twitter:description" content="Daniel Bernal · 👋 Howdy! – I'm Daniel.  I write iOS apps and websites while tinkering on the interwebs from beautiful Valencia." data-react-helmet="true">
-  <meta name="twitter:image" content="https://danielbernal.co/images/profile.jpg" data-react-helmet="true">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Daniel Bernal">
+    <meta property="og:description" content="👋 Howdy! – I'm Daniel. I write iOS apps and websites while tinkering on the interwebs from beautiful Valencia.">
+    <meta property="og:url" content="https://danielbernal.co/">
+    <meta property="og:image" content="https://danielbernal.co/images/profile.jpg">
+    <meta property="og:image:alt" content="Daniel Bernal">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Daniel Bernal">
+    <meta name="twitter:description" content="👋 Howdy! – I'm Daniel. I write iOS apps and websites while tinkering on the interwebs from beautiful Valencia.">
+    <meta name="twitter:image" content="https://danielbernal.co/images/profile.jpg">
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
-
-<body class="ella" data-react-helmet="class" style="overflow: auto;">
+<body class="ella" style="overflow: auto;">
   <div id="root">
     <div id="app" style="--background-color: #FFF;">
       <svg width="0" height="0" id="ellaCurve">
@@ -32,42 +36,46 @@ layout: empty
       </svg>
       <div class="cover-photo-wrapper">
         <div class="cover-photo-blurred-wrapper">
-          <img alt="Cover blurred" src="images/cover.png" class="cover-photo-blurred" width="100%"></div>
-          <div class="cover-photo centered-content">
-            <img alt="Cover" src="images/cover.png" class="cover-photo">
-          </div>
+          <img alt="Cover blurred" src="images/cover.png" class="cover-photo-blurred" width="100%">
         </div>
-        <div id="main" class="">
-          <div class="main-content">
-            <div class="profile-wrapper">
-              <div class="picture-wrapper">
-                <div class="picture">
-                  <img alt="Profile" src="images/profile.jpg" width="100" height="100">
-                </div>
-              </div>
-              <div class="name-bio-wrapper"><div class="name"><div class="content">👋 Howdy, I'm Daniel!</div>
-            </div>
-            <div class="bio"><div class="content">I write apps and websites while tinkering on the interwebs <br>from beautiful Valencia 🇪🇸<br><br><!-- Curently leading a mobile team at <a class="colored" href="https://automattic.com/">Automattic.</a><br>--></div>
-          </div>
+        <div class="cover-photo centered-content">
+          <img alt="Cover" src="images/cover.png" class="cover-photo">
         </div>
       </div>
-
-      <section class="body_section socials">
-        <a href="https://twitter.com/afterxleep" target="_blank" rel="noopener" class="twitter social" aria-label=""></a>
-        <a rel="me" href="https://mastodon.social/@afterxleep" target="_blank" rel="noopener" class="mastodon social" aria-label=""></a>
-        <a href="mailto:&#100;&#097;&#110;&#105;&#101;&#108;&#098;&#101;&#114;&#110;&#097;&#108;&#064;&#104;&#101;&#121;&#046;&#099;&#111;&#109;" target="_blank" rel="noopener" class="email social" aria-label=""></a>        
-        <a href="https://linkedin.com/in/danielbernalm" target="_blank" rel="noopener" class="linkedin social" aria-label=""></a>
-      </section>
-
-      <section class="body_section links">
-        <a href="/blog" rel="noopener" class="link undefined" style="--animation-delay: 1s;">
-          <div class="link-text"><img src="images/feather.png">&nbsp;Blog</div>
-        </a>
-        <a href="https://github.com/afterxleep" target="_blank" rel="noopener" class="link undefined" style="--animation-delay: 3s;">
-          <div class="link-text"><img src="images/github-mark.png">Github</div>
-        </a>
-      </section>
+      <div id="main" class="">
+        <div class="main-content">
+          <div class="profile-wrapper">
+            <div class="picture-wrapper">
+              <div class="picture">
+                <img alt="Profile" src="images/profile.jpg" width="100" height="100">
+              </div>
+            </div>
+            <div class="name-bio-wrapper">
+              <div class="name">
+                <div class="content">👋 Howdy, I'm Daniel!</div>
+              </div>
+              <div class="bio">
+                <div class="content">I write apps while tinkering on the interwebs from beautiful Valencia 🇪🇸. –– Currently at <a class="colored" href="https://duckduckgo.com/about">DuckDuckGo</a></div>
+              </div>
+            </div>
+          </div>
+          <section class="body_section socials">
+            <a href="https://twitter.com/afterxleep" target="_blank" rel="noopener" class="twitter social" aria-label="Twitter"></a>
+            <a rel="me" href="https://mastodon.social/@afterxleep" target="_blank" rel="noopener" class="mastodon social" aria-label="Mastodon"></a>
+            <a href="mailto:&#100;&#097;&#110;&#105;&#101;&#108;&#098;&#101;&#114;&#110;&#097;&#108;&#064;&#104;&#101;&#121;&#046;&#099;&#111;&#109;" target="_blank" rel="noopener" class="email social" aria-label="Email"></a>        
+            <a href="https://linkedin.com/in/danielbernalm" target="_blank" rel="noopener" class="linkedin social" aria-label="LinkedIn"></a>
+          </section>
+          <section class="body_section links">
+            <a href="https://danielbernal.co/blog/" rel="noopener" class="link" style="--animation-delay: 1s;">
+              <div class="link-text"><img src="images/feather.png">&nbsp;Blog</div>
+            </a>
+            <a href="https://github.com/afterxleep" target="_blank" rel="noopener" class="link" style="--animation-delay: 3s;">
+              <div class="link-text"><img src="images/github-mark.png">Github</div>
+            </a>
+          </section>
+        </div>
+      </div>
     </div>
-
-  </body>
-  </html>
+  </div>
+</body>
+</html>

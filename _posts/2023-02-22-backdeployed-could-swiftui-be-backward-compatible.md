@@ -1,12 +1,11 @@
 ---
-layout: post
 title: "@backDeployed: Could SwiftUI be backward compatible?"
-date: 2023-02-22T22:00:00.000Z
-image: /assets/back.jpg
+date: 2023-02-22 22:00:00 Z
 categories:
-  - life
+- life
+layout: post
+image: "/assets/back.jpg"
 author: Daniel
-
 ---
 
 One of the most exciting (yet obscure) changes with iOS 16.4 is the @backDeployed attribute in Swift.<!--more--> 

@@ -1,10 +1,10 @@
 ---
-layout: post
 title: Empathy Saves
-date: 2023-01-11T22:00:00.000Z
-image: /assets/empathy-saves.jpeg
+date: 2023-01-11 22:00:00 Z
 categories:
-  - life
+- life
+layout: post
+image: "/assets/empathy-saves.jpeg"
 author: Daniel
 ---
 

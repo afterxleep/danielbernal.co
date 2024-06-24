@@ -1,10 +1,10 @@
 ---
-layout: post
 title: The multiple priorities conundrum
-date: 2023-01-27T22:00:00.000Z
-image: /assets/priorities.jpg
+date: 2023-01-27 22:00:00 Z
 categories:
-  - life
+- life
+layout: post
+image: "/assets/priorities.jpg"
 author: Daniel
 ---
 

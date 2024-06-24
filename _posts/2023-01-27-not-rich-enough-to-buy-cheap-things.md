@@ -1,10 +1,10 @@
 ---
-layout: post
 title: I'm not rich enough to buy cheap things
-date: 2023-01-27T22:00:00.000Z
-image: /assets/pennies.jpg
+date: 2023-01-27 22:00:00 Z
 categories:
-  - life
+- life
+layout: post
+image: "/assets/pennies.jpg"
 author: Daniel
 ---
 

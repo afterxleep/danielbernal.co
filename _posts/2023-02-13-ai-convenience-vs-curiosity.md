@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "AI: Convenience Vs. Curiosity"
-date: 2023-02-13T22:00:00.000Z
-image: /assets/ai.jpg
+title: 'AI: Convenience Vs. Curiosity'
+date: 2023-02-13 22:00:00 Z
 categories:
-  - life
+- life
+layout: post
+image: "/assets/ai.jpg"
 author: Daniel
 ---
 

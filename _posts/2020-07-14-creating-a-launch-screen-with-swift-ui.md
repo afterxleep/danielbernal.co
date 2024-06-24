@@ -5,7 +5,7 @@ categories:
 - code
 layout: post
 comments: true
-image: /assets/ios14.jpg
+image: "/assets/ios14.jpg"
 ---
 
 I have decided to rewrite [Bouncer](https://github.com/afterxleep/Bouncer) from scratch using the latest SwiftUI version available in iOS 14.  This includes using the new SwiftUI App Lifecycle, which allows you to skip UIKit entirely, alongside the AppDelegate and Storyboards.
