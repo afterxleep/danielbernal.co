@@ -664,7 +664,7 @@ article {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 0px 0;
   border-top: 1px solid $footer-border-color;
 
   .madeby {
@@ -674,6 +674,7 @@ footer {
 
   p {
     font-weight: $base-font-weight;
+    font-size: $small-font-size
   }
 
   .svg-icon {
