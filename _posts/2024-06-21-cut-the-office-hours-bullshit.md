@@ -10,7 +10,7 @@ author: Daniel
 
 ---
 
-Setting office hours is a pretentious practice from the nineteen-twenties that makes you a self-important jerk. It’s a lame attempt to seem accessible while dictating when you can be bothered. Your team doesn’t operate on your clock. Sharing your office hours schedule is another way to say your calendar is more important than them. <!—- more —->
+Setting office hours is a pretentious practice from the nineteen-twenties that makes you a self-important jerk. It’s a lame attempt to seem accessible while dictating when you can be bothered. Your team doesn’t operate on your clock. Sharing your office hours schedule is another way to say your calendar is more important than them. <!-- more -->
 
 Leadership is about being available and present, reaching out proactively, understanding your team’s pulse, and addressing issues not only when you want.
 
