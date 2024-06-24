@@ -53,15 +53,17 @@ h1 {
   padding-bottom: 20px;
   a {
     color: inherit;
+    text-decoration: none;
   }
 }
 
 h2 {
   margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   font-size: 32px;
   a {
     color: inherit;
+    text-decoration: none;
   }
 }
 
@@ -90,7 +92,7 @@ p {
 
 a {
   color: $link-color;
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
   &:hover, &:active {
     color: $link-color;
@@ -383,7 +385,7 @@ img {
 
 nav {
   float: right;
-  font-family: $lato;
+  font-family: $helveticaNeue;
   font-size: 14px;
   margin-top: 120px;
 
@@ -399,6 +401,7 @@ nav {
     color: $gray;
     text-align: right;
     letter-spacing: 1px;
+    text-decoration: none;
 
     @include mobile {
       margin: 0 10px;
@@ -444,6 +447,10 @@ article {
     line-height: $line-height;
   }
 
+  a {
+    color: $blue;
+  }
+
   .excerpt {
 
     .excerpt-image {
@@ -477,14 +484,20 @@ article {
   }
 
   .read-more {
+    
     a {
       font-size: $small-font-size;
+      text-decoration: none;
+      color: gray;
     }
 
   }
 
 }
 .post {
+
+  margin: 2em 0 2em 0;
+  
   h1 {
     margin-bottom: .1em;
   }
@@ -492,8 +505,9 @@ article {
   .post-header-image {
     object-fit: contain;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     margin-top:10px;
+    height: 300px; 
 
     img {
       width: 100%;
@@ -511,7 +525,7 @@ article {
     font-weight: $light-font-weight;
     color: $base-lighten-color;
     margin-right: 3px;
-    font-size: $regular-font-size;
+    font-size: $small-font-size;
     font-family: $lato;
   }
 
@@ -695,8 +709,8 @@ footer {
 
 button {
   background-color: white;
-  border: 0.7px solid $blue;
-  color: $blue;
+  border: 0.7px solid $gray;
+  color: $gray;
   font-size: $regular-font-size;
   padding:8px;
   border-radius: 8px;

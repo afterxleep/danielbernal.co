@@ -27,22 +27,22 @@ $code-font: 'Inconsolata', 'Menlo', 'Courier New', 'Monaco', monospace;
 
 // Font sizes
 $base-font-size: 18px;
-$regular-font-size: 16px;
-$small-font-size: 13px;
+$regular-font-size: 18px;
+$small-font-size: 15px;
 $very-small-font-size: 11px;
 $line-height: 1.7em;
 $header-line-height: 34px;
 $header-line-height-mobile: 34px;
 $code-font-size: 15px;
-$base-font-weight: 400;
-$light-font-weight: 350;
+$base-font-weight: 380;
+$light-font-weight: 300;
 
 // Colors
 $base-color: $darkerGray;
 $base-lighten-color: $gray;
 
 $text-color: $base-color;
-$link-color: $oc-blue-8;
+$link-color: $gray;
 $divider-color: $oc-gray-1;
 
 $table-border-color: $oc-gray-2;
@@ -58,8 +58,8 @@ $footnote-link-background-over-color: $oc-gray-1;
 $selection-color: $oc-black;
 $selection-background-color: $oc-gray-1;
 
-$pagination-color: $oc-gray-6;
-$pagination-over-color: $oc-gray-7;
+$pagination-color: $gray;
+$pagination-over-color: $darkGray;
 
 $tag-index-label-color: $base-color;
 $tag-index-label-background-color: $oc-gray-2;
