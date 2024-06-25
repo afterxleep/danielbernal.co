@@ -15,6 +15,7 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
+$system: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $lato: 'Lato', sans-serif;
@@ -22,15 +23,15 @@ $merriweather: 'Merriweather', serif;
 $georgia: Georgia, serif;
 
 // Fonts
-$base-font: $merriweather;
+$base-font: $system;
 $code-font: 'Inconsolata', 'Menlo', 'Courier New', 'Monaco', monospace;
 
 // Font sizes
-$base-font-size: 18px;
-$regular-font-size: 18px;
-$small-font-size: 15px;
-$very-small-font-size: 11px;
-$line-height: 1.7em;
+$base-font-size: 1.25em;
+$regular-font-size: 1em;
+$small-font-size: 0.8em;
+$very-small-font-size: 0.8em;
+$line-height: 1.4em;
 $header-line-height: 34px;
 $header-line-height-mobile: 34px;
 $code-font-size: 15px;

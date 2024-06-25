@@ -36,8 +36,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $lato;
+  font-family: $system;
   line-height: $header-line-height;
+  font-weight: 600;
   padding: 0;
   @include mobile {
     line-height: $header-line-height-mobile;
@@ -336,10 +337,23 @@ img {
 .masthead {
   padding: 0 0;
   border-bottom: 1px solid $lightGray;
+  
+  p {
+    color: $gray;
+    margin: 0;
+    letter-spacing: 2px;
+  }
 
   @include mobile {
     text-align: center;
   }
+
+  img {
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;      
+  }
+
 }
 
 .site-avatar {
@@ -368,7 +382,7 @@ img {
   margin: 60px 0 0 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $system;
   font-size: 35px;
   letter-spacing: -1px;
 }
@@ -408,6 +422,7 @@ nav {
       color: $blue;
     }
   }
+
 }
 
 // Posts
@@ -674,7 +689,8 @@ footer {
 
   p {
     font-weight: $base-font-weight;
-    font-size: $small-font-size
+    font-size: $small-font-size;
+    color: $gray;
   }
 
   .svg-icon {
@@ -712,7 +728,7 @@ button {
   background-color: white;
   border: 0.7px solid $gray;
   color: $gray;
-  font-size: $regular-font-size;
+  font-size: $small-font-size;
   padding:8px;
   border-radius: 8px;
   font-weight: $light-font-weight;
@@ -727,6 +743,28 @@ button {
 
 }
 
+.socials {
+
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+
+  .social {
+    display: block;
+    height: 40px;
+    width: 40px;
+  }
+
+  .email {
+    background: url(data:image/svg+xml,%3Csvg%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%220%200%2040%2040%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M12.875%2012H27.875C28.9063%2012%2029.75%2012.8437%2029.75%2013.875V25.125C29.75%2026.1563%2028.9063%2027%2027.875%2027H12.875C11.8437%2027%2011%2026.1563%2011%2025.125V13.875C11%2012.8437%2011.8437%2012%2012.875%2012Z%22%20stroke%3D%22%23777777%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%3Cpath%20d%3D%22M29.75%2013.875L20.375%2020.4375L11%2013.875%22%20stroke%3D%22%23777777%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%3C%2Fsvg%3E%0A) no-repeat center;
+  }
+  .linkedin {
+    background: url(data:image/svg+xml,%3Csvg%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%220%200%2040%2040%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M12.3354%2010.0007C12.0314%209.99333%2011.729%2010.0469%2011.446%2010.1581C11.163%2010.2694%2010.9051%2010.4362%2010.6875%2010.6486C10.4699%2010.861%2010.297%2011.1148%2010.1789%2011.395C10.0608%2011.6753%2010%2011.9763%2010%2012.2804C10%2012.5845%2010.0608%2012.8855%2010.1789%2013.1658C10.297%2013.446%2010.4699%2013.6998%2010.6875%2013.9122C10.9051%2014.1246%2011.163%2014.2914%2011.446%2014.4027C11.729%2014.5139%2012.0314%2014.5675%2012.3354%2014.5601C12.9305%2014.5458%2013.4964%2014.2993%2013.9122%2013.8733C14.328%2013.4474%2014.5608%2012.8757%2014.5608%2012.2804C14.5608%2011.6851%2014.328%2011.1134%2013.9122%2010.6875C13.4964%2010.2615%2012.9305%2010.015%2012.3354%2010.0007ZM24.3145%2016.0526C22.4135%2016.0526%2021.1493%2017.0939%2020.6266%2018.0836H20.543V16.3431H16.8113V28.9457H20.7088V22.7266C20.7088%2021.0843%2021.0352%2019.4937%2023.0715%2019.4937C25.0773%2019.4937%2025.1038%2021.3483%2025.1038%2022.8102V28.9457H29V22.0222C29%2018.6341%2028.2783%2016.0526%2024.3145%2016.0526ZM10.4278%2016.3431V28.9457H14.3664V16.3431H10.4278Z%22%20fill%3D%22%23777777%22%2F%3E%0A%3C%2Fsvg%3E%0A) no-repeat center;
+  }
+  .twitter {
+    background: url(data:image/svg+xml,%3Csvg%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%220%200%2040%2040%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M17.1614%2028C24.5548%2028%2028.5987%2021.8438%2028.5987%2016.5052C28.5987%2016.3304%2028.5987%2016.1563%2028.587%2015.983C29.3737%2015.4112%2030.0528%2014.703%2030.5925%2013.8919C29.8588%2014.2186%2029.0806%2014.4328%2028.2837%2014.5275C29.1228%2014.0226%2029.7509%2013.2285%2030.0509%2012.293C29.2619%2012.7636%2028.3986%2013.0952%2027.4984%2013.2736C26.2524%2011.942%2024.2725%2011.6161%2022.6689%2012.4786C21.0653%2013.3411%2020.2369%2015.1776%2020.6481%2016.9581C17.4161%2016.7953%2014.4048%2015.261%2012.3636%2012.7372C11.2967%2014.5831%2011.8417%2016.9446%2013.6081%2018.1301C12.9684%2018.1111%2012.3427%2017.9377%2011.7837%2017.6245C11.7837%2017.641%2011.7837%2017.6583%2011.7837%2017.6757C11.7842%2019.5988%2013.133%2021.2551%2015.0086%2021.6359C14.4168%2021.7981%2013.7959%2021.8218%2013.1936%2021.7052C13.7202%2023.3509%2015.2293%2024.4783%2016.949%2024.5108C15.5256%2025.6351%2013.7673%2026.2454%2011.9569%2026.2436C
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
