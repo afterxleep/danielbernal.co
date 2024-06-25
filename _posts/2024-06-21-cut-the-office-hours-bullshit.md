@@ -17,7 +17,7 @@ Instead of “letting” people book a few minutes of your time once a week, try
 
 As a leader, your time belongs to your team. You are there for them, and the least you can do is be genuinely present and approachable, or get out of the way.
 
-Cut the pretense. Your team does not need this.
+Cut the pretense. Your team does not need this bullshit.
 
 
 —
