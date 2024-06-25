@@ -10,11 +10,11 @@ author: Daniel
 
 ---
 
-Standards made sense in the Industrial Age. Efficiency and consistency were vital then. But today, they often don't fit—not for everything.<!--more-->
+Standards made sense in the Industrial Age. Efficiency and consistency were vital then. Today, they often don’t fit.
 
-You need strict standards to build a plane, but Rock wouldn't exist if Chuck Berry hadn't experimented with the unconventional.
+You need strict standards to build a plane, but Rock wouldn’t exist if Chuck Berry hadn’t broken the rules.
 
-Stiffness often leads to bureaucracy, boredom, overthinking, and shipping predictable stuff. It can get you ISO-certified if that's your jam, but the best things start with breaking some of your own rules.
+Stiffness leads to bureaucracy, boredom, overthinking, and predictability. It can get you ISO-certified if that’s your jam, but the best things come from breaking your own rules.
 
 -
 
