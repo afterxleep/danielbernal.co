@@ -14,7 +14,7 @@ Standards made sense in the Industrial Age. Efficiency and consistency were vita
 
 You need strict standards to build a plane, but Rock wouldn't exist if Chuck Berry hadn't experimented with the unconventional.
 
-Stiffness often leads to bureaucracy, boredom, overthinking, and shipping predictable stuff. It can get you ISO-certified if that's your thing, but the best things start with breaking some rules.
+Stiffness often leads to bureaucracy, boredom, overthinking, and shipping predictable stuff. It can get you ISO-certified if that's your jam, but the best things start with breaking some rules.
 
 -
 
