@@ -79,7 +79,6 @@ DEPENDENCIES
   jekyll-import
   jekyll-redirect-from
   jekyll-sitemap
-  nokogiri (= 1.16.6)
   webrick (~> 1.8)
 
 BUNDLED WITH
