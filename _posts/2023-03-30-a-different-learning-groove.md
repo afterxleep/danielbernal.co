@@ -11,7 +11,7 @@ author: Daniel
 
 Not all learning has to be confined within classroom walls or follow a rigid checklist. Often, the most valuable lessons emerge as we venture off the beaten path.
 
-As someone who embraces “Experiential learning” – learning by doing and making mistakes – my approach differs from the traditional method of lectures, readings, and exercises. Instead, I set a goal<!--more--> and dive right into it.
+As someone who embraces “Experiential learning” – learning by doing and making mistakes – my approach differs from the traditional method of lectures, readings, and exercises. Instead, I set a goal and dive right into it.
 
 To many, including my school and college teachers, this approach may seem time-consuming, messy, and full of inefficiencies. Yet, it has led me to where I am today. Despite barely finishing high school and dropping out of four colleges, I have taught myself everything from coding to team management to product development by promising and selling things I had no idea how to do and learning through the process.
 

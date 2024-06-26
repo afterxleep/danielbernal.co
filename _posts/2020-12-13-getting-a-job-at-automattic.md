@@ -11,7 +11,7 @@ guid: https://danielbernal.co/?p=345
 image: "/assets/IMG_0553.jpeg"
 ---
 
-I’ve been with Automattic for some time, and it’s been a fantastic ride. Since I joined, people have asked me about the hiring process, so I decided to write about my experience.<!--more-->
+I’ve been with Automattic for some time, and it’s been a fantastic ride. Since I joined, people have asked me about the hiring process, so I decided to write about my experience.
 
 I’m not part of the hiring team, and these are my personal opinions about the process. Whether the process is the same for you depends on the team and the position you’ve applied for.
 

@@ -8,7 +8,7 @@ comments: true
 image: "/assets/automattic_logos.png"
 ---
 
-Most of my recent experience is in IT Consulting firms, where you usually get the chance to work on short term projects (mostly), or [staff augmentation gigs](https://en.wikipedia.org/wiki/Staff_augmentation), but opportunities to work on real product development are slim.<!--more-->
+Most of my recent experience is in IT Consulting firms, where you usually get the chance to work on short term projects (mostly), or [staff augmentation gigs](https://en.wikipedia.org/wiki/Staff_augmentation), but opportunities to work on real product development are slim.
 
 IT Services in general, it's about either "Table Turnover" (as in, you want customers to sit down, eat, pay and move along so that you can serve more), or "Fast Growth" (as in, put more people to work for others and sell more of their time).  It's all about making money. (Not saying it's bad, by the way)
 

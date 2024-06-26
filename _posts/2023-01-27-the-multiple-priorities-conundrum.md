@@ -12,7 +12,7 @@ Let’s assume you lead a development team and you’re given the following list
 
 **Next year’s priorities:**
 * Improve app stability
-* Improve app performance<!--more-->
+* Improve app performance
 * Improve app accessibility
 * Update the app’s UI design
 * Remove low-usage features

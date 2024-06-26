@@ -9,7 +9,7 @@ comments: true
 image: "/assets/redux1.png"
 ---
 
-Since the beta release of iOS 14 and now that SwiftUI is a little more mature, I have been exploring different architectures that better fit its patterns. After working with React for a while, I got curious about using something similar to Redux on iOS.<!--more-->
+Since the beta release of iOS 14 and now that SwiftUI is a little more mature, I have been exploring different architectures that better fit its patterns. After working with React for a while, I got curious about using something similar to Redux on iOS.
 
 The basic idea is to describe the whole App State using a single or set of structs, to have a single source of truth for the entire application.  This means, having all the information required by our User Interface readily available and up to date.
 

@@ -8,7 +8,7 @@ image: "/assets/pennies.jpg"
 author: Daniel
 ---
 
-While it might be tempting to go for the cheapest option, when it comes to your work tools, it's not worth it in the long run. <!--more-->
+While it might be tempting to go for the cheapest option, when it comes to your work tools, it's not worth it in the long run. 
 
 Tools are an investment. Putting your money into something that will last, and help you do your work faster, will save you time, money, and frustration in the long run.
 

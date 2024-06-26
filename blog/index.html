@@ -36,11 +36,11 @@ layout: default
             </div>
             {% endunless %}
           {% endif %}
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}</a>
-          <span class="read-more">
-            <a href="{{ site.baseurl }}{{ post.url }}">CONTINUE READING</a>
-          </span>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}</a>          
         </div>
+        <div class="read-more">
+          <a href="{{ site.baseurl }}{{ post.url }}">READ MORE...</a>
+        </span>
       </div>
     </article>
   {% endfor %}

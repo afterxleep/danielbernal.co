@@ -12,7 +12,7 @@ author: Daniel
 
 Standards made sense 100 years ago. Efficiency and consistency were vital then. Today, they often don’t fit.
 
-You need strict standards to build a plane, but Rock wouldn’t exist if Chuck Berry hadn’t tried the unconventional.<!--more-->
+You need strict standards to build a plane, but Rock wouldn’t exist if Chuck Berry hadn’t tried the unconventional.
 
 Stiffness leads to bureaucracy, boredom, overthinking, and predictability. It can get you ISO-certified if that’s your jam, but the best things come from breaking your own rules.
 

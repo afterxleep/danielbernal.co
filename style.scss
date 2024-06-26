@@ -88,7 +88,7 @@ h6 {
 
 p {
   color: $text-color;
-  margin: 1.5em 0;
+  margin-bottom: 1.5em;
 }
 
 a {
@@ -278,7 +278,7 @@ a.footnote {
 
 // Image
 img {
-  border-radius: 5px;  
+  border-radius: 10px;  
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -380,7 +380,7 @@ img {
 
 .site-name {
   margin: 60px 0 0 0;
-  color: $darkGray;
+  color: $base-color;
   cursor: pointer;
   font-family: $system;
   font-size: 35px;
@@ -389,7 +389,7 @@ img {
 
 .site-description {
   margin: -8px 0 0 0;
-  color: $gray;
+  color: $base-lighten-color;
   font-size: 15px;
 
   @include mobile {
@@ -412,7 +412,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $gray;
+    color: $base-lighten-color;
     text-align: right;
     letter-spacing: 1px;
     text-decoration: none;
@@ -468,19 +468,22 @@ article {
 
   .excerpt {
 
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* Change this number to adjust the number of visible lines */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+
     .excerpt-image {
       height:225px;
       width:auto;
-
-      @include mobile {
-        height:120px;
-      }
-
+      margin-bottom: 1em;
       img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         border: 1px solid #ccc;
+
       }
     }
 
@@ -489,14 +492,8 @@ article {
     }
 
     p {
-      font-size: $regular-font-size;
-      &:last-of-type:after {
-        content: '...';
-        margin-bottom:0;
-      }
-      &:first-of-type {
+      font-size: $small-font-size;
 
-      }
     }
 
 
@@ -504,10 +501,13 @@ article {
 
   .read-more {
     
+    margin-top: 20px;
+
     a {
       font-size: $small-font-size;
       text-decoration: none;
       color: gray;
+      
     }
 
   }
@@ -518,13 +518,13 @@ article {
   margin: 2em 0 2em 0;
   
   h1 {
-    margin-bottom: .1em;
+    margin-bottom: 0;
   }
 
   .post-header-image {
     object-fit: contain;
-    width: 100%;    
-    margin-top:10px;    
+    width: 100%;
+    margin-bottom: 1em;        
 
     img {
       width: 100%;
@@ -543,7 +543,7 @@ article {
     color: $base-lighten-color;
     margin-right: 3px;
     font-size: $small-font-size;
-    font-family: $lato;
+    font-family: $system;
   }
 
   .tag {

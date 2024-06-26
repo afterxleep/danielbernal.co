@@ -10,7 +10,7 @@ author: Daniel
 
 I moved this blog out of [WordPress](https://wordpress.org/). Don't get me wrong, I still work at [Automattic](https://automattic.com), but WordPress has too many moving parts for my needs.
 
-Since I don't need fancy templates, plugins<!--more-->, databases, comments, stats, a store, and much less dealing with security updates, backups, and hosting providers, I wanted to try a static solution.
+Since I don't need fancy templates, plugins, databases, comments, stats, a store, and much less dealing with security updates, backups, and hosting providers, I wanted to try a static solution.
 
 It made a lot of sense. I could host it on Github pages and forget about security or hosting providers, and my posts would live in beautiful, clean markdown files.
 

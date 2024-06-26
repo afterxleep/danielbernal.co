@@ -12,7 +12,7 @@ guid: https://danielbernal.co/?p=464
 image: "/assets/network.jpg"
 ---
 
-Most of our apps rely on network calls to work, and thanks to [URLSession](https://developer.apple.com/documentation/foundation/urlsession) and [Codable](https://developer.apple.com/documentation/swift/codable), consuming REST APIs has become a lot easier these days. That said, we are still writing quite a bit of code to deal with async calls, JSON encoding and decoding, HTTP error handling, and more.<!--more-->
+Most of our apps rely on network calls to work, and thanks to [URLSession](https://developer.apple.com/documentation/foundation/urlsession) and [Codable](https://developer.apple.com/documentation/swift/codable), consuming REST APIs has become a lot easier these days. That said, we are still writing quite a bit of code to deal with async calls, JSON encoding and decoding, HTTP error handling, and more.
 
 With that in mind, let’s write our own simple networking library, specifically designed to consume REST APIs without effort, using a ‘convention over configuration’ approach, alongside Combine, URLSession, and the Codable protocol.
 

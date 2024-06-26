@@ -10,7 +10,7 @@ image: "/assets/icons.jpg"
 ---
 
 Speaking of [A/B tests](/a-b-test-your-design-not-your-product/), Apple has a pretty good set of tools to test (and optimize) your app’s App Store page. They call them «_test treatments_», and you can use them to test different versions of your App’s screenshots to see what drives more downloads.
-<!--more-->
+
 Most people don’t know that test treatments support **A/B testing your app icon,** **too**, as long as you include different variations via an asset catalog. Let’s see how.
 
 We’ll be running a little experiment with slight variations of the app icon as follows:

@@ -11,7 +11,7 @@ guid: https://danielbernal.co/?p=714
 image: "/assets/wireframes.jpg"
 ---
 
-A/B testing is instrumental in measuring anything that a computer can count. It’s great to measure simple actions, such as a user tapping a button or conversions, but you shouldn’t base long-term product decisions on these results.<!--more-->
+A/B testing is instrumental in measuring anything that a computer can count. It’s great to measure simple actions, such as a user tapping a button or conversions, but you shouldn’t base long-term product decisions on these results.
 
 I cringe when I see product teams “measuring” engagement, usability improvements, or even “extracting” behavioral insights from A/B tests without talking to users. That’s a self-fulfilling prophecy.
 
