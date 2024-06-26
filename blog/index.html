@@ -32,11 +32,11 @@ layout: default
           {% if post.image %}
             {% unless post.image == empty %}
             <div class="excerpt-image">
-              <img src="{{post.image}}" />
+              <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{post.image}}" /></a>
             </div>
             {% endunless %}
           {% endif %}
-          {{ post.excerpt }}
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}</a>
           <span class="read-more">
             <a href="{{ site.baseurl }}{{ post.url }}">CONTINUE READING</a>
           </span>

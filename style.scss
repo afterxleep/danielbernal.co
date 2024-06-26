@@ -484,6 +484,10 @@ article {
       }
     }
 
+    a {
+      text-decoration: none;
+    }
+
     p {
       font-size: $regular-font-size;
       &:last-of-type:after {
