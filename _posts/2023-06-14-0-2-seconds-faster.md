@@ -20,5 +20,6 @@ Sometimes, we’re so entangled in a cycle of perceived productivity that we bui
 
 The realization is a bit unsettling, yet also presents an opportunity to recalibrate, and reflect on what truly matters. Most of us may never face decisions with such high stakes as those made in the throes of the Fukushima disaster, but there’s always an opportunity to question our perspectives and values and shift focus to the true significance of what we do every day.
 
+—
 <sup>Photo by <a href="https://unsplash.com/@enginakyurt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">engin akyurt</a> on <a href="https://unsplash.com/photos/16kg7sIC0gY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </sup>  

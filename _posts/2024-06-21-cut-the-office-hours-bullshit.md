@@ -20,7 +20,7 @@ As a leader, your time belongs to your team. You are there for them, and the lea
 Cut the pretense. Your team does not need this bullshit.
 
 
-—
+—--
 
-Photo by [Sergio Capuzzimati](https://unsplash.com/@sergio_capuzzimati?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on Unsplash
+<sup>Photo by [Sergio Capuzzimati](https://unsplash.com/@sergio_capuzzimati?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on Unsplash</sup>
 

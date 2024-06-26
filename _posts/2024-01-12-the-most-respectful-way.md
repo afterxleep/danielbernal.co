@@ -25,5 +25,6 @@ A good communicator not only picks the correct words but also considers the rece
 
 I call this the "Most Respectful Way," where we consciously strive to communicate in a straightforward and considerate manner. It's the most basic courtesy we owe to our recipient.
 
+—
 <sup>Photo by <a href="https://unsplash.com/@yogidan2012?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Daniele Levis Pelusi</a> on <a href="https://unsplash.com/photos/purple-and-white-abstract-painting-T20GYI9lkrs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 </sup>  

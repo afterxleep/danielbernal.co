@@ -16,6 +16,6 @@ You need strict standards to build a plane, but Rock wouldn’t exist if Chuck B
 
 Stiffness leads to bureaucracy, boredom, overthinking, and predictability. It can get you ISO-certified if that’s your jam, but the best things come from breaking your own rules.
 
--
+---
 
 <sup>Photo: Chuck Berry via [Rolling Stone](https://www.rollingstone.com/music/music-features/chuck-berry-farewell-to-the-father-of-rock-118589/)</sup>

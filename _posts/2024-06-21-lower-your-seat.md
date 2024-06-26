@@ -16,7 +16,7 @@ Life’s the same. Elevating your status may give you a false sense of security 
 
 Next time, try lowering your seat. 
 
-— 
+---
 
-Photo: [Old Route 66](https://maps.apple.com/?ll=34.961780,-114.408762&q=Oatman&t=m), Oatman, CA
+<sup>Photo: [Old Route 66](https://maps.apple.com/?ll=34.961780,-114.408762&q=Oatman&t=m), Oatman, CA</sup>
 

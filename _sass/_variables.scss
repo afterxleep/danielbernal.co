@@ -27,10 +27,11 @@ $base-font: $system;
 $code-font: 'Inconsolata', 'Menlo', 'Courier New', 'Monaco', monospace;
 
 // Font sizes
-$base-font-size: 1.2em;
-$regular-font-size: 1em;
+$base-font-size: 19px;
+$reading-font-size: $base-font-size;
 $small-font-size: 0.9em;
-$very-small-font-size: 0.6em;
+$very-small-font-size: 0.4em;
+$tiny-font-size: 0.2em;
 
 $line-height: 1.4em;
 $header-line-height: 34px;

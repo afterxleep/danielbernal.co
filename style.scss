@@ -431,6 +431,8 @@ nav {
   margin-bottom: 1.5em;
   border-bottom: 1px solid $divider-color;
 
+  font-size: $reading-font-size;
+
   h2 {
     margin-top: 0;
     margin-bottom: 0.5em;
@@ -460,6 +462,7 @@ article {
     font-weight: $base-font-weight;
     color: $base-color;
     line-height: $line-height;
+    font-size: $reading-font-size;
   }
 
   a {
@@ -478,6 +481,7 @@ article {
       height:225px;
       width:auto;
       margin-bottom: 1em;
+      
       img {
         width: 100%;
         height: 100%;
@@ -489,13 +493,8 @@ article {
 
     a {
       text-decoration: none;
+      color: $base-color;
     }
-
-    p {
-      font-size: $small-font-size;
-
-    }
-
 
   }
 

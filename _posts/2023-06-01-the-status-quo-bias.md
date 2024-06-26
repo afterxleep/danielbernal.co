@@ -20,4 +20,5 @@ I'm a harsh critic of everything I'm a part of, and can’t keep my mouth shut, 
 
 Challenging the status quo invariably leads to ruffled feathers, frazzled nerves, and tons of shit thrown your way. Yet, despite the discomfort, it's a good path to catalyze change; real and permanent change.
 
+—
 <sup>Photo by <a href="https://unsplash.com/fr/@imharsh081?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Harsh Hupta</a> on <a href="https://unsplash.com/photos/nVDB1IGq64s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></sup>  

@@ -29,4 +29,5 @@ Instead of creating the perfect all-in-one learning path, companies should consi
 
 It’s disheartening, as who wouldn’t want to have engaged employees with diverse approaches to problem-solving, innovation, and collaboration? –– And on the other hand, who wouldn’t want to work in an environment that values personal growth and encourages learning in one’s unique way? –– Embracing various learning styles fosters a more inclusive workplace and promotes creative thinking and adaptability, ultimately contributing to your success as a company.
 
+—
 <sup>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/c7ZIR8tMFAY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></sup>  
