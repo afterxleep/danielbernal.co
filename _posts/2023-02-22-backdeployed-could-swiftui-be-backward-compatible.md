@@ -8,9 +8,9 @@ image: "/assets/back.jpg"
 author: Daniel
 ---
 
-One of the most exciting (yet obscure) changes with iOS 16.4 is the @backDeployed attribute in Swift.<!--more--> 
+One of the most exciting (yet obscure) changes with iOS 16.4 is the @backDeployed attribute in Swift. 
 
-@backDeployed will allow you to mark certain functions or properties as backward-compatible. When using it, the Swift compiler generates code that checks at runtime whether the feature is available on the target device. If not, it will generate fallback code that allows the feature to work as expected on older versions of iOS.
+@backDeployed will allow you to mark certain functions or properties as backward-compatible. When using it, the Swift compiler generates code that checks at runtime whether the feature is available on the target device.<!--more--> If not, it will generate fallback code that allows the feature to work as expected on older versions of iOS.
 
 Theoretically @backDeployed is going to be part of iOS 16.4, which will be released soon. Still, the real deal relies on Apple using this feature in its SwiftUI implementation, as it could significantly boost backward compatibility for SwiftUI apps.
 

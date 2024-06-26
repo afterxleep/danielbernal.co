@@ -1,4 +1,3 @@
----
 title: danielbernal.co
 timezone: UTC
 collections:
@@ -23,14 +22,14 @@ kramdown:
 sass:
   style: compressed
 plugins:
-- jekyll-redirect-from
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
 exclude:
-- LICENSE
-- README.md
-- CNAME
-excerpt_separator: "<!--more-->"
+  - LICENSE
+  - README.md
+  - CNAME
+excerpt_separator: ""
 future: false
 highlighter: rouge
