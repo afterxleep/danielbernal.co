@@ -2,7 +2,6 @@
 layout: post
 title: "Make it personal"
 date: 2024-06-30T09:00:00.000Z
-image: ''
 categories:
   - life
   - work
