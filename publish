@@ -1,4 +1,4 @@
 #!/bin/bash
 
-git commit -a -m "Content Changes"
+git commit -a -m "Post Updates"
 git push
