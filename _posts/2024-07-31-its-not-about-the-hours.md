@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "It's not about the ours"
+title: "It's not about the hours"
 date: 2024-07-31T09:00:00.000Z
 categories:
   - life
