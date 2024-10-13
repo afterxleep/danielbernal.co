@@ -38,6 +38,8 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -72,7 +74,11 @@ DEPENDENCIES
   jekyll-feed
   jekyll-paginate
   jekyll-redirect-from
+  jekyll-sitemap
   webrick (~> 1.8)
 
+RUBY VERSION
+   ruby 3.0.4p208
+
 BUNDLED WITH
-   2.2.3
+   2.2.33

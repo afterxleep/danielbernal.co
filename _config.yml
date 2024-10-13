@@ -25,6 +25,7 @@ sass:
 plugins:
 - jekyll-redirect-from
 - jekyll-paginate
+- jekyll-sitemap
 - jekyll-feed
 exclude:
 - LICENSE
