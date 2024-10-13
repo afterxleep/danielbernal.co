@@ -11,7 +11,7 @@ image: "/assets/ios14.jpg"
 I have decided to rewrite [Bouncer](https://github.com/afterxleep/Bouncer) from scratch using the latest SwiftUI version available in iOS 14.  This includes using the new SwiftUI App Lifecycle, which allows you to skip UIKit entirely, alongside the AppDelegate and Storyboards.
 
 As I got closer to finishing the app, I decided to replace the default (white) Splash Screen with something better, but since there was no Storyboard anymore, I had no idea how.
- 
+ <!--more-->
 After a little digging, I could not find much in the documentation, but after watching the ["What's new on SwiftUI"](https://developer.apple.com/wwdc20/10041) video from WWDC20 and digging a little into Plist options, found that Apple has provided a new Key in the info.plist to help you create a basic LaunchScreen:  *The "Launch Screen" (UILaunchScreen)*  
 
 ### The Setting:

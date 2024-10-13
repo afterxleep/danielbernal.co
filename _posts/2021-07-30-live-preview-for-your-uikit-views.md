@@ -13,7 +13,7 @@ image: "/assets/swift.jpg"
 
 One of the best features of SwiftUI is being able to preview your code during development, but did you know that you can also use SwiftUI to preview your old-fashioned UIKit ViewControllers and Views?
 
-Here’s how…
+Here’s how…<!--more-->
 
 We will be using a protocol called [`UIViewControllerRepresentable`](https://developer.apple.com/documentation/swiftui/uiviewcontrollerrepresentable), which allows us to create and manage a `UIViewController` from SwiftUI.
 

@@ -9,7 +9,7 @@ image: "/assets/desk.jpg"
 author: Daniel
 ---
 
-We've been duping ourselves, believing that packing a virtual room with faces on a screen every week fosters inclusivity, collaboration, and productivity. Yet, often, particularly in distributed teams, sync meetings devolve into grids of nodding heads, with only a few voices leading the conversation. 
+We've been duping ourselves, believing that packing a virtual room with faces on a screen every week fosters inclusivity, collaboration, and productivity. Yet, often, particularly in distributed teams, sync meetings devolve into grids of nodding heads, with only a few voices leading the conversation. <!--more-->
 
 The problem is not the meeting itself; it's the passive participation it encourages. The routine of weekly — or even worse, daily — sync calls, mechanically sifting through updates and arbitrary agendas, isn't just unproductive; it's intellectually numbing.  We are buying into the myth that showing up on a screen equals meaningful contribution and constitutes a metric of engagement.
 

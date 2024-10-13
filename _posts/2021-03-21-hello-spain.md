@@ -11,7 +11,7 @@ guid: https://danielbernal.co/?p=530
 image: "/assets/spain.jpg"
 ---
 
-Back in November 2020, and after a few long conversations, we decided to sell everything we owned and move to Spain. Between preparations, paperwork, and a long garage sale we finally got here last week, with just a few suitcases and both our pets, Tesla and Oli.
+Back in November 2020, and after a few long conversations, we decided to sell everything we owned and move to Spain. Between preparations, paperwork, and a long garage sale we finally got here last week, with just a few suitcases and both our pets, Tesla and Oli.<!--more-->
 
 We just completed our first week in Madrid and will be out of the mandatory 10-day quarantine in a couple of days when we will continue with the plan of moving to Valencia, given COVID restrictions allow.
 

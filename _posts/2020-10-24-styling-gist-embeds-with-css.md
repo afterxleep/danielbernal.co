@@ -9,7 +9,7 @@ author: Daniel
 layout: post
 ---
 
-[Gists](https://gist.github.com/discover) are short bits of code you can share and reuse. They act as lightweight repos, feature version control, and can include anything from a string to multiple files. You can also embed them on any website, which is excellent to share examples, but unfortunately, there’s no way to change the default syntax highlighting. Let’s fix that.
+[Gists](https://gist.github.com/discover) are short bits of code you can share and reuse. They act as lightweight repos, feature version control, and can include anything from a string to multiple files. You can also embed them on any website, which is excellent to share examples, but unfortunately, there’s no way to change the default syntax highlighting. Let’s fix that.<!--more-->
 
 I recently moved all the code examples from my posts from inline &lt;code&gt; to[ Gists](https://gist.github.com/discover) as it’s a lot easier to maintain them, reuse them, and keep them up to date. The default syntax highlighting style for Swift looks like this:
 

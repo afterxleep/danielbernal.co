@@ -9,7 +9,7 @@ comments: true
 image: "/assets/redux4.png"
 ---
 
-After looking at the Redux approach, figuring things out and writing the previous set of posts ([The Basics]({{ site.url }}/redux-like-architecture-with-swiftui-basics/), [Side Effects]({{ site.url }}/redux-like-architecture-with-swiftui-middleware/) and [Error Handling]({{ site.url }}/redux-like-architecture-with-swiftui-error-handling/)), I wanted to put it all in practice with a real app, and decided to rewrite Bouncer (again).
+After looking at the Redux approach, figuring things out and writing the previous set of posts ([The Basics]({{ site.url }}/redux-like-architecture-with-swiftui-basics/), [Side Effects]({{ site.url }}/redux-like-architecture-with-swiftui-middleware/) and [Error Handling]({{ site.url }}/redux-like-architecture-with-swiftui-error-handling/)), I wanted to put it all in practice with a real app, and decided to rewrite Bouncer (again).<!--more-->
 
 Bouncer is a little open-source app I wrote, that takes advantage of the *IdentityLookup* framework to [filter unwanted messages](https://developer.apple.com/videos/play/wwdc2017/249/).  It is as simple as a plain text word-list, and an extension that matches message contents against it.  So simple, it’s the perfect candidate to try this out.
 

@@ -10,7 +10,7 @@ author: Daniel
 
 AI blowing us away with its superhuman abilities is cool, but that’s the tip of the iceberg. The real magic of AI, especially in search, is its availability and affordability. 
 
-With traditional search engines, you still have to dig and check a few sites before finding what you’re looking for. This helps ensure the source is trustworthy and allows you to explore and form your own opinions. (Not everyone does this, but the option is there.)
+With traditional search engines, you still have to dig and check a few sites<!--more--> before finding what you’re looking for. This helps ensure the source is trustworthy and allows you to explore and form your own opinions. (Not everyone does this, but the option is there.)
 
 AI bots, on the other hand, give us quick, averaged, neutral, and seemingly accurate answers that may lead us to accept their output without a second thought.   Considering that many people are already taking medical advice from random websites and finding truth in social media posts, imagine how trustworthy an AI chatbot can be.
 

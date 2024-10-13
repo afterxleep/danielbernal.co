@@ -10,7 +10,7 @@ author: Daniel
 
 Many times, we become victims of our own choices. Not just the bad ones, but even worse, the choices that stick around well past their expiration date.
 
-We become hostages to the 'business as usual' mentality, a cognitive straightjacket that stifles change and breeds complacency, and all those stubborn bad choices that we can’t just seem to shake off. That’s the Status Quo bias.
+We become hostages to the 'business as usual' mentality, a cognitive straightjacket that stifles change and breeds complacency, and all those stubborn bad choices that we can’t just seem to shake off.<!--more--> That’s the Status Quo bias.
 
 We're more afraid of what we might lose than we're excited about what we could gain. It's a mental hang-up that trips us up, convincing us to hold onto failing stocks or stick with draining relationships, dreadful jobs, and even dangerous situations. It’s not rational. It's not smart, but we somehow trick ourselves about it being the right call.
 
@@ -20,5 +20,4 @@ I'm a harsh critic of everything I'm a part of, and can’t keep my mouth shut, 
 
 Challenging the status quo invariably leads to ruffled feathers, frazzled nerves, and tons of shit thrown your way. Yet, despite the discomfort, it's a good path to catalyze change; real and permanent change.
 
-—
 <sup>Photo by <a href="https://unsplash.com/fr/@imharsh081?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Harsh Hupta</a> on <a href="https://unsplash.com/photos/nVDB1IGq64s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></sup>  

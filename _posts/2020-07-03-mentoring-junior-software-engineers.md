@@ -9,7 +9,7 @@ comments: true
 image: "/assets/engineers2.jpg"
 ---
 
-In a [previous post]({{ site.url }}/mentoring-engineering-interns/), we discussed strategies to hire, motivate and mentor Engineering Interns and is time to move up the ladder and talk about the recently hired, more Junior members of your team. Let's get down to it.
+In a [previous post]({{ site.url }}/mentoring-engineering-interns/), we discussed strategies to hire, motivate and mentor Engineering Interns and is time to move up the ladder and talk about the recently hired, more Junior members of your team. Let's get down to it.<!--more-->
 
 ## Seniority is not only about knowledge
 When it comes to software engineering, most people think that Senior Developers are better, faster, and more efficient than Junior engineers.  In many cases, they are, but that's not always true.

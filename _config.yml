@@ -31,6 +31,6 @@ exclude:
 - LICENSE
 - README.md
 - CNAME
-excerpt_separator: <!--readmore-->
+excerpt_separator: <!--more-->
 future: false
 highlighter: rouge

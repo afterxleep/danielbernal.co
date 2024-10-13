@@ -472,9 +472,6 @@ article {
   .excerpt {
 
     overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 6; /* Change this number to adjust the number of visible lines */
-    -webkit-box-orient: vertical;
     text-overflow: ellipsis;
 
     .excerpt-image {

@@ -9,7 +9,7 @@ categories:
 author: Daniel
 
 ---
-Setting office hours is a pretentious practice from the nineteen-twenties. It’s an attempt to seem accessible while dictating when you can be bothered. Your team doesn’t operate on your clock, and your office hours are just another way to say your calendar is more important than them. 
+Setting office hours is a pretentious practice from the nineteen-twenties. It’s an attempt to seem accessible while dictating when you can be bothered. Your team doesn’t operate on your clock, and your office hours are just another way to say your calendar is more important than them. <!--more-->
 
 Leadership is about being available and present, reaching out proactively, understanding your team’s pulse, and addressing issues not only when you want.
 
@@ -20,7 +20,7 @@ As a leader, your time belongs to your team. You are there for them, and the lea
 Cut the pretense. Your team does not need this bullshit.
 
 
-—--
+—
 
-<sup>Photo by [Sergio Capuzzimati](https://unsplash.com/@sergio_capuzzimati?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on Unsplash</sup>
+Photo by [Sergio Capuzzimati](https://unsplash.com/@sergio_capuzzimati?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on Unsplash
 

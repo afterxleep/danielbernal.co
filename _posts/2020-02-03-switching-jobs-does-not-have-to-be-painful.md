@@ -1,6 +1,6 @@
 ---
 title: Switching jobs does not have to be painful
-date: 2020-02-03 00:00:00Z
+date: 2020-02-03 00:00:00 Z
 permalink: "/switching-jobs-does-not-have-to-be-painful/"
 categories:
 - life
@@ -11,7 +11,7 @@ image: "/assets/this-must-be-the-place.jpg"
 
 Seven hundred days ago, I quit my job at [Globant](http://www.globant.com) to join [Endava](http://www.endava.com), and it's time to do it again.  Most people think that two years is too little to do something (especially on a management role) and therefore the decision comes with lots of noise and questions, but, should it be that way?
 
-I'm 41 years old, and according to 'social standards on employment', I should be already thinking about settling down and securing my pension. For many of you, that might work out, but it simply sounds boring on this side of the screen.
+I'm 41 years old, and according to 'social standards on employment', I should be already thinking about settling down and securing my pension. For many of you, that might work out, but it simply sounds boring on this side of the screen.<!--more-->
 
 Except for [Banshai](http://www.banshai.com), which I founded and where I worked for almost 15 years at different intervals, these two years are the longest time I've stayed at the same place. Saying that publicly might sound alarming to many, but keep calm and continue reading.
 
