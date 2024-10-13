@@ -1,7 +1,6 @@
 ---
 title: Mentoring Junior Engineers (and new hires)
 date: 2020-07-03 00:00:00 Z
-permalink: "/mentoring-junior-software-engineers/"
 categories:
 - work
 layout: post

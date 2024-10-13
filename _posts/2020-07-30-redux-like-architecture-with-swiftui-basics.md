@@ -1,7 +1,6 @@
 ---
 title: Redux-like architecture with SwiftUI&#58; Basics
 date: 2020-07-30 00:00:00 Z
-permalink: "/redux-like-architecture-with-swiftui-basics/"
 categories:
 - code
 layout: post

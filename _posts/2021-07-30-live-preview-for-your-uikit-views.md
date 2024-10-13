@@ -1,7 +1,6 @@
 ---
 title: Live preview for your UIKit views
 date: 2021-07-30 00:00:00 Z
-permalink: "/live-preview-for-your-uikit-views/"
 categories:
 - code
 id: 562

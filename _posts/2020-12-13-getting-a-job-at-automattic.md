@@ -1,7 +1,6 @@
 ---
 title: Getting a job at Automattic
 date: 2020-12-13 00:00:00 Z
-permalink: "/getting-a-job-at-automattic/"
 categories:
 - life
 id: 345

@@ -12,7 +12,7 @@ collections:
 name: Daniel Bernal
 description: I WRITE IOS APPS WHILE TINKERING ON THE INTERWEBS FROM BEAUTIFUL VALENCIA.
 url: https://danielbernal.co
-permalink: "/:year/:month/:day/:title/"
+permalink: "/blog/:year/:month/:day/:title/"
 paginate: 10
 paginate_path: "/blog/page:num/"
 kramdown:

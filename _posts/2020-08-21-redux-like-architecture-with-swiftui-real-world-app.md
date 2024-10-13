@@ -1,7 +1,6 @@
 ---
 title: Redux-like architecture with SwiftUI&#58; Real World App
 date: 2020-08-21 00:00:00 Z
-permalink: "/redux-like-architecture-with-swiftui-real-world-app/"
 categories:
 - code
 layout: post

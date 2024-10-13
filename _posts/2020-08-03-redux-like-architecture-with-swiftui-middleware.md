@@ -1,7 +1,6 @@
 ---
 title: Redux-like architecture with SwiftUI&#58; Side Effects
 date: 2020-08-03 00:00:00 Z
-permalink: "/redux-like-architecture-with-swiftui-middleware/"
 categories:
 - code
 layout: post

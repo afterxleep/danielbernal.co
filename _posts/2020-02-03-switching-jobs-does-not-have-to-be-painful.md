@@ -1,7 +1,6 @@
 ---
 title: Switching jobs does not have to be painful
 date: 2020-02-03 00:00:00 Z
-permalink: "/switching-jobs-does-not-have-to-be-painful/"
 categories:
 - life
 layout: post

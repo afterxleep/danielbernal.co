@@ -1,7 +1,6 @@
 ---
 title: Find yourself some time
 date: 2020-02-26 00:00:00 Z
-permalink: "/find-yourself-some-time/"
 categories:
 - life
 layout: post

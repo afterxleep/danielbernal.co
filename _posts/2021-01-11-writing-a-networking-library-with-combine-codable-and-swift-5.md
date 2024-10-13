@@ -1,7 +1,6 @@
 ---
 title: Writing a Networking Library with Combine, Codable and Swift 5
 date: 2021-01-11 00:00:00 Z
-permalink: "/writing-a-networking-library-with-combine-codable-and-swift-5/"
 categories:
 - code
 - learn

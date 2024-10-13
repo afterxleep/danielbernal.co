@@ -1,7 +1,6 @@
 ---
 title: A/B testing your app icon
 date: 2022-09-24 22:16:00 Z
-permalink: "/2022-09-25-ab-testing-your-app-icon/"
 categories:
 - product
 author: Daniel

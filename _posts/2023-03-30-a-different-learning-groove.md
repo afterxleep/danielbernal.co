@@ -1,7 +1,6 @@
 ---
 title: A different learning groove
 date: 2023-03-30 22:00:00 Z
-permalink: "/2023/03/22/finding-your-learning-groove/"
 categories:
 - life
 layout: post
