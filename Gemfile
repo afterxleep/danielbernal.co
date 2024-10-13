@@ -2,7 +2,6 @@
 
 source "https://rubygems.org"
 
-gem 'jekyll-sitemap', '~> 1.4'
 gem 'jekyll-feed'
 gem 'jekyll-redirect-from'
 gem 'jekyll-paginate'

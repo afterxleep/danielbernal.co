@@ -74,7 +74,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-paginate
   jekyll-redirect-from
-  jekyll-sitemap
+  jekyll-sitemap (~> 1.4)
   webrick (~> 1.8)
 
 BUNDLED WITH
