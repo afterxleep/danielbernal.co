@@ -37,10 +37,12 @@ layout: default
             {% endunless %}
           {% endif %}
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}</a>          
-        </div>
+        </div>        
+        {% if post.content contains '<!--more-->' %}
         <div class="read-more">
           <a href="{{ site.baseurl }}{{ post.url }}">READ MORE...</a>
         </div>        
+        {% endif %}        
       </div>
     </article>
   {% endfor %}
