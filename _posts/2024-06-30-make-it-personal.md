@@ -1,12 +1,11 @@
 ---
-layout: post
-title: "Make it personal"
-date: 2024-06-30T09:00:00.000Z
+title: Make it personal
+date: 2024-06-30 09:00:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
 author: Daniel
-
 ---
 
 I take everything personally and don’t trust anyone who says they don’t. It’s either a lie or a sign that they don’t care enough. Emotional detachment is often seen as a strength, but it’s often an excuse for mediocrity.

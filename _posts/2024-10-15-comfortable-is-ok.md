@@ -1,12 +1,11 @@
 ---
-layout: post
-title: "Comfortable is OK"
-date: 2024-10-15T09:00:00.000Z
+title: Comfortable is OK
+date: 2024-10-15 09:00:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
 author: Daniel
-
 ---
 
 The next promotion, the next chance to earn more, gain influence, or power. Ambition is just another measure of worth at work. If you're not ambitious, someone else will snatch your job away.

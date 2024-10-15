@@ -1,12 +1,11 @@
 ---
-layout: post
-title: "Decisions By Fatigue"
-date: 2024-07-17T09:00:00.000Z
+title: Decisions By Fatigue
+date: 2024-07-17 09:00:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
 author: Daniel
-
 ---
 
 “Prove me wrong, and I’ll change my mind” is a shitty approach.

@@ -1,12 +1,11 @@
 ---
-layout: post
-title: "It's not about the hours"
-date: 2024-07-31T09:00:00.000Z
+title: It's not about the hours
+date: 2024-07-31 09:00:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
 author: Daniel
-
 ---
 
 I’ve never met anyone who burned out from working too much on something they love.

@@ -1,12 +1,11 @@
 ---
-layout: post
-title: "Nothing takes five minures"
-date: 2024-07-04T09:00:00.000Z
+title: Nothing takes five minures
+date: 2024-07-04 09:00:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
 author: Daniel
-
 ---
 
 "It will just take you five minutes" is one of the most toxic lines you can hear.

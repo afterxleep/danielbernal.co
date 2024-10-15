@@ -1,12 +1,11 @@
 ---
-layout: post
-title: "Embrace Risk"
-date: 2024-09-11T09:00:00.000Z
+title: Embrace Risk
+date: 2024-09-11 09:00:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
 author: Daniel
-
 ---
 
 Learn to accept risks and live by them. Removing every possible risk results in bland, uninspired work that aims to offend no one.

@@ -1,13 +1,12 @@
 ---
-layout: post
-title: "Lower your seat"
-date: 2024-06-23T09:00:00.000Z
-image: /assets/route66.jpg
+title: Lower your seat
+date: 2024-06-23 09:00:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
+image: "/assets/route66.jpg"
 author: Daniel
-
 ---
 
 When you get into a new car, you adjust the seat. Most people raise it to see the hood and the nearest part of the road. It feels like control. But we all ignore that raising the seat reduces our field of view, and we see less of what’s on the road far ahead. <!--more-->

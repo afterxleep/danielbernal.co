@@ -1,12 +1,11 @@
 ---
-layout: post
-title: "Don't be a menu"
-date: 2024-07-24T09:00:00.000Z
+title: Don't be a menu
+date: 2024-07-24 09:00:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
 author: Daniel
-
 ---
 
 You weren’t hired to be a menu; you were hired to make things happen. Presenting multiple solutions to every problem doesn’t move things forward; it just creates noise and unnecessary debate.

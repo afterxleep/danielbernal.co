@@ -1,14 +1,14 @@
 ---
-layout: post
-title: "Cut the office hours bullshit"
-date: 2024-06-20T07:29:00.000Z
-image: /assets/capuzimatti.jpg
+title: Cut the office hours bullshit
+date: 2024-06-20 07:29:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
+image: "/assets/capuzimatti.jpg"
 author: Daniel
-
 ---
+
 Setting office hours is a pretentious practice from the nineteen-twenties. It’s an attempt to seem accessible while dictating when you can be bothered. Your team doesn’t operate on your clock, and your office hours are just another way to say your calendar is more important than them. <!--more-->
 
 Leadership is about being available and present, reaching out proactively, understanding your team’s pulse, and addressing issues not only when you want.

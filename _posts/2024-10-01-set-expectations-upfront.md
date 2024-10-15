@@ -1,12 +1,11 @@
 ---
-layout: post
-title: "Set expectations upfront"
-date: 2024-10-01T09:00:00.000Z
+title: Set expectations upfront
+date: 2024-10-01 09:00:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
 author: Daniel
-
 ---
 
 If you’re going to judge someone’s work, you owe them clarity. Set expectations upfront and be consistent.

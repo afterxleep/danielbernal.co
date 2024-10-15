@@ -1,13 +1,12 @@
 ---
-layout: post
-title: "Try the unconventional"
-date: 2024-06-25T09:00:00.000Z
-image: /assets/chuck.jpg
+title: Try the unconventional
+date: 2024-06-25 09:00:00 Z
 categories:
-  - life
-  - work
+- life
+- work
+layout: post
+image: "/assets/chuck.jpg"
 author: Daniel
-
 ---
 
 Standards made sense 100 years ago. Efficiency and consistency were vital then. Today, they often don’t fit.
