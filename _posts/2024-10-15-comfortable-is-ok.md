@@ -9,7 +9,7 @@ author: Daniel
 
 ---
 
-The next promotion, the next chance to earn more, gain influence, or power. Ambition is treated as the ultimate measure of worth at work. If you're not ambitious, someone else will snatch your job away.
+The next promotion, the next chance to earn more, gain influence, or power. Ambition is just another measure of worth at work. If you're not ambitious, someone else will snatch your job away.
 
 We’ve been fed this bullshit for years. Being comfortable at work is often seen as laziness. We stigmatize those who don’t buy into the corporate ladder, ignoring that they’re the ones who often understand what’s truly enough.<!--more-->
 
