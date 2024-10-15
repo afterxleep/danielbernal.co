@@ -37,9 +37,6 @@ layout: default
             {% endunless %}
           {% endif %}
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}
-           {% if post.content contains '<!--more-->' %}
-            ...
-           {% endif %}   
           </a>          
         </div>        
         {% if post.content contains '<!--more-->' %}
