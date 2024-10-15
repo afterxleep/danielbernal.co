@@ -13,6 +13,7 @@ The next promotion, the next chance to earn more, gain influence, or power. Ambi
 
 We've been fed this bullshit for years. Being comfortable is seen as laziness. We stigmatize those who reject the corporate ladder, ignoring that they might be the ones who truly understand what it means to have enough—something you're never taught growing up.
 <!--more-->
+
 I respect people who push themselves to learn and grow because they want to—not because a promotion demands it. Unlike ambition, this kind of growth is about becoming a better person. Those are the ones I want to work with. They lift everyone around them. It’s contagious.
 
 If climbing the corporate ladder is your thing, that’s fine. Just don’t confuse it with growth. Ambition and growth aren’t the same.
