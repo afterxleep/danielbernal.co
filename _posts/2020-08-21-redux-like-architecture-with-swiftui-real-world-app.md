@@ -24,10 +24,11 @@ If you have any ideas, comments, improvements, or want to help with localization
 
 ---
 Posts in this series
-1. [The Basics]({{ site.url }}/redux-like-architecture-with-swiftui-basics/)
-2. [Side Effects]({{ site.url }}/redux-like-architecture-with-swiftui-middleware/)
-3. [Error Handling]({{ site.url }}/redux-like-architecture-with-swiftui-error-handling/)
-4. Real World App (This Post)
+1. [The Basics](https://danielbernal.co/blog/2020/07/30/redux-like-architecture-with-swiftui-basics/)
+2. [Side Effects](https://danielbernal.co/blog/2020/08/03/redux-like-architecture-with-swiftui-middleware/)
+3. [Error Handling](https://danielbernal.co/blog/2020/08/07/redux-like-architecture-with-swiftui-error-handling/)
+4. [Real World App](https://danielbernal.co/blog/2020/08/21/redux-like-architecture-with-swiftui-real-world-app/)
+
 
 
 ---
