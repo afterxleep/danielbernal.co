@@ -1,6 +1,8 @@
 ---
 title: We&#8217;re not saving lives here
 date: 2022-09-20 00:00:00 Z
+redirect_from:
+ - /were-not-saving-lives-here/
 categories:
 - life
 id: 737

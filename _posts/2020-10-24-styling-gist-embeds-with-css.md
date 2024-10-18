@@ -1,6 +1,8 @@
 ---
 title: Styling  Gist embeds with CSS
 date: 2020-10-24 00:00:00 Z
+redirect_from:
+ - /styling-gist-embeds-with-css/
 categories:
 - code
 - learn
