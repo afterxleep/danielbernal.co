@@ -1,6 +1,8 @@
 ---
 title: I'm joining Automattic!
 date: 2020-10-02 00:00:00 Z
+redirect_from:
+  - /2020/10/02/joining-automattic/
 categories:
 - life
 layout: post
