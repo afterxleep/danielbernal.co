@@ -1,6 +1,8 @@
 ---
 title: Life with the iPad Pro
 date: 2020-03-17 00:00:00 Z
+redirect_from:
+ - /2020/03/17/life-with-ipad-pro/
 categories:
 - life
 layout: post

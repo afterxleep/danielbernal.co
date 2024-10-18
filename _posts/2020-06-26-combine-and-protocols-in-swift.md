@@ -1,6 +1,8 @@
 ---
 title: Protocols and Combine&#58; Using @Published in your Protocol declaration
 date: 2020-06-26 00:00:00 Z
+redirect_from:
+ - /2020/06/26/combine-and-protocols-in-swift/
 categories:
 - code
 layout: post

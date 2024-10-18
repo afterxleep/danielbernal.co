@@ -1,6 +1,8 @@
 ---
 title: A/B test your design, not your product.
 date: 2022-07-17 00:00:00 Z
+redirect_from:
+ - /a-b-test-your-design-not-your-product/
 categories:
 - product
 id: 714

@@ -1,6 +1,8 @@
 ---
 title: Redux-like architecture with SwiftUI&#58; Error Handling
 date: 2020-08-07 00:00:00 Z
+redirect_from:
+ - /redux-like-architecture-with-swiftui-error-handling/
 categories:
 - code
 layout: post

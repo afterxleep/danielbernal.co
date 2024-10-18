@@ -1,6 +1,8 @@
 ---
 title: Do your best work
 date: 2020-03-24 00:00:00 Z
+redirect_from:
+ - /2020/03/24/do-your-best-work/
 categories:
 - life
 layout: post

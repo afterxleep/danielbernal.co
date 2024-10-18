@@ -1,6 +1,8 @@
 ---
 title: The reality virus
 date: 2020-05-21 00:00:00 Z
+redirect_from:
+ - /2020/05/21/the-reality-virus/
 categories:
 - life
 layout: post

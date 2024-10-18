@@ -1,6 +1,8 @@
 ---
 title: CoreData Transformable and NSSecureCoding in iOS 13+
 date: 2020-10-29 00:00:00 Z
+redirect_from:
+ - /coredata-transformable-and-nssecurecoding-in-ios-13/
 categories:
 - code
 id: 284

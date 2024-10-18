@@ -1,6 +1,8 @@
 ---
 title: Last day at Endava
 date: 2020-02-14 00:00:00 Z
+redirect_from:
+ - /2020/02/14/last-day-at-endava/
 categories:
 - life
 layout: post

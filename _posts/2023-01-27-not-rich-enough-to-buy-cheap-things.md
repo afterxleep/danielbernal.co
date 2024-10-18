@@ -1,6 +1,8 @@
 ---
 title: I'm not rich enough to buy cheap things
 date: 2023-01-27 22:00:00 Z
+redirect_from:
+ - /2023/01/27/not-rich-enough-to-buy-cheap-things/
 categories:
 - life
 layout: post
