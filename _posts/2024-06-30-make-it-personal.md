@@ -1,6 +1,8 @@
 ---
 title: Make it personal
 date: 2024-06-30 09:00:00 Z
+redirect_from:
+  - /2024/06/30/make-it-personal/
 categories:
 - life
 - work

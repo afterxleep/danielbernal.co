@@ -1,6 +1,8 @@
 ---
 title: "Hello Spain! \U0001F1EA\U0001F1F8"
 date: 2021-03-21 00:00:00 Z
+redirect_from:
+  - /hello-spain/
 categories:
 - life
 id: 530

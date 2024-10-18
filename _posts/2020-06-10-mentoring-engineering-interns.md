@@ -1,6 +1,8 @@
 ---
 title: Mentoring Engineering Interns
 date: 2020-06-10 00:00:00 Z
+redirect_from:
+  - /mentoring-engineering-interns/
 categories:
 - work
 layout: post

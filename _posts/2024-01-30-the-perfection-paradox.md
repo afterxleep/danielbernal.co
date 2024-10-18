@@ -1,6 +1,8 @@
 ---
 title: A paradox of perfection
 date: 2024-01-30 07:29:00 Z
+redirect_from:
+  - /2024/01/30/the-perfection-paradox/
 categories:
 - life
 - work

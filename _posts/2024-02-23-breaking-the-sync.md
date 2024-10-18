@@ -1,6 +1,8 @@
 ---
 title: Breaking the 'sync'
 date: 2024-02-23 07:29:00 Z
+redirect_from:
+  - /2024/02/23/breaking-the-sync/
 categories:
 - life
 - work

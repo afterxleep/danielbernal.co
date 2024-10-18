@@ -1,6 +1,8 @@
 ---
 title: The most respectful way
 date: 2024-01-12 07:29:00 Z
+redirect_from:
+  - /2024/01/12/the-most-respectful-way/
 categories:
 - life
 - work
