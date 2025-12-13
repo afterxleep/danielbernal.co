@@ -11,9 +11,7 @@
     --text-secondary: #999;
     --text-muted: #666;
     --text-subtle: #555;
-    --accent: #6366f1;
-    --accent-hover: #818cf8;
-    --link-underline: #fff;
+    --accent: #00f0ff;
 }
 
 [data-theme="light"] {
@@ -22,9 +20,7 @@
     --text-secondary: #555;
     --text-muted: #777;
     --text-subtle: #999;
-    --accent: #4f46e5;
-    --accent-hover: #6366f1;
-    --link-underline: #111;
+    --accent: #0891b2;
 }
 
 body {
@@ -50,13 +46,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background 0.3s ease, transform 0.2s ease;
+    transition: background 0.3s ease;
     z-index: 100;
-}
-
-.theme-toggle:hover {
-    background: var(--accent);
-    transform: scale(1.1);
 }
 
 .theme-toggle svg {
@@ -127,17 +118,10 @@ body {
 }
 
 .statement a {
-    color: var(--text);
+    color: var(--accent);
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.2s, color 0.2s;
-}
-
-.statement a:hover {
-    color: var(--accent);
-    border-bottom-color: var(--accent);
 }
 
 .rotate-indicator {
@@ -194,17 +178,10 @@ body {
 }
 
 .project-list a {
-    color: var(--text);
+    color: var(--accent);
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.2s, color 0.2s;
-}
-
-.project-list a:hover {
-    color: var(--accent);
-    border-bottom-color: var(--accent);
 }
 
 /* Contact Section */
@@ -222,17 +199,10 @@ body {
 }
 
 .contact a {
-    color: var(--text);
+    color: var(--accent);
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.2s, color 0.2s;
-}
-
-.contact a:hover {
-    color: var(--accent);
-    border-bottom-color: var(--accent);
 }
 
 /* Footer */
