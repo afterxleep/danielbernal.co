@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Your value was never typing",
+        "text": "You can't compete with AI at writing code. You can't. You won't. That battle is over. Judgment doesn't get automated. Architecture doesn't get delegated. These are what make you valuable. The control isn't protecting your job. It's preventing you from doing it.",
+        "link": "https://danielbernal.co/blog/2025/11/19/youre-not-coding-youre-watching/",
+        "linkText": "Read the post"
+    },
+    {
+        "title": "You can fake alignment. Not purpose.",
+        "text": "Nodding at plans that aren't yours is easy. Purpose leaks into side projects, late-night writing, the hollowness that follows well-compensated but meaningless work. 2 a.m. don't lie—they reveal what you can't fake about your actual values.",
+        "link": "https://stakeholdertherapy.com/2025/04/07/2-a-m-dont-lie/",
+        "linkText": "Read the post"
+    },
+    {
+        "title": "Hero culture is a scam",
+        "text": "Built on a beautiful lie: caring means suffering. You either deliver miracles or you're making excuses. Those working themselves to the ground aren't heroes; they're victims. We optimize around breaking people, then celebrate the casualties.",
+        "link": "https://stakeholdertherapy.com/2025/07/22/optimized-for-burnout/",
+        "linkText": "Read the post"
+    },
+    {
+        "title": "Decision laundering",
+        "text": "We've outsourced thinking to processes that feel scientific but are just fear dressed up as logic. Everyone knows the answer before the process starts. The gut feeling. The obvious choice. But deciding means you might be wrong, so we keep building more complicated ways to avoid responsibility.",
+        "link": "https://stakeholdertherapy.com/2025/09/30/decision-laundering/",
+        "linkText": "Read the post"
+    },
+    {
+        "title": "Having an opinion beats having responsibility",
+        "text": "When everyone's entitled to an opinion, nobody's accountable for results. You spend more time defending your choices than making them. The people who matter will notice the difference between someone who ships and someone who talks.",
+        "link": "https://stakeholdertherapy.com/2025/06/23/when-everyones-an-expert/",
+        "linkText": "Read the post"
+    },
+    {
+        "title": "Decisions get easier the further you are from consequences",
+        "text": "Abstraction is comfortable. It lets you move fast, simplify, and optimize without the weight of living your choices. But the weight doesn't disappear. It just lands on someone else. Distance doesn't make you strategic. It likely just makes you numb.",
+        "link": "https://stakeholdertherapy.com/2025/12/02/distance/",
+        "linkText": "Read the post"
+    },
+    {
+        "title": "You can't say 'sanity check'",
+        "text": "But you can absolutely ignore the person who points out flaws. We focus on the inclusion we can see and ignore the inclusion we can't measure: whether people feel safe to disagree. The real exclusion happens in meetings and chats, where the best idea dies because it came from the wrong mouth.",
+        "link": "https://stakeholdertherapy.com/2025/08/11/dissidents/",
+        "linkText": "Read the post"
+    },
+    {
+        "title": "Benchmarks are missing the point",
+        "text": "Every week, there's a new leaderboard. The quality ceiling is the same. They all generate working and non-working code. They all hallucinate. Pick the AI that amplifies your way of thinking, rather than fighting it. Claude reframes problems. Codex executes literally. Gemini punishes directional changes.",
+        "link": "https://danielbernal.co/blog/2025/12/03/why-i-stopped-following-llm-benchmarks/",
+        "linkText": "Read the post"
+    },
+    {
+        "title": "AI handles the boring 70%",
+        "text": "Fast enough that I can iterate on the interesting 30%. I built FlowDeck to integrate xcodebuild and LLDB into Cursor. Now I ship features 3x faster because AI handles routine boilerplate while I focus on architecture and user experience. The bottleneck isn't coding speed—it's knowing how to prompt effectively.",
+        "link": "https://danielbernal.co/blog/2025/11/05/flowdeck-changed-how-i-write-code/",
+        "linkText": "Read the post"
+    }
+]
