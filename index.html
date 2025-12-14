@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <button class="theme-toggle" onclick="toggleTheme()">○</button>
     <div class="container">
         <section class="manifesto">
             <div class="statement" id="statement"></div>
@@ -70,5 +71,50 @@
     </div>
 
     <script src="script.js"></script>
+    <script>
+        // Auto theme switching based on time of day
+        function setAutoTheme() {
+            const hour = new Date().getHours();
+            const isDayTime = hour >= 6 && hour < 18;
+            return isDayTime ? 'light' : 'dark';
+        }
+
+        // Toggle theme manually
+        function toggleTheme() {
+            const body = document.body;
+            const button = document.querySelector('.theme-toggle');
+            const currentTheme = body.classList.contains('light-theme') ? 'light' : 'dark';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            if (newTheme === 'light') {
+                body.classList.add('light-theme');
+                button.textContent = '◑';
+            } else {
+                body.classList.remove('light-theme');
+                button.textContent = '○';
+            }
+
+            localStorage.setItem('theme-override', newTheme);
+        }
+
+        // Initialize theme on page load
+        function initTheme() {
+            const body = document.body;
+            const button = document.querySelector('.theme-toggle');
+            const override = localStorage.getItem('theme-override');
+            const theme = override || setAutoTheme();
+
+            if (theme === 'light') {
+                body.classList.add('light-theme');
+                button.textContent = '◑';
+            } else {
+                body.classList.remove('light-theme');
+                button.textContent = '○';
+            }
+        }
+
+        // Run on page load
+        initTheme();
+    </script>
 </body>
 </html>

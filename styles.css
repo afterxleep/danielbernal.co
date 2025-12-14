@@ -10,6 +10,94 @@ body {
     color: #fff;
     line-height: 1.6;
     overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light theme */
+body.light-theme {
+    background: #fff;
+    color: #000;
+}
+
+body.light-theme .statement h1 {
+    color: #000;
+}
+
+body.light-theme .statement p {
+    color: #666;
+}
+
+body.light-theme .statement a {
+    color: #000;
+}
+
+body.light-theme .statement a:hover {
+    border-bottom-color: #000;
+}
+
+body.light-theme .rotate-indicator {
+    color: #999;
+}
+
+body.light-theme .facts h2,
+body.light-theme .projects h2,
+body.light-theme .contact h2 {
+    color: #999;
+}
+
+body.light-theme .facts ul {
+    color: #666;
+}
+
+body.light-theme .project-list a,
+body.light-theme .contact a {
+    color: #000;
+}
+
+body.light-theme .project-list a:hover,
+body.light-theme .contact a:hover {
+    border-bottom-color: #000;
+}
+
+body.light-theme footer {
+    color: #999;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: 1px solid #666;
+    color: #fff;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 11pt;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    filter: grayscale(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border-radius: 3px;
+}
+
+body.light-theme .theme-toggle {
+    color: #000;
+    border-color: #ccc;
+}
+
+.theme-toggle:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    .theme-toggle {
+        top: 10px;
+        right: 10px;
+    }
 }
 
 .container {
