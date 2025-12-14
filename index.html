@@ -72,37 +72,15 @@
 
     <script src="script.js"></script>
     <script>
-        // Auto theme switching based on time of day
-        function setAutoTheme() {
-            const hour = new Date().getHours();
-            const isDayTime = hour >= 6 && hour < 18;
-            return isDayTime ? 'light' : 'dark';
+        // Get system preference
+        function getSystemTheme() {
+            return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
         }
 
-        // Toggle theme manually
-        function toggleTheme() {
+        // Apply theme
+        function applyTheme(theme) {
             const body = document.body;
             const button = document.querySelector('.theme-toggle');
-            const currentTheme = body.classList.contains('light-theme') ? 'light' : 'dark';
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-
-            if (newTheme === 'light') {
-                body.classList.add('light-theme');
-                button.textContent = '◑';
-            } else {
-                body.classList.remove('light-theme');
-                button.textContent = '○';
-            }
-
-            localStorage.setItem('theme-override', newTheme);
-        }
-
-        // Initialize theme on page load
-        function initTheme() {
-            const body = document.body;
-            const button = document.querySelector('.theme-toggle');
-            const override = localStorage.getItem('theme-override');
-            const theme = override || setAutoTheme();
 
             if (theme === 'light') {
                 body.classList.add('light-theme');
@@ -112,6 +90,28 @@
                 button.textContent = '○';
             }
         }
+
+        // Toggle theme manually
+        function toggleTheme() {
+            const currentTheme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            applyTheme(newTheme);
+            localStorage.setItem('theme-override', newTheme);
+        }
+
+        // Initialize theme on page load
+        function initTheme() {
+            const override = localStorage.getItem('theme-override');
+            const theme = override || getSystemTheme();
+            applyTheme(theme);
+        }
+
+        // Listen for system theme changes
+        window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme-override')) {
+                applyTheme(e.matches ? 'light' : 'dark');
+            }
+        });
 
         // Run on page load
         initTheme();
