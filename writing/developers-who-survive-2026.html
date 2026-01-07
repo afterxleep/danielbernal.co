@@ -45,6 +45,15 @@
             border-bottom-color: var(--accent);
         }
 
+        .post-nav, .post-footer {
+            color: #666;
+        }
+
+        body.light-theme .post-nav,
+        body.light-theme .post-footer {
+            color: #999;
+        }
+
         article {
             max-width: 700px;
             margin: 0 auto;
@@ -153,7 +162,7 @@
     <button class="theme-toggle" onclick="toggleTheme()">○</button>
     <div class="container">
         <nav class="post-nav">
-            <a href="/">← Home</a>
+            <a href="/">← Home</a> | <a href="/writing">Writing</a>
         </nav>
 
         <article>
@@ -185,7 +194,7 @@
             <p>They're not waiting for your code review. Or their own.</p>
 
             <div class="post-footer">
-                <a href="/writing">← Writing</a>
+                <a href="/">← Home</a> | <a href="/writing">Writing</a>
             </div>
         </article>
 
