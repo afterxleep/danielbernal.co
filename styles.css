@@ -234,12 +234,24 @@ body.light-theme .theme-toggle {
     border-bottom-color: var(--accent);
 }
 
+.project-name {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-default);
+    margin-bottom: 6px;
+}
+
+body.light-theme .project-name {
+    color: var(--text-default-light);
+}
+
 .project-desc {
     display: block;
     font-size: 0.95rem !important;
     font-weight: 400 !important;
     color: #999 !important;
-    margin-top: 6px;
+    text-decoration: none;
     border-bottom: 1px solid transparent !important;
 }
 
@@ -248,6 +260,18 @@ body.light-theme .project-desc {
 }
 
 .project-desc:hover {
+    color: var(--accent) !important;
+    border-bottom-color: var(--accent) !important;
+}
+
+.project-desc a {
+    color: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.project-desc a:hover {
     color: var(--accent) !important;
     border-bottom-color: var(--accent) !important;
 }
