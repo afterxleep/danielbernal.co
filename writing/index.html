@@ -83,27 +83,31 @@
             color: var(--accent-hover);
         }
 
-        .post-list {
-            list-style: none;
-        }
-
-        .post-list li {
-            margin-bottom: 20px;
-            display: flex;
-            gap: 20px;
-            align-items: baseline;
-        }
-
-        .post-date {
+        .month-header {
             color: #666;
             font-size: 0.9rem;
             font-family: 'Courier New', monospace;
-            min-width: 100px;
-            flex-shrink: 0;
+            font-weight: 400;
+            margin: 40px 0 20px 0;
+            text-transform: none;
+            letter-spacing: normal;
         }
 
-        body.light-theme .post-date {
+        .month-header:first-of-type {
+            margin-top: 0;
+        }
+
+        body.light-theme .month-header {
             color: #666;
+        }
+
+        .post-list {
+            list-style: none;
+            margin-bottom: 40px;
+        }
+
+        .post-list li {
+            margin-bottom: 12px;
         }
 
         .post-list a {
@@ -161,9 +165,9 @@
         <section class="archive-section">
             <h2>All Posts</h2>
 
+            <h3 class="month-header">January 2026</h3>
             <ul class="post-list">
                 <li>
-                    <span class="post-date">2026-01-07</span>
                     <a href="/writing/developers-who-survive-2026.html">Beautiful code is a liability</a>
                 </li>
             </ul>
