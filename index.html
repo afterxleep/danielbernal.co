@@ -91,7 +91,7 @@
         </section>
 
         <footer>
-            Copyright Daniel Bernal - 2026
+            Daniel Bernal <span id="footer-year"></span>
         </footer>
     </div>
 
@@ -140,6 +140,9 @@
 
         // Run on page load
         initTheme();
+
+        // Set current year in footer
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
     </script>
 </body>
 </html>

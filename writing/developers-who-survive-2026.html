@@ -194,7 +194,7 @@
         </article>
 
         <footer>
-            Copyright Daniel Bernal - 2026
+            Daniel Bernal <span id="footer-year"></span>
         </footer>
     </div>
 
@@ -242,6 +242,11 @@
 
         // Run on page load
         initTheme();
+
+        // Extract year from post date and set in footer
+        const postDate = document.querySelector('.post-date').textContent;
+        const year = postDate.match(/\d{4}/)[0];
+        document.getElementById('footer-year').textContent = year;
     </script>
 </body>
 </html>
