@@ -125,7 +125,7 @@ body.light-theme .theme-toggle {
 .manifesto {
     display: flex;
     flex-direction: column;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
 }
 
 .statement {
