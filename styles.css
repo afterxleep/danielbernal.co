@@ -234,6 +234,28 @@ body.light-theme .theme-toggle {
     border-bottom-color: var(--accent);
 }
 
+.project-desc {
+    display: block;
+    font-size: 0.95rem !important;
+    font-weight: 400 !important;
+    color: #999 !important;
+    margin-top: 6px;
+    border-bottom: 1px solid transparent !important;
+}
+
+body.light-theme .project-desc {
+    color: #666 !important;
+}
+
+.project-desc:hover {
+    color: var(--accent) !important;
+    border-bottom-color: var(--accent) !important;
+}
+
+.project-list li {
+    margin-bottom: 20px;
+}
+
 /* Writing Section */
 .writing {
     margin-bottom: 80px;
