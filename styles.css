@@ -238,42 +238,31 @@ body.light-theme .theme-toggle {
     display: block;
     font-size: 1.3rem;
     font-weight: 600;
-    color: var(--text-default);
+    color: var(--text-default) !important;
     margin-bottom: 6px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
 }
 
 body.light-theme .project-name {
-    color: var(--text-default-light);
+    color: var(--text-default-light) !important;
+}
+
+.project-name:hover {
+    color: var(--accent) !important;
+    border-bottom-color: var(--accent);
 }
 
 .project-desc {
     display: block;
-    font-size: 0.95rem !important;
-    font-weight: 400 !important;
-    color: #999 !important;
-    text-decoration: none;
-    border-bottom: 1px solid transparent !important;
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: #999;
 }
 
 body.light-theme .project-desc {
-    color: #666 !important;
-}
-
-.project-desc:hover {
-    color: var(--accent) !important;
-    border-bottom-color: var(--accent) !important;
-}
-
-.project-desc a {
-    color: inherit !important;
-    font-size: inherit !important;
-    font-weight: inherit !important;
-    border-bottom: 1px solid transparent !important;
-}
-
-.project-desc a:hover {
-    color: var(--accent) !important;
-    border-bottom-color: var(--accent) !important;
+    color: #666;
 }
 
 .project-list li {
