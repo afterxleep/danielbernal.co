@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6K3PKXGS1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-C6K3PKXGS1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developers who survive 2026 won't be the best coders - Daniel Bernal</title>
+    <meta name="description" content="The developers who survive 2026 won't be the best coders. They'll be the fastest.">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Post page specific styles */
+        .post-nav {
+            margin-bottom: 80px;
+        }
+
+        .post-nav a {
+            color: var(--text-default) !important;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 600;
+            border-bottom: 1px solid var(--text-default);
+            transition: all 0.2s;
+        }
+
+        body.light-theme .post-nav a {
+            color: var(--text-default-light) !important;
+            border-bottom-color: var(--text-default-light);
+        }
+
+        .post-nav a:hover {
+            color: var(--accent) !important;
+            border-bottom-color: var(--accent);
+        }
+
+        article {
+            max-width: 700px;
+        }
+
+        article h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            color: #fff;
+        }
+
+        body.light-theme article h1 {
+            color: #000;
+        }
+
+        article .post-date {
+            color: #999;
+            font-size: 1rem;
+            margin-bottom: 60px;
+            display: block;
+        }
+
+        body.light-theme article .post-date {
+            color: #666;
+        }
+
+        article p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+            color: #fff;
+        }
+
+        body.light-theme article p {
+            color: #000;
+        }
+
+        article h2 {
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-top: 60px;
+            margin-bottom: 25px;
+            color: #fff;
+        }
+
+        body.light-theme article h2 {
+            color: #000;
+        }
+
+        article a {
+            color: var(--text-default) !important;
+            text-decoration: none;
+            border-bottom: 1px solid var(--text-default);
+            transition: all 0.2s;
+        }
+
+        body.light-theme article a {
+            color: var(--text-default-light) !important;
+            border-bottom-color: var(--text-default-light);
+        }
+
+        article a:hover {
+            color: var(--accent) !important;
+            border-bottom-color: var(--accent);
+        }
+
+        .post-footer {
+            margin-top: 80px;
+            padding-top: 60px;
+            border-top: 1px solid #333;
+        }
+
+        body.light-theme .post-footer {
+            border-top-color: #ddd;
+        }
+
+        .post-footer a {
+            color: #999 !important;
+            text-decoration: none;
+            font-size: 1rem;
+            border-bottom: 1px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .post-footer a:hover {
+            color: var(--accent) !important;
+            border-bottom-color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .post-nav {
+                margin-bottom: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">○</button>
+    <div class="container">
+        <nav class="post-nav">
+            <a href="/">← Home</a>
+        </nav>
+
+        <article>
+            <h1>Beautiful code is a liability</h1>
+            <span class="post-date">January 2026</span>
+
+            <p>The developers who survive 2026 won't be the best coders. They'll be the fastest.</p>
+
+            <p>The best coders I know are panicking. Not publicly. In Slack DMs. In nervous jokes about AI taking their jobs. In long threads defending practices that won't matter in eighteen months.</p>
+
+            <p>They were never product people. Their product was the code. And it just got commoditized by AI.</p>
+
+            <p>So while they're arguing about how AI doesn't write elegant code, they ignore it writes working code. In seconds. While they're still debating architecture patterns.</p>
+
+            <p>Average code shipped fast beats perfect code shipped next month. It always did. The difference now is that "today" means minutes, not months.</p>
+
+            <p>Engineers advocating for clean abstractions and proper patterns aren't wrong about craft. They're wrong about what matters. They're protecting a status quo that valued their expertise, but that expertise is devaluing fast.</p>
+
+            <p>Then there's the other crowd. The ones who use AI but spend hours "fixing" its output. Refactoring generated code to meet their standards. Adding abstractions. Making it pretty.</p>
+
+            <p>They missed the point entirely.</p>
+
+            <p>Code has become disposable. You'll regenerate it next week when requirements change. That refactor you're so proud of? It becomes debt the moment you commit it. You're polishing something that was never meant to last.</p>
+
+            <p>Your energy should be on deciding what to build. Understand what users actually need. Know when to cut scope. Ship something embarrassing and learn from it.</p>
+
+            <p>You're not competing with AI. You're competing with developers who use AI and don't flinch.</p>
+
+            <p>They're not waiting for your code review. Or their own.</p>
+
+            <div class="post-footer">
+                <a href="/writing">← Writing</a>
+            </div>
+        </article>
+    </div>
+
+    <script>
+        // Get system preference
+        function getSystemTheme() {
+            return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        }
+
+        // Apply theme
+        function applyTheme(theme) {
+            const body = document.body;
+            const button = document.querySelector('.theme-toggle');
+
+            if (theme === 'light') {
+                body.classList.add('light-theme');
+                button.textContent = '◑';
+            } else {
+                body.classList.remove('light-theme');
+                button.textContent = '○';
+            }
+        }
+
+        // Toggle theme manually
+        function toggleTheme() {
+            const currentTheme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            applyTheme(newTheme);
+            localStorage.setItem('theme-override', newTheme);
+        }
+
+        // Initialize theme on page load
+        function initTheme() {
+            const override = localStorage.getItem('theme-override');
+            const theme = override || getSystemTheme();
+            applyTheme(theme);
+        }
+
+        // Listen for system theme changes
+        window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme-override')) {
+                applyTheme(e.matches ? 'light' : 'dark');
+            }
+        });
+
+        // Run on page load
+        initTheme();
+    </script>
+</body>
+</html>
