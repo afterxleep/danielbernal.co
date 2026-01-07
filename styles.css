@@ -283,6 +283,43 @@ body.light-theme .project-desc {
     letter-spacing: 0.1em;
 }
 
+/* Writing list */
+.writing-list {
+    list-style: none;
+}
+
+.writing-list li {
+    margin-bottom: 12px;
+}
+
+.writing-date {
+    color: #666;
+    font-size: 0.95rem;
+    margin-right: 15px;
+}
+
+body.light-theme .writing-date {
+    color: #999;
+}
+
+.writing-list a {
+    color: var(--text-default) !important;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+body.light-theme .writing-list a {
+    color: var(--text-default-light) !important;
+}
+
+.writing-list a:hover {
+    color: var(--accent) !important;
+    border-bottom-color: var(--accent);
+}
+
 /* Contact Section */
 .contact {
     margin-bottom: 60px;
