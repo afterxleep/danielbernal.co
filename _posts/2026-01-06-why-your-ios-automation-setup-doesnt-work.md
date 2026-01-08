@@ -3,13 +3,13 @@ layout: post
 title: "Why Your iOS Automation Setup Doesn't Work"
 date: 2026-01-06
 permalink: /writing/why-your-ios-automation-setup-doesnt-work.html
-excerpt: "Apple ships five different command-line tools for iOS development. They don't talk to each other. Here's why that breaks AI-assisted development and what you can do about it."
-quote: "A fragmented interface means fragmented AI capabilities. A unified interface means you can build iOS apps with AI assistance the same way you'd work on a web project."
+excerpt: "Apple ships five different command-line tools for iOS development. They don't talk to each other. This broke my AI-assisted workflow, so I fixed it."
+quote: "A fragmented interface means fragmented AI capabilities."
 ---
 
-Apple ships five different command-line tools for iOS development. They don't talk to each other.
+I spent months trying to make AI coding assistants work with iOS development. It was painful.
 
-`xcodebuild` handles compilation. `simctl` manages simulators. `devicectl` talks to physical devices (but only iOS 17+). `xcrun` finds and runs Xcode tools. `xcode-select` switches between Xcode versions. Each has its own flag syntax, its own output format, its own failure modes.
+Apple ships five different command-line tools. `xcodebuild` handles compilation. `simctl` manages simulators. `devicectl` talks to physical devices (but only iOS 17+). `xcrun` finds and runs Xcode tools. `xcode-select` switches between Xcode versions. Each has its own flag syntax, its own output format, its own failure modes.
 
 Building an app and running it on a simulator requires orchestrating three separate tools:
 ```bash
@@ -25,25 +25,20 @@ xcrun simctl launch "iPhone 16" com.example.MyApp
 
 Four commands. Hardcoded paths. A destination string that breaks if you don't have exactly that simulator version. And this is the happy path.
 
-Now imagine an AI agent trying to do this.
+When I started using Claude to help me build iOS apps, I hit a wall. It would generate xcodebuild commands that looked right but failed. It didn't know which simulator runtimes I had installed, which devices were connected, or where my derived data lived. I'd paste the error back. It would try something different. Still fail. Twenty minutes debugging a build command instead of building the app.
 
-AI coding assistants learn from training data full of `xcodebuild` invocations. So when you ask Claude to build your iOS app, it generates xcodebuild commands. Sometimes correct. Often wrong. It doesn't know which simulator runtimes you have installed, which devices are connected, or where your derived data lives.
+The fragmentation exists because Apple built these tools over fifteen years for different purposes. CI systems adapted by wrapping everything in Ruby. Fastlane became the standard because it hid the complexity. But Fastlane wasn't designed for AI agents.
 
-So it hallucinates. It generates commands that look right but fail. You paste the error back. It tries something different. Still fails. Twenty minutes debugging a build command instead of building your app.
+So I built something that was.
 
-The fragmentation exists because Apple built these tools over fifteen years for different purposes. CI systems adapted by wrapping everything in Ruby. Fastlane became the standard because it hid the complexity. But Fastlane is seven years old and wasn't designed for AI agents.
+I've been working on [FlowDeck](https://flowdeck.io) for the past few months. It's a CLI that wraps all of Apple's tools into a unified interface designed for AI agents. Eight verbs instead of eighty-four flags. `build`, `run`, `test`, `clean`, `logs`, `stop`, `context`, `init`. Each does one thing. Structured outputs. Predictable errors.
 
-AI agents need something different. Stable commands with predictable inputs and structured outputs. Tools that compose. Error messages that explain what went wrong.
-
-Compare the above to this:
 ```bash
 flowdeck run -S "iPhone 16"
 ```
 
-Same result. One command. Figures out your workspace, boots the simulator, builds, installs, launches. If something fails, it tells you why with a structured error code the AI can parse.
+Same result as those four commands above. Figures out the workspace, boots the simulator, builds, installs, launches. If something fails, it tells you why with an error code the AI can actually parse.
 
-Eight verbs instead of eighty-four flags. `build`, `run`, `test`, `clean`, `logs`, `stop`, `context`, `init`. Each does one thing. Each works the same whether a human types it, a CI script runs it, or an AI agent invokes it.
+The interface shapes what's possible. A fragmented interface means fragmented AI capabilities. A unified interface means I can finally build iOS apps with Claude the same way I'd work on a web project.
 
-The consolidation matters because the interface shapes what's possible. A fragmented interface means fragmented AI capabilities. A unified interface means you can build iOS apps with AI assistance the same way you'd work on a web project.
-
-The toolchain fragmentation is Apple's problem. The solution is yours to choose.
+The toolchain fragmentation is Apple's problem. I got tired of waiting for them to fix it.
