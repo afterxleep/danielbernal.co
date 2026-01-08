@@ -459,6 +459,36 @@
       padding: 0;
     }
 
+    /* Post Footer Navigation */
+    .post-footer {
+      margin-top: 80px;
+      padding-top: 60px;
+      border-top: 1px solid #333;
+      font-size: 0.95rem;
+      color: #666;
+    }
+
+    body.light-theme .post-footer {
+      border-top-color: #ddd;
+    }
+
+    .post-footer a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      border-bottom: 1px solid #fff;
+      transition: all 0.2s;
+    }
+
+    body.light-theme .post-footer a {
+      color: #000;
+      border-bottom-color: #000;
+    }
+
+    .post-footer a:hover {
+      opacity: 0.6;
+    }
+
     /* Footer */
     footer {
       margin-top: auto;
@@ -549,6 +579,10 @@
 
 <p>Its a mess, but that’s the the point.</p>
 
+  </div>
+
+  <div class="post-footer">
+    <a href="/">← danielbernal.co</a> | <a href="/writing/">Writing</a>
   </div>
 
   <script type="application/ld+json">
