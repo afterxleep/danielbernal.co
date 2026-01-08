@@ -61,7 +61,8 @@ layout: none
         <section class="writing">
             <h2>Writing</h2>
             <ul class="project-list">
-                {% for post in site.data.posts offset:1 limit:5 %}
+                {% assign writing_pages = site.pages | where_exp: "page", "page.path contains 'writing/'" | where_exp: "page", "page.title" | sort: "date" | reverse %}
+                {% for post in writing_pages offset:1 limit:5 %}
                 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
@@ -101,8 +102,9 @@ layout: none
     </div>
 
     <script>
-        // Set latest post URL from Jekyll data
-        window.LATEST_POST_URL = '{{ site.data.posts[0].url }}';
+        // Set latest post URL from Jekyll pages
+        {% assign writing_pages = site.pages | where_exp: "page", "page.path contains 'writing/'" | where_exp: "page", "page.title" | sort: "date" | reverse %}
+        window.LATEST_POST_URL = '{{ writing_pages[0].url }}';
     </script>
     <script src="script.js"></script>
     <script>

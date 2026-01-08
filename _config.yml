@@ -1,0 +1,11 @@
+collections:
+  writing:
+    output: true
+    permalink: /writing/:name.html
+
+defaults:
+  - scope:
+      path: "writing"
+      type: "writing"
+    values:
+      layout: none
