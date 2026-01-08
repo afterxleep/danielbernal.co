@@ -207,6 +207,11 @@
       margin-bottom: 60px;
     }
 
+    /* Add top spacing on home page only */
+    body.layout-default .manifesto {
+      margin-top: 60px;
+    }
+
     .statement {
       opacity: 0;
       animation: fadeIn 1s ease-in forwards;
@@ -284,6 +289,7 @@
 
     /* View All */
     .view-all {
+      margin-top: -30px;
       margin-bottom: 60px;
     }
 
@@ -539,11 +545,13 @@
 <body class="layout-default">
   <button class="theme-toggle" onclick="toggleTheme()">○</button>
 
+  
   <header class="site-header">
     <nav class="site-nav">
-      <a href="/">← danielbernal.co</a> | <a href="/writing/">Writing</a>
+      <a href="/">← danielbernal.co</a>
     </nav>
   </header>
+  
 
   <div class="container">
     <main>

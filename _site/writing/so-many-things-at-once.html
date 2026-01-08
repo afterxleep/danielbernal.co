@@ -30,11 +30,11 @@
 
   <!-- Open Graph image for posts -->
   
-  <meta property="og:image" content="https://og-image.vercel.app/So+many+things+at+once.png?theme=dark&md=1&fontSize=100px">
+  <meta property="og:image" content="https://danielbernal.co/api/og?title=So%20many%20things%20at%20once">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:image" content="https://og-image.vercel.app/So+many+things+at+once.png?theme=dark&md=1&fontSize=100px">
+  <meta property="twitter:image" content="https://danielbernal.co/api/og?title=So%20many%20things%20at%20once">
   
 
   <style>
@@ -214,6 +214,11 @@
       margin-bottom: 60px;
     }
 
+    /* Add top spacing on home page only */
+    body.layout-default .manifesto {
+      margin-top: 60px;
+    }
+
     .statement {
       opacity: 0;
       animation: fadeIn 1s ease-in forwards;
@@ -291,6 +296,7 @@
 
     /* View All */
     .view-all {
+      margin-top: -30px;
       margin-bottom: 60px;
     }
 
@@ -546,11 +552,13 @@
 <body class="layout-post">
   <button class="theme-toggle" onclick="toggleTheme()">○</button>
 
+  
   <header class="site-header">
     <nav class="site-nav">
       <a href="/">← danielbernal.co</a> | <a href="/writing/">Writing</a>
     </nav>
   </header>
+  
 
   <div class="container">
     <main>
@@ -579,10 +587,6 @@
 
 <p>Its a mess, but that’s the the point.</p>
 
-  </div>
-
-  <div class="post-footer">
-    <a href="/">← danielbernal.co</a> | <a href="/writing/">Writing</a>
   </div>
 
   <script type="application/ld+json">
