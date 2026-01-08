@@ -1,10 +1,20 @@
-async function loadStatement() {
+async function loadLatestPost() {
     try {
-        const response = await fetch('/statements.json');
-        const statements = await response.json();
-        displayStatement(statements[0]);
+        // Fetch the latest post HTML
+        const response = await fetch('/writing/so-many-things-at-once.html');
+        const html = await response.text();
+
+        // Parse the HTML to extract meta tags
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+
+        const excerpt = doc.querySelector('meta[name="excerpt"]')?.content || '';
+        const quote = doc.querySelector('meta[name="quote"]')?.content || '';
+        const url = '/writing/so-many-things-at-once.html';
+
+        displayStatement({ title: excerpt, text: quote, link: url });
     } catch (error) {
-        console.error('Error loading statement:', error);
+        console.error('Error loading latest post:', error);
     }
 }
 
@@ -14,8 +24,8 @@ function displayStatement(statement) {
     container.innerHTML = `
         <h1>${statement.title}</h1>
         <p>${statement.text}</p>
-        <a href="${statement.link}">${statement.linkText}</a>
+        <a href="${statement.link}">→</a>
     `;
 }
 
-loadStatement();
+loadLatestPost();
