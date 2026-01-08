@@ -1,22 +1,21 @@
-async function loadQuotes() {
+async function loadStatement() {
     try {
-        const response = await fetch('/quotes.json');
-        const quotes = await response.json();
-        displayRandomQuote(quotes);
+        const response = await fetch('/statements.json');
+        const statements = await response.json();
+        displayStatement(statements[0]);
     } catch (error) {
-        console.error('Error loading quotes:', error);
+        console.error('Error loading statement:', error);
     }
 }
 
-function displayRandomQuote(quotes) {
-    const quote = quotes[Math.floor(Math.random() * quotes.length)];
+function displayStatement(statement) {
     const container = document.getElementById('statement');
 
     container.innerHTML = `
-        <h1>${quote.title}</h1>
-        <p>${quote.text}</p>
-        <a href="${quote.link}">${quote.linkText}</a>
+        <h1>${statement.title}</h1>
+        <p>${statement.text}</p>
+        <a href="${statement.link}">${statement.linkText}</a>
     `;
 }
 
-loadQuotes();
+loadStatement();

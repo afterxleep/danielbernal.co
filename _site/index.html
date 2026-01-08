@@ -57,9 +57,8 @@
 
         <section class="writing">
             <h2>Writing</h2>
-            <p style="font-size: 0.9rem; color: #999; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 20px;">Recent</p>
             <ul class="project-list">
-                <li><a href="/writing/developers-who-survive-2026.html">Beautiful code is a liability</a></li>
+                <li><a href="/writing/so-many-things-at-once.html">So many things at once</a></li>
             </ul>
             <p style="margin-top: 30px;"><a href="/writing/" class="view-all-link">View All →</a></p>
         </section>
@@ -67,9 +66,18 @@
         <section class="projects">
             <h2>Projects</h2>
             <ul class="project-list">
-                <li><a href="https://flowdeck.studio" target="_blank">FlowDeck</a></li>
-                <li><a href="https://apps.apple.com/es/app/bouncer-spam-text-blocker/id1457476313?l=en-GB" target="_blank">Bouncer</a></li>
-                <li><a href="https://stakeholdertherapy.com" target="_blank">Stakeholder Therapy</a></li>
+                <li>
+                    <a href="https://flowdeck.studio" target="_blank" class="project-name">FlowDeck</a>
+                    <span class="project-desc">Opinionated tools for Apple developers.</span>
+                </li>
+                <li>
+                    <a href="https://apps.apple.com/es/app/bouncer-spam-text-blocker/id1457476313?l=en-GB" target="_blank" class="project-name">Bouncer</a>
+                    <span class="project-desc">Filter unwanted SMS messages on iOS.</span>
+                </li>
+                <li>
+                    <a href="https://stakeholdertherapy.com" target="_blank" class="project-name">Stakeholder Therapy</a>
+                    <span class="project-desc">Unfiltered takes on life, work and people. (Fictional. Obviously.)</span>
+                </li>
             </ul>
         </section>
 
@@ -83,7 +91,7 @@
         </section>
 
         <footer>
-            Copyright Daniel Bernal - 2026
+            Daniel Bernal <span id="footer-year"></span>
         </footer>
     </div>
 
@@ -132,6 +140,9 @@
 
         // Run on page load
         initTheme();
+
+        // Set current year in footer
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
     </script>
 </body>
 </html>

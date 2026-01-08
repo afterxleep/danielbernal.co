@@ -16,6 +16,11 @@
     <meta name="description" content="Bold takes on Xcode, AI tools, and the future of iOS development.">
     <link rel="stylesheet" href="../styles.css">
     <style>
+        /* Override container width */
+        .container {
+            max-width: 700px;
+        }
+
         /* Navigation */
         .nav-header {
             margin-bottom: 80px;
@@ -78,32 +83,37 @@
             color: var(--accent-hover);
         }
 
+        .month-header {
+            color: #666;
+            font-size: 0.9rem;
+            font-family: 'Courier New', monospace;
+            font-weight: 400;
+            margin: 40px 0 20px 0;
+            text-transform: none;
+            letter-spacing: normal;
+        }
+
+        .month-header:first-of-type {
+            margin-top: 0;
+        }
+
+        body.light-theme .month-header {
+            color: #666;
+        }
+
         .post-list {
             list-style: none;
+            margin-bottom: 40px;
         }
 
         .post-list li {
-            margin-bottom: 40px;
-            display: flex;
-            gap: 40px;
-            align-items: baseline;
-        }
-
-        .post-date {
-            color: #666;
-            font-size: 1rem;
-            min-width: 120px;
-            flex-shrink: 0;
-        }
-
-        body.light-theme .post-date {
-            color: #999;
+            margin-bottom: 12px;
         }
 
         .post-list a {
             color: #fff;
             text-decoration: none;
-            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-size: 1.2rem;
             font-weight: 600;
             line-height: 1.2;
             border-bottom: 2px solid transparent;
@@ -130,8 +140,8 @@
 
             .post-list li {
                 flex-direction: column;
-                gap: 8px;
-                margin-bottom: 35px;
+                gap: 5px;
+                margin-bottom: 20px;
             }
 
             .post-date {
@@ -144,24 +154,29 @@
     <button class="theme-toggle" onclick="toggleTheme()">○</button>
     <div class="container">
         <nav class="nav-header">
-            <a href="/">← Home</a>
+            <a href="/">← danielbernal.co</a>
         </nav>
 
         <header class="page-title">
             <h1>Writing</h1>
-            <p>Bold takes on Xcode, AI tools, and the future of iOS development. No bullshit. Occasionally hopeful.</p>
+            <p>Bold takes on Technology, AI tools, and the future of Apple development. No bullshit. Occasionally hopeful.</p>
         </header>
 
         <section class="archive-section">
-            <h2>All Posts</h2>
-
+            <h3 class="month-header">January 2026</h3>
             <ul class="post-list">
                 <li>
-                    <span class="post-date">2026-01-07</span>
+                    <a href="/writing/so-many-things-at-once.html">So many things at once</a>
+                </li>
+                <li>
                     <a href="/writing/developers-who-survive-2026.html">Beautiful code is a liability</a>
                 </li>
             </ul>
         </section>
+
+        <footer>
+            Daniel Bernal <span id="footer-year"></span>
+        </footer>
     </div>
 
     <script>
@@ -208,6 +223,9 @@
 
         // Run on page load
         initTheme();
+
+        // Set current year in footer
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
     </script>
 </body>
 </html>

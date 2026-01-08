@@ -125,7 +125,7 @@ body.light-theme .theme-toggle {
 .manifesto {
     display: flex;
     flex-direction: column;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
 }
 
 .statement {
@@ -234,6 +234,41 @@ body.light-theme .theme-toggle {
     border-bottom-color: var(--accent);
 }
 
+.project-name {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-default) !important;
+    margin-bottom: 6px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+}
+
+body.light-theme .project-name {
+    color: var(--text-default-light) !important;
+}
+
+.project-name:hover {
+    color: var(--accent) !important;
+    border-bottom-color: var(--accent);
+}
+
+.project-desc {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: #999;
+}
+
+body.light-theme .project-desc {
+    color: #666;
+}
+
+.project-list li {
+    margin-bottom: 20px;
+}
+
 /* Writing Section */
 .writing {
     margin-bottom: 80px;
@@ -246,6 +281,43 @@ body.light-theme .theme-toggle {
     color: var(--accent);
     text-transform: uppercase;
     letter-spacing: 0.1em;
+}
+
+/* Writing list */
+.writing-list {
+    list-style: none;
+}
+
+.writing-list li {
+    margin-bottom: 12px;
+}
+
+.writing-date {
+    color: #666;
+    font-size: 0.95rem;
+    margin-right: 15px;
+}
+
+body.light-theme .writing-date {
+    color: #999;
+}
+
+.writing-list a {
+    color: var(--text-default) !important;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+body.light-theme .writing-list a {
+    color: var(--text-default-light) !important;
+}
+
+.writing-list a:hover {
+    color: var(--accent) !important;
+    border-bottom-color: var(--accent);
 }
 
 /* Contact Section */
