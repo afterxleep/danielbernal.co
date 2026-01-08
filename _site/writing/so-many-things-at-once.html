@@ -1,193 +1,483 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6K3PKXGS1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-C6K3PKXGS1');
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>So many things at once - Daniel Bernal</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>So many things at once - Daniel Bernal</title>
-    <meta name="description" content="The time between idea and something real is gone.">
+  <!-- SEO and OG tags -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>So many things at once | Daniel Bernal</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="So many things at once" />
+<meta name="author" content="Daniel Bernal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The time between idea and something real is gone." />
+<meta property="og:description" content="The time between idea and something real is gone." />
+<link rel="canonical" href="https://danielbernal.co/writing/so-many-things-at-once.html" />
+<meta property="og:url" content="https://danielbernal.co/writing/so-many-things-at-once.html" />
+<meta property="og:site_name" content="Daniel Bernal" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-01-08T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="So many things at once" />
+<meta name="twitter:site" content="@afterxleep" />
+<meta name="twitter:creator" content="@Daniel Bernal" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Daniel Bernal","url":"https://danielbernal.co"},"dateModified":"2026-01-08T00:00:00+01:00","datePublished":"2026-01-08T00:00:00+01:00","description":"The time between idea and something real is gone.","headline":"So many things at once","mainEntityOfPage":{"@type":"WebPage","@id":"https://danielbernal.co/writing/so-many-things-at-once.html"},"url":"https://danielbernal.co/writing/so-many-things-at-once.html"}</script>
+<!-- End Jekyll SEO tag -->
 
-    <!-- Custom meta tags -->
-    <meta name="excerpt" content="The time between idea and something real is gone.">
-    <meta name="quote" content="I used to filter ideas by effort and complexity. Now nothing takes too long, and I'm drowning in my own enthusiasm.">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://danielbernal.co/writing/so-many-things-at-once.html">
-    <meta property="og:title" content="So many things at once">
-    <meta property="og:description" content="The time between idea and something real is gone.">
-    <meta property="og:image" content="https://og-image.vercel.app/So+many+things+at+once.png?theme=dark&md=1&fontSize=100px">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:site_name" content="Daniel Bernal">
+  <!-- Open Graph image for posts -->
+  
+  <meta property="og:image" content="https://og-image.vercel.app/So+many+things+at+once.png?theme=dark&md=1&fontSize=100px">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="https://og-image.vercel.app/So+many+things+at+once.png?theme=dark&md=1&fontSize=100px">
+  
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://danielbernal.co/writing/so-many-things-at-once.html">
-    <meta property="twitter:title" content="So many things at once">
-    <meta property="twitter:description" content="The time between idea and something real is gone.">
-    <meta property="twitter:image" content="https://og-image.vercel.app/So+many+things+at+once.png?theme=dark&md=1&fontSize=100px">
-    <meta property="twitter:creator" content="@afterxleep">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-    <link rel="stylesheet" href="../styles.css">
-    <style>
-        /* Post page specific styles */
-        .container {
-            max-width: 700px;
-            padding: 60px 30px 40px;
-        }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      line-height: 1.6;
+      overflow-x: hidden;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
 
-        .post-nav {
-            margin-bottom: 80px;
-        }
+    /* Light theme */
+    body.light-theme {
+      background: #fff;
+      color: #000;
+    }
 
-        .post-nav a {
-            color: var(--text-default) !important;
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: 600;
-            border-bottom: 1px solid var(--text-default);
-            transition: all 0.2s;
-        }
+    body.light-theme footer h1 a,
+    body.light-theme .statement h1,
+    body.light-theme .statement a,
+    body.light-theme .post-list a,
+    body.light-theme .view-all-link,
+    body.light-theme .archive-list a,
+    body.light-theme .post h1,
+    body.light-theme .post-content h2,
+    body.light-theme .post-content h3,
+    body.light-theme .post-content a {
+      color: #000;
+    }
 
-        body.light-theme .post-nav a {
-            color: var(--text-default-light) !important;
-            border-bottom-color: var(--text-default-light);
-        }
+    body.light-theme footer p,
+    body.light-theme .statement p,
+    body.light-theme .recent-posts h2,
+    body.light-theme .most-read h2,
+    body.light-theme .archive-month {
+      color: #666;
+    }
 
-        .post-nav a:hover {
-            color: var(--accent) !important;
-            border-bottom-color: var(--accent);
-        }
+    body.light-theme .post-date,
+    body.light-theme .archive-list .date {
+      color: #999;
+    }
 
-        .post-nav, .post-footer {
-            color: #666;
-        }
+    body.light-theme .post-content {
+      color: #333;
+    }
 
-        body.light-theme .post-nav,
-        body.light-theme .post-footer {
-            color: #999;
-        }
+    body.light-theme .post-content a {
+      border-bottom-color: #999;
+    }
 
-        article h1 {
-            font-size: clamp(2.5rem, 6vw, 4rem);
-            font-weight: 900;
-            letter-spacing: -0.02em;
-            line-height: 1.1;
-            margin-bottom: 10px;
-            color: #fff;
-        }
+    body.light-theme .post-content a:hover,
+    body.light-theme footer h1 a:hover,
+    body.light-theme .statement a:hover,
+    body.light-theme .post-list a:hover,
+    body.light-theme .view-all-link:hover,
+    body.light-theme .archive-list a:hover {
+      border-bottom-color: #000;
+    }
 
-        body.light-theme article h1 {
-            color: #000;
-        }
+    body.light-theme .post-content blockquote {
+      border-left-color: #999;
+      color: #666;
+    }
 
-        article .post-date {
-            color: #999;
-            font-size: 1rem;
-            margin-bottom: 40px;
-            display: block;
-        }
+    body.light-theme .post-content code {
+      background: #f5f5f5;
+    }
 
-        body.light-theme article .post-date {
-            color: #666;
-        }
+    body.light-theme .post-content pre {
+      background: #f5f5f5;
+    }
 
-        article p {
-            font-size: 1.2rem;
-            line-height: 1.8;
-            margin-bottom: 25px;
-            color: #fff;
-        }
+    body.light-theme footer {
+      border-top-color: #ddd;
+      color: #999;
+    }
 
-        body.light-theme article p {
-            color: #000;
-        }
+    /* Theme toggle button */
+    .theme-toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: transparent;
+      border: 1px solid #666;
+      color: #fff;
+      padding: 6px;
+      cursor: pointer;
+      font-size: 11pt;
+      transition: all 0.3s ease;
+      z-index: 1000;
+      filter: grayscale(100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+      border-radius: 3px;
+    }
 
-        article h2 {
-            font-size: clamp(1.8rem, 4vw, 2.5rem);
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            line-height: 1.2;
-            margin: 50px 0 25px;
-            color: #fff;
-        }
+    body.light-theme .theme-toggle {
+      color: #000;
+      border-color: #ccc;
+    }
 
-        body.light-theme article h2 {
-            color: #000;
-        }
+    .theme-toggle:hover {
+      opacity: 0.7;
+    }
 
-        article a {
-            color: var(--text-default) !important;
-            text-decoration: none;
-            border-bottom: 1px solid var(--text-default);
-            transition: all 0.2s;
-        }
+    @media (max-width: 768px) {
+      .theme-toggle {
+        top: 10px;
+        right: 10px;
+      }
+    }
 
-        body.light-theme article a {
-            color: var(--text-default-light) !important;
-            border-bottom-color: var(--text-default-light);
-        }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 30px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
 
-        article a:hover {
-            color: var(--accent) !important;
-            border-bottom-color: var(--accent);
-        }
+    /* Post pages use 700px width for everything */
+    .layout-post .container {
+      max-width: 700px;
+    }
 
-        .post-footer {
-            margin-top: 80px;
-            padding-top: 60px;
-            border-top: 1px solid #333;
-        }
 
-        body.light-theme .post-footer {
-            border-top-color: #ddd;
-        }
+    /* Manifesto Section */
+    .manifesto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 60px;
+    }
 
-        .post-footer a {
-            color: #999 !important;
-            text-decoration: none;
-            font-size: 1rem;
-            border-bottom: 1px solid transparent;
-            transition: all 0.2s;
-        }
+    .statement {
+      opacity: 0;
+      animation: fadeIn 1s ease-in forwards;
+    }
 
-        .post-footer a:hover {
-            color: var(--accent) !important;
-            border-bottom-color: var(--accent);
-        }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
 
-        @media (max-width: 768px) {
-            .container {
-                padding: 40px 20px;
-            }
+    .statement h1 {
+      font-size: clamp(2.5rem, 8vw, 6rem);
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      line-height: 0.95;
+      margin-bottom: 30px;
+      color: #fff;
+    }
 
-            .post-nav {
-                margin-bottom: 60px;
-            }
-        }
-    </style>
+    .statement p {
+      font-size: clamp(1.1rem, 2vw, 1.4rem);
+      color: #999;
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
+
+    .statement a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .statement a:hover {
+      border-bottom-color: #fff;
+    }
+
+    /* Sections */
+    .recent-posts,
+    .most-read {
+      margin-bottom: 60px;
+    }
+
+    .recent-posts h2,
+    .most-read h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .post-list {
+      list-style: none;
+    }
+
+    .post-list li {
+      margin-bottom: 12px;
+    }
+
+    .post-list a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .post-list a:hover {
+      border-bottom-color: #fff;
+    }
+
+    /* View All */
+    .view-all {
+      margin-bottom: 60px;
+    }
+
+    .view-all-link {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .view-all-link:hover {
+      border-bottom-color: #fff;
+    }
+
+    /* Archive Page */
+    .archive h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      margin-bottom: 40px;
+    }
+
+    .archive-month {
+      color: #666;
+      font-size: 0.9rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .archive h2:first-of-type {
+      margin-top: 0;
+    }
+
+    .archive-list {
+      list-style: none;
+      margin-bottom: 0;
+    }
+
+    .archive-list li {
+      margin-bottom: 12px;
+    }
+
+    .archive-list a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .archive-list a:hover {
+      border-bottom-color: #fff;
+    }
+
+    /* Post Page */
+    .post {
+      max-width: 100%;
+    }
+
+    .post h1 {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .post-date {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 40px;
+      display: block;
+    }
+
+    .post-content {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: #ddd;
+    }
+
+    .post-content img {
+      max-width: 100%;
+      height: auto;
+      margin: 40px 0;
+      border-radius: 8px;
+    }
+
+    .post-content p {
+      margin-bottom: 25px;
+    }
+
+    .post-content h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 50px 0 25px;
+      color: #fff;
+    }
+
+    .post-content h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 40px 0 20px;
+      color: #fff;
+    }
+
+    .post-content a {
+      color: #fff;
+      border-bottom: 1px solid #666;
+      text-decoration: none;
+      transition: border-color 0.2s;
+    }
+
+    .post-content a:hover {
+      border-bottom-color: #fff;
+    }
+
+    .post-content ul,
+    .post-content ol {
+      margin-bottom: 25px;
+      padding-left: 30px;
+    }
+
+    .post-content li {
+      margin-bottom: 10px;
+    }
+
+    .post-content blockquote {
+      border-left: 3px solid #666;
+      padding-left: 20px;
+      margin: 30px 0;
+      color: #999;
+      font-style: italic;
+    }
+
+    .post-content code {
+      background: #111;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9em;
+    }
+
+    .post-content pre {
+      background: #111;
+      padding: 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 30px 0;
+    }
+
+    .post-content pre code {
+      background: none;
+      padding: 0;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: auto;
+      padding: 40px 0;
+      text-align: center;
+      border-top: 1px solid #222;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    body.light-theme footer {
+      border-top-color: #ddd;
+      color: #999;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        padding: 40px 20px;
+      }
+
+      .manifesto {
+        margin-bottom: 40px;
+      }
+
+
+      .archive-list li {
+        flex-direction: column;
+        gap: 5px;
+      }
+
+      .archive-list .date {
+        min-width: auto;
+      }
+    }
+  </style>
+  <link type="application/atom+xml" rel="alternate" href="https://danielbernal.co/feed.xml" title="Daniel Bernal" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6K3PKXGS1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-C6K3PKXGS1');
+  </script>
 </head>
-<body>
-    <button class="theme-toggle" onclick="toggleTheme()">○</button>
-    <div class="container">
-        <nav class="post-nav">
-            <a href="/">← danielbernal.co</a> | <a href="/writing">Writing</a>
-        </nav>
+<body class="layout-post">
+  <button class="theme-toggle" onclick="toggleTheme()">○</button>
+  <div class="container">
+    <main>
+      <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+  <h1 itemprop="headline">So many things at once</h1>
+  <span class="post-date">
+    <time datetime="2026-01-08T00:00:00+01:00" itemprop="datePublished">
+      January 2026
+    </time>
+  </span>
 
-        <article>
-            <h1>So many things at once</h1>
-            <span class="post-date">January 2026</span>
-
-            <p>I don’t remember the last time I wanted to do this many things at once.</p>
+  <div class="post-content" itemprop="articleBody">
+    <p>I don’t remember the last time I wanted to do this many things at once.</p>
 
 <p>Some idea hits at midnight and by 2am there’s a working prototype. One side project becomes three. A chat turns into code before I can even finish my coffee.</p>
 
@@ -203,66 +493,92 @@
 
 <p>Its a mess, but that’s the the point.</p>
 
+  </div>
 
-            <div class="post-footer">
-                <a href="/">← danielbernal.co</a> | <a href="/writing">Writing</a>
-            </div>
-        </article>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "So many things at once",
+    "datePublished": "2026-01-08T00:00:00+01:00",
+    "dateModified": "2026-01-08T00:00:00+01:00",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Bernal",
+      "url": "https://danielbernal.co"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Daniel Bernal",
+      "url": "https://danielbernal.co"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://danielbernal.co/writing/so-many-things-at-once.html"
+    },
+    "description": "The time between idea and something real is gone."
+  }
+  </script>
 
-        <footer>
-            Daniel Bernal <span id="footer-year"></span>
-        </footer>
-    </div>
+  <meta itemprop="author" content="Daniel Bernal">
+</article>
 
-    <script>
-        // Get system preference
-        function getSystemTheme() {
-            return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
-        }
+    </main>
 
-        // Apply theme
-        function applyTheme(theme) {
-            const body = document.body;
-            const button = document.querySelector('.theme-toggle');
+    <footer>
+      Daniel Bernal <span id="footer-year"></span>
+    </footer>
+  </div>
+  <script>
+    // Get system theme preference
+    function getSystemTheme() {
+      return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    }
 
-            if (theme === 'light') {
-                body.classList.add('light-theme');
-                button.textContent = '◑';
-            } else {
-                body.classList.remove('light-theme');
-                button.textContent = '○';
-            }
-        }
+    // Apply theme
+    function applyTheme(theme) {
+      const body = document.body;
+      const button = document.querySelector('.theme-toggle');
 
-        // Toggle theme manually
-        function toggleTheme() {
-            const currentTheme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            applyTheme(newTheme);
-            localStorage.setItem('theme-override', newTheme);
-        }
+      if (theme === 'light') {
+        body.classList.add('light-theme');
+        button.textContent = '◑';
+      } else {
+        body.classList.remove('light-theme');
+        button.textContent = '○';
+      }
+    }
 
-        // Initialize theme on page load
-        function initTheme() {
-            const override = localStorage.getItem('theme-override');
-            const theme = override || getSystemTheme();
-            applyTheme(theme);
-        }
+    // Toggle theme manually
+    function toggleTheme() {
+      const currentTheme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
 
-        // Listen for system theme changes
+      applyTheme(newTheme);
+      localStorage.setItem('theme-override', newTheme);
+    }
+
+    // Initialize theme on page load
+    function initTheme() {
+      const override = localStorage.getItem('theme-override');
+      const theme = override || getSystemTheme();
+      applyTheme(theme);
+
+      // Listen for system theme changes (only if no override)
+      if (!override) {
         window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
-            if (!localStorage.getItem('theme-override')) {
-                applyTheme(e.matches ? 'light' : 'dark');
-            }
+          if (!localStorage.getItem('theme-override')) {
+            applyTheme(e.matches ? 'light' : 'dark');
+          }
         });
+      }
+    }
 
-        // Run on page load
-        initTheme();
+    // Set current year in footer
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
 
-        // Extract year from post date and set in footer
-        const postDate = document.querySelector('.post-date').textContent;
-        const year = postDate.match(/\d{4}/)[0];
-        document.getElementById('footer-year').textContent = year;
-    </script>
+    // Run on page load
+    initTheme();
+  </script>
 </body>
 </html>

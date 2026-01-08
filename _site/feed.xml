@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_US"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://danielbernal.co/feed.xml" rel="self" type="application/atom+xml" /><link href="https://danielbernal.co/" rel="alternate" type="text/html" hreflang="en_US" /><updated>2026-01-08T02:26:47+01:00</updated><id>https://danielbernal.co/feed.xml</id><title type="html">Daniel Bernal</title><subtitle>Not done yet</subtitle><author><name>Daniel Bernal</name></author><entry><title type="html">So many things at once</title><link href="https://danielbernal.co/writing/so-many-things-at-once.html" rel="alternate" type="text/html" title="So many things at once" /><published>2026-01-08T00:00:00+01:00</published><updated>2026-01-08T00:00:00+01:00</updated><id>https://danielbernal.co/writing/so-many-things-at-once</id><content type="html" xml:base="https://danielbernal.co/writing/so-many-things-at-once.html"><![CDATA[<p>I don’t remember the last time I wanted to do this many things at once.</p>
+
+<p>Some idea hits at midnight and by 2am there’s a working prototype. One side project becomes three. A chat turns into code before I can even finish my coffee.</p>
+
+<p>There’s no friction anymore. The days or weeks between idea and something real don’t exist anymore. One prompt, some iteration, and suddenly it’s clickable.</p>
+
+<p>I used to filter ideas by effort and complexity. “That would take too long”, “I’ll have to learn XYZ first”. Had valid reasons to let something die almost all the time. Now nothing takes too long, and I’m drowning in my own enthusiasm.</p>
+
+<p>Terminal windows everywhere with things I forgot I started. Projects half-alive waiting for attention. Things I shipped last week I haven’t touched since.</p>
+
+<p>It’s crazy, but It’s also the most alive I’ve felt building things in years.</p>
+
+<p>I don’t know if this pace is sustainable or if I’m just riding a wave that will crash. But right now, I’d rather have too many things calling for attention than spend another decade filtering myself before I start.</p>
+
+<p>Its a mess, but that’s the the point.</p>]]></content><author><name>Daniel Bernal</name></author><summary type="html"><![CDATA[The time between idea and something real is gone.]]></summary></entry><entry><title type="html">Beautiful code is a liability</title><link href="https://danielbernal.co/writing/developers-who-survive-2026.html" rel="alternate" type="text/html" title="Beautiful code is a liability" /><published>2026-01-07T00:00:00+01:00</published><updated>2026-01-07T00:00:00+01:00</updated><id>https://danielbernal.co/writing/beautiful-code-is-a-liability</id><content type="html" xml:base="https://danielbernal.co/writing/developers-who-survive-2026.html"><![CDATA[<p>Developers who survive 2026 won’t be the best coders. They’ll be the fastest.</p>
+
+<p>The best coders I know are scared. Not publicly, but In long threads defending practices that won’t matter in eighteen months.</p>
+
+<p>They were never product people. Their product was the code. And it just got commoditized.</p>
+
+<p>While they’re fighting about how AI doesn’t write elegant code, they ignore it writes working code. In seconds.</p>
+
+<p>They ignore average code shipped fast beats perfect code shipped next month. It always did. The difference now is that “today” means minutes, not months.</p>
+
+<p>Folks advocating for clean abstractions and proper patterns aren’t wrong about their craft, but they’re wrong about what matters today. They’re protectin a status quo that valued their expertise, except that expertise is devaluing very fast.</p>
+
+<p>And yeah. There’s “the other” crowd. The ones who use AI but then spending hours “fixing” its output. Refactoring stuff code to meet their standards. Adding abstractions. Making it beautiful.</p>
+
+<p>They missed the point entirely. Code is not art. Code is not craftsmanship anymore. It’s disposable</p>
+
+<p>It will be regenerated next week when requirements change. That refactor It becomes debt the moment it gets to Github. It does not make sense to polishing something that was never meant to last.</p>
+
+<p>Our energy should be on deciding what to build. Understand what users actually need. Know when to cut scope. Ship something embarrassing and learn from it.</p>
+
+<p>We are not competing with AI. We competing with developers who use it don’t flinch.</p>
+
+<p>They’re not waiting for your code review. Or their own.</p>]]></content><author><name>Daniel Bernal</name></author><summary type="html"><![CDATA[Developers who survive 2026 won't be the best coders. They'll be the fastest.]]></summary></entry></feed>

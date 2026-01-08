@@ -3,39 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Beautiful code is a liability - Daniel Bernal</title>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
   <!-- SEO and OG tags -->
-  <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Beautiful code is a liability | Daniel Bernal</title>
-<meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Beautiful code is a liability" />
-<meta name="author" content="Daniel Bernal" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Developers who survive 2026 won’t be the best coders. They’ll be the fastest." />
-<meta property="og:description" content="Developers who survive 2026 won’t be the best coders. They’ll be the fastest." />
-<link rel="canonical" href="https://danielbernal.co/writing/developers-who-survive-2026.html" />
-<meta property="og:url" content="https://danielbernal.co/writing/developers-who-survive-2026.html" />
-<meta property="og:site_name" content="Daniel Bernal" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2026-01-07T00:00:00+01:00" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Beautiful code is a liability" />
-<meta name="twitter:site" content="@afterxleep" />
-<meta name="twitter:creator" content="@Daniel Bernal" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Daniel Bernal","url":"https://danielbernal.co"},"dateModified":"2026-01-07T00:00:00+01:00","datePublished":"2026-01-07T00:00:00+01:00","description":"Developers who survive 2026 won’t be the best coders. They’ll be the fastest.","headline":"Beautiful code is a liability","mainEntityOfPage":{"@type":"WebPage","@id":"https://danielbernal.co/writing/developers-who-survive-2026.html"},"url":"https://danielbernal.co/writing/developers-who-survive-2026.html"}</script>
-<!-- End Jekyll SEO tag -->
-
+  {% seo %}
 
   <!-- Open Graph image for posts -->
-  
-  <meta property="og:image" content="https://og-image.vercel.app/Beautiful+code+is+a+liability.png?theme=dark&md=1&fontSize=100px">
+  {% if page.layout == 'post' %}
+  <meta property="og:image" content="https://og-image.vercel.app/{{ page.title | url_encode }}.png?theme=dark&md=1&fontSize=100px">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:image" content="https://og-image.vercel.app/Beautiful+code+is+a+liability.png?theme=dark&md=1&fontSize=100px">
-  
+  <meta property="twitter:image" content="https://og-image.vercel.app/{{ page.title | url_encode }}.png?theme=dark&md=1&fontSize=100px">
+  {% endif %}
 
   <style>
     * {
@@ -454,7 +434,7 @@
       }
     }
   </style>
-  <link type="application/atom+xml" rel="alternate" href="https://danielbernal.co/feed.xml" title="Daniel Bernal" />
+  {% feed_meta %}
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6K3PKXGS1"></script>
   <script>
@@ -464,73 +444,11 @@
     gtag('config', 'G-C6K3PKXGS1');
   </script>
 </head>
-<body class="layout-post">
+<body class="layout-{{ page.layout }}">
   <button class="theme-toggle" onclick="toggleTheme()">○</button>
   <div class="container">
     <main>
-      <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
-  <h1 itemprop="headline">Beautiful code is a liability</h1>
-  <span class="post-date">
-    <time datetime="2026-01-07T00:00:00+01:00" itemprop="datePublished">
-      January 2026
-    </time>
-  </span>
-
-  <div class="post-content" itemprop="articleBody">
-    <p>Developers who survive 2026 won’t be the best coders. They’ll be the fastest.</p>
-
-<p>The best coders I know are scared. Not publicly, but In long threads defending practices that won’t matter in eighteen months.</p>
-
-<p>They were never product people. Their product was the code. And it just got commoditized.</p>
-
-<p>While they’re fighting about how AI doesn’t write elegant code, they ignore it writes working code. In seconds.</p>
-
-<p>They ignore average code shipped fast beats perfect code shipped next month. It always did. The difference now is that “today” means minutes, not months.</p>
-
-<p>Folks advocating for clean abstractions and proper patterns aren’t wrong about their craft, but they’re wrong about what matters today. They’re protectin a status quo that valued their expertise, except that expertise is devaluing very fast.</p>
-
-<p>And yeah. There’s “the other” crowd. The ones who use AI but then spending hours “fixing” its output. Refactoring stuff code to meet their standards. Adding abstractions. Making it beautiful.</p>
-
-<p>They missed the point entirely. Code is not art. Code is not craftsmanship anymore. It’s disposable</p>
-
-<p>It will be regenerated next week when requirements change. That refactor It becomes debt the moment it gets to Github. It does not make sense to polishing something that was never meant to last.</p>
-
-<p>Our energy should be on deciding what to build. Understand what users actually need. Know when to cut scope. Ship something embarrassing and learn from it.</p>
-
-<p>We are not competing with AI. We competing with developers who use it don’t flinch.</p>
-
-<p>They’re not waiting for your code review. Or their own.</p>
-
-  </div>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "Beautiful code is a liability",
-    "datePublished": "2026-01-07T00:00:00+01:00",
-    "dateModified": "2026-01-07T00:00:00+01:00",
-    "author": {
-      "@type": "Person",
-      "name": "Daniel Bernal",
-      "url": "https://danielbernal.co"
-    },
-    "publisher": {
-      "@type": "Person",
-      "name": "Daniel Bernal",
-      "url": "https://danielbernal.co"
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://danielbernal.co/writing/developers-who-survive-2026.html"
-    },
-    "description": "Developers who survive 2026 won't be the best coders. They'll be the fastest."
-  }
-  </script>
-
-  <meta itemprop="author" content="Daniel Bernal">
-</article>
-
+      {{ content }}
     </main>
 
     <footer>

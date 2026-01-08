@@ -1,253 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6K3PKXGS1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-C6K3PKXGS1');
-    </script>
+---
+layout: default
+---
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - Daniel Bernal</title>
-    <meta name="description" content="{{ page.excerpt }}">
+<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+  <h1 itemprop="headline">{{ page.title }}</h1>
+  <span class="post-date">
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {{ page.date | date: "%B %Y" }}
+    </time>
+  </span>
 
-    <!-- Custom meta tags -->
-    <meta name="excerpt" content="{{ page.excerpt }}">
-    <meta name="quote" content="{{ page.quote }}">
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://danielbernal.co{{ page.url }}">
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description" content="{{ page.excerpt }}">
-    <meta property="og:image" content="https://og-image.vercel.app/{{ page.title | url_encode }}.png?theme=dark&md=1&fontSize=100px">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:site_name" content="Daniel Bernal">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": {{ page.title | jsonify }},
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.date | date_to_xmlschema }}",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Bernal",
+      "url": "https://danielbernal.co"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Daniel Bernal",
+      "url": "https://danielbernal.co"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}"
+    },
+    "description": {{ page.excerpt | strip_html | truncatewords: 50 | jsonify }}
+  }
+  </script>
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://danielbernal.co{{ page.url }}">
-    <meta property="twitter:title" content="{{ page.title }}">
-    <meta property="twitter:description" content="{{ page.excerpt }}">
-    <meta property="twitter:image" content="https://og-image.vercel.app/{{ page.title | url_encode }}.png?theme=dark&md=1&fontSize=100px">
-    <meta property="twitter:creator" content="@afterxleep">
-
-    <link rel="stylesheet" href="../styles.css">
-    <style>
-        /* Post page specific styles */
-        .container {
-            max-width: 700px;
-            padding: 60px 30px 40px;
-        }
-
-        .post-nav {
-            margin-bottom: 80px;
-        }
-
-        .post-nav a {
-            color: var(--text-default) !important;
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: 600;
-            border-bottom: 1px solid var(--text-default);
-            transition: all 0.2s;
-        }
-
-        body.light-theme .post-nav a {
-            color: var(--text-default-light) !important;
-            border-bottom-color: var(--text-default-light);
-        }
-
-        .post-nav a:hover {
-            color: var(--accent) !important;
-            border-bottom-color: var(--accent);
-        }
-
-        .post-nav, .post-footer {
-            color: #666;
-        }
-
-        body.light-theme .post-nav,
-        body.light-theme .post-footer {
-            color: #999;
-        }
-
-        article h1 {
-            font-size: clamp(2.5rem, 6vw, 4rem);
-            font-weight: 900;
-            letter-spacing: -0.02em;
-            line-height: 1.1;
-            margin-bottom: 10px;
-            color: #fff;
-        }
-
-        body.light-theme article h1 {
-            color: #000;
-        }
-
-        article .post-date {
-            color: #999;
-            font-size: 1rem;
-            margin-bottom: 40px;
-            display: block;
-        }
-
-        body.light-theme article .post-date {
-            color: #666;
-        }
-
-        article p {
-            font-size: 1.2rem;
-            line-height: 1.8;
-            margin-bottom: 25px;
-            color: #fff;
-        }
-
-        body.light-theme article p {
-            color: #000;
-        }
-
-        article h2 {
-            font-size: clamp(1.8rem, 4vw, 2.5rem);
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            line-height: 1.2;
-            margin: 50px 0 25px;
-            color: #fff;
-        }
-
-        body.light-theme article h2 {
-            color: #000;
-        }
-
-        article a {
-            color: var(--text-default) !important;
-            text-decoration: none;
-            border-bottom: 1px solid var(--text-default);
-            transition: all 0.2s;
-        }
-
-        body.light-theme article a {
-            color: var(--text-default-light) !important;
-            border-bottom-color: var(--text-default-light);
-        }
-
-        article a:hover {
-            color: var(--accent) !important;
-            border-bottom-color: var(--accent);
-        }
-
-        .post-footer {
-            margin-top: 80px;
-            padding-top: 60px;
-            border-top: 1px solid #333;
-        }
-
-        body.light-theme .post-footer {
-            border-top-color: #ddd;
-        }
-
-        .post-footer a {
-            color: #999 !important;
-            text-decoration: none;
-            font-size: 1rem;
-            border-bottom: 1px solid transparent;
-            transition: all 0.2s;
-        }
-
-        .post-footer a:hover {
-            color: var(--accent) !important;
-            border-bottom-color: var(--accent);
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 40px 20px;
-            }
-
-            .post-nav {
-                margin-bottom: 60px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <button class="theme-toggle" onclick="toggleTheme()">○</button>
-    <div class="container">
-        <nav class="post-nav">
-            <a href="/">← danielbernal.co</a> | <a href="/writing">Writing</a>
-        </nav>
-
-        <article>
-            <h1>{{ page.title }}</h1>
-            <span class="post-date">{{ page.date | date: "%B %Y" }}</span>
-
-            {{ content }}
-
-            <div class="post-footer">
-                <a href="/">← danielbernal.co</a> | <a href="/writing">Writing</a>
-            </div>
-        </article>
-
-        <footer>
-            Daniel Bernal <span id="footer-year"></span>
-        </footer>
-    </div>
-
-    <script>
-        // Get system preference
-        function getSystemTheme() {
-            return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
-        }
-
-        // Apply theme
-        function applyTheme(theme) {
-            const body = document.body;
-            const button = document.querySelector('.theme-toggle');
-
-            if (theme === 'light') {
-                body.classList.add('light-theme');
-                button.textContent = '◑';
-            } else {
-                body.classList.remove('light-theme');
-                button.textContent = '○';
-            }
-        }
-
-        // Toggle theme manually
-        function toggleTheme() {
-            const currentTheme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            applyTheme(newTheme);
-            localStorage.setItem('theme-override', newTheme);
-        }
-
-        // Initialize theme on page load
-        function initTheme() {
-            const override = localStorage.getItem('theme-override');
-            const theme = override || getSystemTheme();
-            applyTheme(theme);
-        }
-
-        // Listen for system theme changes
-        window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
-            if (!localStorage.getItem('theme-override')) {
-                applyTheme(e.matches ? 'light' : 'dark');
-            }
-        });
-
-        // Run on page load
-        initTheme();
-
-        // Extract year from post date and set in footer
-        const postDate = document.querySelector('.post-date').textContent;
-        const year = postDate.match(/\d{4}/)[0];
-        document.getElementById('footer-year').textContent = year;
-    </script>
-</body>
-</html>
+  <meta itemprop="author" content="Daniel Bernal">
+</article>

@@ -1,11 +1,42 @@
-collections:
-  writing:
-    output: true
-    permalink: /writing/:name.html
+title: Daniel Bernal
+description: Not done yet
+url: "https://danielbernal.co"
+baseurl: ""
 
-defaults:
-  - scope:
-      path: "writing"
-      type: "writing"
-    values:
-      layout: none
+# Author
+author:
+  name: Daniel Bernal
+  url: https://danielbernal.co
+
+# Social
+twitter:
+  username: afterxleep
+  card: summary_large_image
+
+social:
+  name: Daniel Bernal
+  links:
+    - https://twitter.com/afterxleep
+    - https://github.com/afterxleep
+
+# SEO
+lang: en_US
+
+# Build settings
+markdown: kramdown
+permalink: /writing/:title.html
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .git
+  - .gitignore
+  - .jekyll-cache
+  - _data
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
