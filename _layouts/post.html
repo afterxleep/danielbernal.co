@@ -1,9 +1,3 @@
----
-title: "Beautiful code is a liability"
-date: 2026-01-07
-excerpt: "Developers who survive 2026 won't be the best coders. They'll be the fastest."
-quote: "Code is not art. Code is not craftsmanship anymore. It's disposable."
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,29 +12,29 @@ quote: "Code is not art. Code is not craftsmanship anymore. It's disposable."
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developers who survive 2026 won't be the best coders - Daniel Bernal</title>
-    <meta name="description" content="The developers who survive 2026 won't be the best coders. They'll be the fastest.">
+    <title>{{ page.title }} - Daniel Bernal</title>
+    <meta name="description" content="{{ page.excerpt }}">
 
     <!-- Custom meta tags -->
-    <meta name="excerpt" content="Developers who survive 2026 won't be the best coders. They'll be the fastest.">
-    <meta name="quote" content="Code is not art. Code is not craftsmanship anymore. It's disposable.">
+    <meta name="excerpt" content="{{ page.excerpt }}">
+    <meta name="quote" content="{{ page.quote }}">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://danielbernal.co/writing/developers-who-survive-2026.html">
-    <meta property="og:title" content="Beautiful code is a liability">
-    <meta property="og:description" content="Developers who survive 2026 won't be the best coders. They'll be the fastest.">
-    <meta property="og:image" content="https://og-image.vercel.app/Beautiful%20code%20is%20a%20liability.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg">
+    <meta property="og:url" content="https://danielbernal.co{{ page.url }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.excerpt }}">
+    <meta property="og:image" content="https://og-image.vercel.app/{{ page.title | url_encode }}.png?theme=dark&md=1&fontSize=100px">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Daniel Bernal">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://danielbernal.co/writing/developers-who-survive-2026.html">
-    <meta property="twitter:title" content="Beautiful code is a liability">
-    <meta property="twitter:description" content="Developers who survive 2026 won't be the best coders. They'll be the fastest.">
-    <meta property="twitter:image" content="https://og-image.vercel.app/Beautiful%20code%20is%20a%20liability.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg">
+    <meta property="twitter:url" content="https://danielbernal.co{{ page.url }}">
+    <meta property="twitter:title" content="{{ page.title }}">
+    <meta property="twitter:description" content="{{ page.excerpt }}">
+    <meta property="twitter:image" content="https://og-image.vercel.app/{{ page.title | url_encode }}.png?theme=dark&md=1&fontSize=100px">
     <meta property="twitter:creator" content="@afterxleep">
 
     <link rel="stylesheet" href="../styles.css">
@@ -190,32 +184,10 @@ quote: "Code is not art. Code is not craftsmanship anymore. It's disposable."
         </nav>
 
         <article>
-            <h1>Beautiful code is a liability</h1>
-            <span class="post-date">January 2026</span>
+            <h1>{{ page.title }}</h1>
+            <span class="post-date">{{ page.date | date: "%B %Y" }}</span>
 
-            <p>Developers who survive 2026 won't be the best coders. They'll be the fastest.</p>
-
-            <p>The best coders I know are scared. Not publicly, but In long threads defending practices that won't matter in eighteen months.</p>
-
-            <p>They were never product people. Their product was the code. And it just got commoditized.</p>
-
-            <p>While they're fighting about how AI doesn't write elegant code, they ignore it writes working code. In seconds.</p>
-
-            <p>They ignore average code shipped fast beats perfect code shipped next month. It always did. The difference now is that "today" means minutes, not months.</p>
-
-            <p>Folks advocating for clean abstractions and proper patterns aren't wrong about their craft, but they're wrong about what matters today. They're protectin a status quo that valued their expertise, except that expertise is devaluing very fast.</p>
-
-            <p>And yeah. There's "the other" crowd. The ones who use AI but then spending hours "fixing" its output. Refactoring stuff code to meet their standards. Adding abstractions. Making it beautiful.</p>
-
-            <p>They missed the point entirely. Code is not art. Code is not craftsmanship anymore. It's disposable</p>
-
-            <p>It will be regenerated next week when requirements change. That refactor It becomes debt the moment it gets to Github. It does not make sense to polishing something that was never meant to last.</p>
-
-            <p>Our energy should be on deciding what to build. Understand what users actually need. Know when to cut scope. Ship something embarrassing and learn from it.</p>
-
-            <p>We are not competing with AI. We competing with developers who use it don't flinch.</p>
-
-            <p>They're not waiting for your code review. Or their own.</p>
+            {{ content }}
 
             <div class="post-footer">
                 <a href="/">← danielbernal.co</a> | <a href="/writing">Writing</a>
