@@ -1,230 +1,546 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6K3PKXGS1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-C6K3PKXGS1');
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Writing - Daniel Bernal</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Writing - Daniel Bernal</title>
-    <meta name="description" content="Bold takes on Xcode, AI tools, and the future of iOS development.">
-    <link rel="stylesheet" href="../styles.css">
-    <style>
-        /* Override container width */
-        .container {
-            max-width: 700px;
-        }
+  <!-- SEO and OG tags -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Writing | Daniel Bernal</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Writing" />
+<meta name="author" content="Daniel Bernal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Not done yet" />
+<meta property="og:description" content="Not done yet" />
+<link rel="canonical" href="https://danielbernal.co/writing/" />
+<meta property="og:url" content="https://danielbernal.co/writing/" />
+<meta property="og:site_name" content="Daniel Bernal" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Writing" />
+<meta name="twitter:site" content="@afterxleep" />
+<meta name="twitter:creator" content="@Daniel Bernal" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Daniel Bernal","url":"https://danielbernal.co"},"description":"Not done yet","headline":"Writing","url":"https://danielbernal.co/writing/"}</script>
+<!-- End Jekyll SEO tag -->
 
-        /* Navigation */
-        .nav-header {
-            margin-bottom: 80px;
-        }
 
-        .nav-header a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: 600;
-            border-bottom: 1px solid #fff;
-            transition: all 0.2s;
-        }
+  <!-- Open Graph image for posts -->
+  
 
-        body.light-theme .nav-header a {
-            color: #000;
-            border-bottom-color: #000;
-        }
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        .nav-header a:hover {
-            color: var(--accent);
-            border-bottom-color: var(--accent);
-        }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      line-height: 1.6;
+      overflow-x: hidden;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
 
-        /* Page title */
-        .page-title {
-            margin-bottom: 100px;
-        }
+    /* Light theme */
+    body.light-theme {
+      background: #fff;
+      color: #000;
+    }
 
-        .page-title h1 {
-            font-size: clamp(3rem, 10vw, 7rem);
-            font-weight: 900;
-            letter-spacing: -0.03em;
-            line-height: 0.95;
-            margin-bottom: 30px;
-            color: #fff;
-        }
+    body.light-theme footer h1 a,
+    body.light-theme .statement h1,
+    body.light-theme .statement a,
+    body.light-theme .post-list a,
+    body.light-theme .view-all-link,
+    body.light-theme .archive-list a,
+    body.light-theme .post h1,
+    body.light-theme .post-content h2,
+    body.light-theme .post-content h3,
+    body.light-theme .post-content a {
+      color: #000;
+    }
 
-        body.light-theme .page-title h1 {
-            color: #000;
-        }
+    body.light-theme footer p,
+    body.light-theme .statement p,
+    body.light-theme .recent-posts h2,
+    body.light-theme .most-read h2,
+    body.light-theme .archive-month {
+      color: #666;
+    }
 
-        .page-title p {
-            font-size: clamp(1.2rem, 2.5vw, 1.6rem);
-            color: #999;
-            max-width: 600px;
-        }
+    body.light-theme .post-date,
+    body.light-theme .archive-list .date {
+      color: #999;
+    }
 
-        /* Archive section */
-        .archive-section h2 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: var(--accent);
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            margin-bottom: 50px;
-        }
+    body.light-theme .post-content {
+      color: #333;
+    }
 
-        body.light-theme .archive-section h2 {
-            color: var(--accent-hover);
-        }
+    body.light-theme .post-content a {
+      border-bottom-color: #999;
+    }
 
-        .month-header {
-            color: #666;
-            font-size: 0.9rem;
-            font-family: 'Courier New', monospace;
-            font-weight: 400;
-            margin: 40px 0 20px 0;
-            text-transform: none;
-            letter-spacing: normal;
-        }
+    body.light-theme .post-content a:hover,
+    body.light-theme footer h1 a:hover,
+    body.light-theme .statement a:hover,
+    body.light-theme .post-list a:hover,
+    body.light-theme .view-all-link:hover,
+    body.light-theme .archive-list a:hover {
+      border-bottom-color: #000;
+    }
 
-        .month-header:first-of-type {
-            margin-top: 0;
-        }
+    body.light-theme .post-content blockquote {
+      border-left-color: #999;
+      color: #666;
+    }
 
-        body.light-theme .month-header {
-            color: #666;
-        }
+    body.light-theme .post-content code {
+      background: #f5f5f5;
+    }
 
-        .post-list {
-            list-style: none;
-            margin-bottom: 40px;
-        }
+    body.light-theme .post-content pre {
+      background: #f5f5f5;
+    }
 
-        .post-list li {
-            margin-bottom: 12px;
-        }
+    body.light-theme footer {
+      border-top-color: #ddd;
+      color: #999;
+    }
 
-        .post-list a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1.2rem;
-            font-weight: 600;
-            line-height: 1.2;
-            border-bottom: 2px solid transparent;
-            transition: all 0.2s;
-        }
+    /* Theme toggle button */
+    .theme-toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: transparent;
+      border: 1px solid #666;
+      color: #fff;
+      padding: 6px;
+      cursor: pointer;
+      font-size: 11pt;
+      transition: all 0.3s ease;
+      z-index: 1000;
+      filter: grayscale(100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+      border-radius: 3px;
+    }
 
-        body.light-theme .post-list a {
-            color: #000;
-        }
+    body.light-theme .theme-toggle {
+      color: #000;
+      border-color: #ccc;
+    }
 
-        .post-list a:hover {
-            color: var(--accent);
-            border-bottom-color: var(--accent);
-        }
+    .theme-toggle:hover {
+      opacity: 0.7;
+    }
 
-        @media (max-width: 768px) {
-            .nav-header {
-                margin-bottom: 60px;
-            }
+    @media (max-width: 768px) {
+      .theme-toggle {
+        top: 10px;
+        right: 10px;
+      }
+    }
 
-            .page-title {
-                margin-bottom: 70px;
-            }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 30px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
 
-            .post-list li {
-                flex-direction: column;
-                gap: 5px;
-                margin-bottom: 20px;
-            }
+    /* Post pages use 700px width for everything */
+    .layout-post .container {
+      max-width: 700px;
+    }
 
-            .post-date {
-                min-width: auto;
-            }
-        }
-    </style>
+
+    /* Manifesto Section */
+    .manifesto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 60px;
+    }
+
+    .statement {
+      opacity: 0;
+      animation: fadeIn 1s ease-in forwards;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    .statement h1 {
+      font-size: clamp(2.5rem, 8vw, 6rem);
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      line-height: 0.95;
+      margin-bottom: 30px;
+      color: #fff;
+    }
+
+    .statement p {
+      font-size: clamp(1.1rem, 2vw, 1.4rem);
+      color: #999;
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
+
+    .statement a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .statement a:hover {
+      border-bottom-color: #fff;
+    }
+
+    /* Sections */
+    .recent-posts,
+    .most-read {
+      margin-bottom: 60px;
+    }
+
+    .recent-posts h2,
+    .most-read h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .post-list {
+      list-style: none;
+    }
+
+    .post-list li {
+      margin-bottom: 12px;
+    }
+
+    .post-list a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .post-list a:hover {
+      border-bottom-color: #fff;
+    }
+
+    /* View All */
+    .view-all {
+      margin-bottom: 60px;
+    }
+
+    .view-all-link {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .view-all-link:hover {
+      border-bottom-color: #fff;
+    }
+
+    /* Archive Page */
+    .archive h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      margin-bottom: 40px;
+    }
+
+    .archive-month {
+      color: #666;
+      font-size: 0.9rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .archive h2:first-of-type {
+      margin-top: 0;
+    }
+
+    .archive-list {
+      list-style: none;
+      margin-bottom: 0;
+    }
+
+    .archive-list li {
+      margin-bottom: 12px;
+    }
+
+    .archive-list a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .archive-list a:hover {
+      border-bottom-color: #fff;
+    }
+
+    /* Post Page */
+    .post {
+      max-width: 100%;
+    }
+
+    .post h1 {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .post-date {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 40px;
+      display: block;
+    }
+
+    .post-content {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: #ddd;
+    }
+
+    .post-content img {
+      max-width: 100%;
+      height: auto;
+      margin: 40px 0;
+      border-radius: 8px;
+    }
+
+    .post-content p {
+      margin-bottom: 25px;
+    }
+
+    .post-content h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 50px 0 25px;
+      color: #fff;
+    }
+
+    .post-content h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 40px 0 20px;
+      color: #fff;
+    }
+
+    .post-content a {
+      color: #fff;
+      border-bottom: 1px solid #666;
+      text-decoration: none;
+      transition: border-color 0.2s;
+    }
+
+    .post-content a:hover {
+      border-bottom-color: #fff;
+    }
+
+    .post-content ul,
+    .post-content ol {
+      margin-bottom: 25px;
+      padding-left: 30px;
+    }
+
+    .post-content li {
+      margin-bottom: 10px;
+    }
+
+    .post-content blockquote {
+      border-left: 3px solid #666;
+      padding-left: 20px;
+      margin: 30px 0;
+      color: #999;
+      font-style: italic;
+    }
+
+    .post-content code {
+      background: #111;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9em;
+    }
+
+    .post-content pre {
+      background: #111;
+      padding: 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 30px 0;
+    }
+
+    .post-content pre code {
+      background: none;
+      padding: 0;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: auto;
+      padding: 40px 0;
+      text-align: center;
+      border-top: 1px solid #222;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    body.light-theme footer {
+      border-top-color: #ddd;
+      color: #999;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        padding: 40px 20px;
+      }
+
+      .manifesto {
+        margin-bottom: 40px;
+      }
+
+
+      .archive-list li {
+        flex-direction: column;
+        gap: 5px;
+      }
+
+      .archive-list .date {
+        min-width: auto;
+      }
+    }
+  </style>
+  <link type="application/atom+xml" rel="alternate" href="https://danielbernal.co/feed.xml" title="Daniel Bernal" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6K3PKXGS1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-C6K3PKXGS1');
+  </script>
 </head>
-<body>
-    <button class="theme-toggle" onclick="toggleTheme()">○</button>
-    <div class="container">
-        <nav class="nav-header">
-            <a href="/">← danielbernal.co</a>
-        </nav>
+<body class="layout-default">
+  <button class="theme-toggle" onclick="toggleTheme()">○</button>
+  <div class="container">
+    <main>
+      <section class="archive">
+  <h1>Writing</h1>
+  
+  
+    
+    
+      
+      <h2 class="archive-month">January 2026</h2>
+      <ul class="archive-list">
+      
+    
+    <li>
+      <a href="/writing/so-many-things-at-once.html">So many things at once</a>
+    </li>
+  
+    
+    
+    <li>
+      <a href="/writing/developers-who-survive-2026.html">Beautiful code is a liability</a>
+    </li>
+  
+  </ul>
+</section>
 
-        <header class="page-title">
-            <h1>Writing</h1>
-        </header>
+    </main>
 
-        <section class="archive-section">
-            <h3 class="month-header">January 2026</h3>
-            <ul class="post-list">
-                <li>
-                    <a href="/writing/so-many-things-at-once.html">So many things at once</a>
-                </li>
-                <li>
-                    <a href="/writing/developers-who-survive-2026.html">Beautiful code is a liability</a>
-                </li>
-            </ul>
-        </section>
+    <footer>
+      Daniel Bernal <span id="footer-year"></span>
+    </footer>
+  </div>
+  <script>
+    // Get system theme preference
+    function getSystemTheme() {
+      return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    }
 
-        <footer>
-            Daniel Bernal <span id="footer-year"></span>
-        </footer>
-    </div>
+    // Apply theme
+    function applyTheme(theme) {
+      const body = document.body;
+      const button = document.querySelector('.theme-toggle');
 
-    <script>
-        // Get system preference
-        function getSystemTheme() {
-            return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
-        }
+      if (theme === 'light') {
+        body.classList.add('light-theme');
+        button.textContent = '◑';
+      } else {
+        body.classList.remove('light-theme');
+        button.textContent = '○';
+      }
+    }
 
-        // Apply theme
-        function applyTheme(theme) {
-            const body = document.body;
-            const button = document.querySelector('.theme-toggle');
+    // Toggle theme manually
+    function toggleTheme() {
+      const currentTheme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
 
-            if (theme === 'light') {
-                body.classList.add('light-theme');
-                button.textContent = '◑';
-            } else {
-                body.classList.remove('light-theme');
-                button.textContent = '○';
-            }
-        }
+      applyTheme(newTheme);
+      localStorage.setItem('theme-override', newTheme);
+    }
 
-        // Toggle theme manually
-        function toggleTheme() {
-            const currentTheme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            applyTheme(newTheme);
-            localStorage.setItem('theme-override', newTheme);
-        }
+    // Initialize theme on page load
+    function initTheme() {
+      const override = localStorage.getItem('theme-override');
+      const theme = override || getSystemTheme();
+      applyTheme(theme);
 
-        // Initialize theme on page load
-        function initTheme() {
-            const override = localStorage.getItem('theme-override');
-            const theme = override || getSystemTheme();
-            applyTheme(theme);
-        }
-
-        // Listen for system theme changes
+      // Listen for system theme changes (only if no override)
+      if (!override) {
         window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
-            if (!localStorage.getItem('theme-override')) {
-                applyTheme(e.matches ? 'light' : 'dark');
-            }
+          if (!localStorage.getItem('theme-override')) {
+            applyTheme(e.matches ? 'light' : 'dark');
+          }
         });
+      }
+    }
 
-        // Run on page load
-        initTheme();
+    // Set current year in footer
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
 
-        // Set current year in footer
-        document.getElementById('footer-year').textContent = new Date().getFullYear();
-    </script>
+    // Run on page load
+    initTheme();
+  </script>
 </body>
 </html>

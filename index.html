@@ -1,159 +1,67 @@
 ---
-layout: none
+layout: default
+title: Home
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6K3PKXGS1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-C6K3PKXGS1');
-    </script>
+<section class="manifesto">
+  <div class="statement" id="statement"></div>
+</section>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<section class="recent-posts">
+  <h2>Me</h2>
+  <ul class="post-list" style="list-style: disc; padding-left: 20px;">
+    <li style="font-size: 1.2rem; font-weight: 400;">I question what I'm told not to.</li>
+    <li style="font-size: 1.2rem; font-weight: 400;">I write what gets me in trouble.</li>
+    <li style="font-size: 1.2rem; font-weight: 400;">I ship. Then talk.</li>
+    <li style="font-size: 1.2rem; font-weight: 400;">I'm not done yet.</li>
+  </ul>
+</section>
 
-    <!-- Primary Meta Tags -->
-    <title>Daniel Bernal - Not done yet</title>
-    <meta name="title" content="Daniel Bernal - Not done yet">
-    <meta name="description" content="I question things, write what others won't, and learn by shipping. I build FlowDeck, Stakeholder Therapy, and more from Pamplona, Spain.">
-    <meta name="author" content="Daniel Bernal">
-    <meta name="keywords" content="Daniel Bernal, FlowDeck, Stakeholder Therapy, developer, builder, manifesto, software engineering, tech writing">
-    <link rel="canonical" href="https://danielbernal.co/">
+<section class="recent-posts">
+  <h2>Writing</h2>
+  <ul class="post-list">
+    {% for post in site.posts offset:1 limit:5 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://danielbernal.co/">
-    <meta property="og:title" content="Daniel Bernal - Not done yet">
-    <meta property="og:description" content="I question things, write what others won't, and learn by shipping. I build FlowDeck, Stakeholder Therapy, and more from Pamplona, Spain.">
-    <meta property="og:site_name" content="Daniel Bernal">
+<section class="view-all">
+  <a href="/writing/" class="view-all-link">View All →</a>
+</section>
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://danielbernal.co/">
-    <meta property="twitter:title" content="Daniel Bernal - Not done yet">
-    <meta property="twitter:description" content="I question things, write what others won't, and learn by shipping. I build FlowDeck, Stakeholder Therapy, and more from Pamplona, Spain.">
-    <meta property="twitter:creator" content="@afterxleep">
+<section class="recent-posts">
+  <h2>Projects</h2>
+  <ul class="post-list">
+    <li><a href="https://flowdeck.studio" target="_blank">FlowDeck</a> — Opinionated tools for Apple developers.</li>
+    <li><a href="https://apps.apple.com/es/app/bouncer-spam-text-blocker/id1457476313?l=en-GB" target="_blank">Bouncer</a> — Filter unwanted SMS messages on iOS.</li>
+    <li><a href="https://stakeholdertherapy.com" target="_blank">Stakeholder Therapy</a> — Unfiltered takes on life, work and people. (Fictional. Obviously.)</li>
+  </ul>
+</section>
 
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <button class="theme-toggle" onclick="toggleTheme()">○</button>
-    <div class="container">
-        <section class="manifesto">
-            <div class="statement" id="statement"></div>
-        </section>
+<section class="recent-posts">
+  <h2>Links</h2>
+  <ul class="post-list">
+    <li><a href="https://www.x.com/afterxleep" target="_blank">X</a></li>
+    <li><a href="https://github.com/afterxleep" target="_blank">GitHub</a></li>
+    <li><a href="mailto:danielbernal@hey.com">danielbernal@hey.com</a></li>
+  </ul>
+</section>
 
-        <section class="facts">
-            <h2>Me</h2>
-            <ul>
-                <li>I question what I'm told not to.</li>
-                <li>I write what gets me in trouble.</li>
-                <li>I ship. Then talk.</li>
-                <li>I'm not done yet.</li>
-            </ul>
-        </section>
+<script>
+// Load latest post dynamically
+async function loadLatestPost() {
+    const container = document.getElementById('statement');
 
-        <section class="writing">
-            <h2>Writing</h2>
-            <ul class="project-list">
-                {% assign writing_pages = site.pages | where_exp: "page", "page.path contains 'writing/'" | where_exp: "page", "page.title" | sort: "date" | reverse %}
-                {% for post in writing_pages offset:1 limit:5 %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ul>
-            <p style="margin-top: 30px;"><a href="/writing/" class="view-all-link">View All →</a></p>
-        </section>
+    // Get the latest post data from Jekyll
+    {% assign latest = site.posts.first %}
 
-        <section class="projects">
-            <h2>Projects</h2>
-            <ul class="project-list">
-                <li>
-                    <a href="https://flowdeck.studio" target="_blank" class="project-name">FlowDeck</a>
-                    <span class="project-desc">Opinionated tools for Apple developers.</span>
-                </li>
-                <li>
-                    <a href="https://apps.apple.com/es/app/bouncer-spam-text-blocker/id1457476313?l=en-GB" target="_blank" class="project-name">Bouncer</a>
-                    <span class="project-desc">Filter unwanted SMS messages on iOS.</span>
-                </li>
-                <li>
-                    <a href="https://stakeholdertherapy.com" target="_blank" class="project-name">Stakeholder Therapy</a>
-                    <span class="project-desc">Unfiltered takes on life, work and people. (Fictional. Obviously.)</span>
-                </li>
-            </ul>
-        </section>
+    container.innerHTML = `
+        <h1>{{ latest.excerpt }}</h1>
+        <p>{{ latest.quote }}</p>
+        <a href="{{ latest.url }}">{{ latest.title }} →</a>
+    `;
+}
 
-        <section class="contact">
-            <h2>Links</h2>
-            <ul class="project-list">
-                <li><a href="https://www.x.com/afterxleep" target="_blank">X</a></li>
-                <li><a href="https://github.com/afterxleep" target="_blank">GitHub</a></li>
-                <li><a href="mailto:danielbernal@hey.com">danielbernal@hey.com</a></li>
-            </ul>
-        </section>
-
-        <footer>
-            Daniel Bernal <span id="footer-year"></span>
-        </footer>
-    </div>
-
-    <script>
-        // Set latest post URL from Jekyll pages
-        {% assign writing_pages = site.pages | where_exp: "page", "page.path contains 'writing/'" | where_exp: "page", "page.title" | sort: "date" | reverse %}
-        window.LATEST_POST_URL = '{{ writing_pages[0].url }}';
-    </script>
-    <script src="script.js"></script>
-    <script>
-        // Get system preference
-        function getSystemTheme() {
-            return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
-        }
-
-        // Apply theme
-        function applyTheme(theme) {
-            const body = document.body;
-            const button = document.querySelector('.theme-toggle');
-
-            if (theme === 'light') {
-                body.classList.add('light-theme');
-                button.textContent = '◑';
-            } else {
-                body.classList.remove('light-theme');
-                button.textContent = '○';
-            }
-        }
-
-        // Toggle theme manually
-        function toggleTheme() {
-            const currentTheme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            applyTheme(newTheme);
-            localStorage.setItem('theme-override', newTheme);
-        }
-
-        // Initialize theme on page load
-        function initTheme() {
-            const override = localStorage.getItem('theme-override');
-            const theme = override || getSystemTheme();
-            applyTheme(theme);
-        }
-
-        // Listen for system theme changes
-        window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
-            if (!localStorage.getItem('theme-override')) {
-                applyTheme(e.matches ? 'light' : 'dark');
-            }
-        });
-
-        // Run on page load
-        initTheme();
-
-        // Set current year in footer
-        document.getElementById('footer-year').textContent = new Date().getFullYear();
-    </script>
-</body>
-</html>
+loadLatestPost();
+</script>

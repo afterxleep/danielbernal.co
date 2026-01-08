@@ -1,230 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6K3PKXGS1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-C6K3PKXGS1');
-    </script>
+---
+layout: default
+title: Writing
+permalink: /writing/
+---
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Writing - Daniel Bernal</title>
-    <meta name="description" content="Bold takes on Xcode, AI tools, and the future of iOS development.">
-    <link rel="stylesheet" href="../styles.css">
-    <style>
-        /* Override container width */
-        .container {
-            max-width: 700px;
-        }
-
-        /* Navigation */
-        .nav-header {
-            margin-bottom: 80px;
-        }
-
-        .nav-header a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: 600;
-            border-bottom: 1px solid #fff;
-            transition: all 0.2s;
-        }
-
-        body.light-theme .nav-header a {
-            color: #000;
-            border-bottom-color: #000;
-        }
-
-        .nav-header a:hover {
-            color: var(--accent);
-            border-bottom-color: var(--accent);
-        }
-
-        /* Page title */
-        .page-title {
-            margin-bottom: 100px;
-        }
-
-        .page-title h1 {
-            font-size: clamp(3rem, 10vw, 7rem);
-            font-weight: 900;
-            letter-spacing: -0.03em;
-            line-height: 0.95;
-            margin-bottom: 30px;
-            color: #fff;
-        }
-
-        body.light-theme .page-title h1 {
-            color: #000;
-        }
-
-        .page-title p {
-            font-size: clamp(1.2rem, 2.5vw, 1.6rem);
-            color: #999;
-            max-width: 600px;
-        }
-
-        /* Archive section */
-        .archive-section h2 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: var(--accent);
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            margin-bottom: 50px;
-        }
-
-        body.light-theme .archive-section h2 {
-            color: var(--accent-hover);
-        }
-
-        .month-header {
-            color: #666;
-            font-size: 0.9rem;
-            font-family: 'Courier New', monospace;
-            font-weight: 400;
-            margin: 40px 0 20px 0;
-            text-transform: none;
-            letter-spacing: normal;
-        }
-
-        .month-header:first-of-type {
-            margin-top: 0;
-        }
-
-        body.light-theme .month-header {
-            color: #666;
-        }
-
-        .post-list {
-            list-style: none;
-            margin-bottom: 40px;
-        }
-
-        .post-list li {
-            margin-bottom: 12px;
-        }
-
-        .post-list a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1.2rem;
-            font-weight: 600;
-            line-height: 1.2;
-            border-bottom: 2px solid transparent;
-            transition: all 0.2s;
-        }
-
-        body.light-theme .post-list a {
-            color: #000;
-        }
-
-        .post-list a:hover {
-            color: var(--accent);
-            border-bottom-color: var(--accent);
-        }
-
-        @media (max-width: 768px) {
-            .nav-header {
-                margin-bottom: 60px;
-            }
-
-            .page-title {
-                margin-bottom: 70px;
-            }
-
-            .post-list li {
-                flex-direction: column;
-                gap: 5px;
-                margin-bottom: 20px;
-            }
-
-            .post-date {
-                min-width: auto;
-            }
-        }
-    </style>
-</head>
-<body>
-    <button class="theme-toggle" onclick="toggleTheme()">○</button>
-    <div class="container">
-        <nav class="nav-header">
-            <a href="/">← danielbernal.co</a>
-        </nav>
-
-        <header class="page-title">
-            <h1>Writing</h1>
-        </header>
-
-        <section class="archive-section">
-            <h3 class="month-header">January 2026</h3>
-            <ul class="post-list">
-                <li>
-                    <a href="/writing/so-many-things-at-once.html">So many things at once</a>
-                </li>
-                <li>
-                    <a href="/writing/developers-who-survive-2026.html">Beautiful code is a liability</a>
-                </li>
-            </ul>
-        </section>
-
-        <footer>
-            Daniel Bernal <span id="footer-year"></span>
-        </footer>
-    </div>
-
-    <script>
-        // Get system preference
-        function getSystemTheme() {
-            return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
-        }
-
-        // Apply theme
-        function applyTheme(theme) {
-            const body = document.body;
-            const button = document.querySelector('.theme-toggle');
-
-            if (theme === 'light') {
-                body.classList.add('light-theme');
-                button.textContent = '◑';
-            } else {
-                body.classList.remove('light-theme');
-                button.textContent = '○';
-            }
-        }
-
-        // Toggle theme manually
-        function toggleTheme() {
-            const currentTheme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            applyTheme(newTheme);
-            localStorage.setItem('theme-override', newTheme);
-        }
-
-        // Initialize theme on page load
-        function initTheme() {
-            const override = localStorage.getItem('theme-override');
-            const theme = override || getSystemTheme();
-            applyTheme(theme);
-        }
-
-        // Listen for system theme changes
-        window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
-            if (!localStorage.getItem('theme-override')) {
-                applyTheme(e.matches ? 'light' : 'dark');
-            }
-        });
-
-        // Run on page load
-        initTheme();
-
-        // Set current year in footer
-        document.getElementById('footer-year').textContent = new Date().getFullYear();
-    </script>
-</body>
-</html>
+<section class="archive">
+  <h1>Writing</h1>
+  {% assign current_month = "" %}
+  {% for post in site.posts %}
+    {% assign post_month = post.date | date: "%B %Y" %}
+    {% if post_month != current_month %}
+      {% if current_month != "" %}
+        </ul>
+      {% endif %}
+      <h2 class="archive-month">{{ post_month }}</h2>
+      <ul class="archive-list">
+      {% assign current_month = post_month %}
+    {% endif %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
