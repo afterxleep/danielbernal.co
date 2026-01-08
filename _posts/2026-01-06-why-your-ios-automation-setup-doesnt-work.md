@@ -31,7 +31,7 @@ The fragmentation exists because Apple built these tools over fifteen years for 
 
 So I built something that was.
 
-I've been working on [FlowDeck](https://flowdeck.io) for the past few months. It's a CLI that wraps all of Apple's tools into a unified interface designed for AI agents. Eight verbs instead of eighty-four flags. `build`, `run`, `test`, `clean`, `logs`, `stop`, `context`, `init`. Each does one thing. Structured outputs. Predictable errors.
+I've been working on [FlowDeck](https://flowdeck.studio) for the past few months. It's a CLI that wraps all of Apple's tools into a unified interface designed for AI agents. Eight verbs instead of eighty-four flags. `build`, `run`, `test`, `clean`, `logs`, `stop`, `context`, `init`. Each does one thing. Structured outputs. Predictable errors.
 
 ```bash
 flowdeck run -S "iPhone 16"
