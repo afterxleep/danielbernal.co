@@ -10,9 +10,10 @@ async function loadLatestPost() {
 
         const excerpt = doc.querySelector('meta[name="excerpt"]')?.content || '';
         const quote = doc.querySelector('meta[name="quote"]')?.content || '';
+        const postTitle = doc.querySelector('article h1')?.textContent || '';
         const url = '/writing/so-many-things-at-once.html';
 
-        displayStatement({ title: excerpt, text: quote, link: url });
+        displayStatement({ title: excerpt, text: quote, link: url, postTitle: postTitle });
     } catch (error) {
         console.error('Error loading latest post:', error);
     }
@@ -24,7 +25,7 @@ function displayStatement(statement) {
     container.innerHTML = `
         <h1>${statement.title}</h1>
         <p>${statement.text}</p>
-        <a href="${statement.link}">→</a>
+        <a href="${statement.link}">${statement.postTitle} →</a>
     `;
 }
 
