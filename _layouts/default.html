@@ -194,6 +194,11 @@
       margin-bottom: 60px;
     }
 
+    /* Add top spacing on home page only */
+    body.layout-default .manifesto {
+      margin-top: 60px;
+    }
+
     .statement {
       opacity: 0;
       animation: fadeIn 1s ease-in forwards;
@@ -530,7 +535,7 @@
   {% unless page.url == "/" %}
   <header class="site-header">
     <nav class="site-nav">
-      <a href="/">← danielbernal.co</a> | <a href="/writing/">Writing</a>
+      <a href="/">← danielbernal.co</a>{% if page.layout == 'post' %} | <a href="/writing/">Writing</a>{% endif %}
     </nav>
   </header>
   {% endunless %}
