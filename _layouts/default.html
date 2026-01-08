@@ -527,11 +527,13 @@
 <body class="layout-{{ page.layout }}">
   <button class="theme-toggle" onclick="toggleTheme()">○</button>
 
+  {% unless page.url == "/" %}
   <header class="site-header">
     <nav class="site-nav">
       <a href="/">← danielbernal.co</a> | <a href="/writing/">Writing</a>
     </nav>
   </header>
+  {% endunless %}
 
   <div class="container">
     <main>
