@@ -4,22 +4,12 @@ title: Home
 ---
 
 <section class="manifesto">
+  <div class="latest-label">Latest</div>
   <div class="statement" id="statement"></div>
 </section>
 
 <section class="recent-posts">
-  <h2>Me</h2>
-  <ul class="post-list" style="list-style: disc; padding-left: 20px;">
-    <li style="font-size: 1.2rem; font-weight: 400;">I question what I shouldn't.</li>
-    <li style="font-size: 1.2rem; font-weight: 400;">I write what gets me in trouble.</li>
-    <li style="font-size: 1.2rem; font-weight: 400;">I build tools I need.</li>
-    <li style="font-size: 1.2rem; font-weight: 400;">I take everything personally.</li>
-    <li style="font-size: 1.2rem; font-weight: 400;">I'm not done yet.</li>
-  </ul>
-</section>
-
-<section class="recent-posts">
-  <h2>Writing</h2>
+  <h2>Previous</h2>
   <ul class="post-list">
     {% for post in site.posts offset:1 limit:5 %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -40,14 +30,15 @@ title: Home
   </ul>
 </section>
 
-<section class="recent-posts">
-  <h2>Links</h2>
-  <ul class="post-list">
-    <li><a href="https://www.x.com/afterxleep" target="_blank">X</a></li>
-    <li><a href="https://www.linkedin.com/in/danielbernalm/" target="_blank">LinkedIn</a></li>
-    <li><a href="https://github.com/afterxleep" target="_blank">GitHub</a></li>
-    <li><a href="mailto:danielbernal@hey.com">danielbernal@hey.com</a></li>
-  </ul>
+<section class="about-section">
+  <h2>About</h2>
+  <p class="about-bio">👋 I'm Daniel. I mass-produce artisanal AI slop. Hand-prompted, small batch. Been building for Apple too long, now making opinionated tools.</p>
+  <div class="about-links">
+    <a href="https://x.com/afterxleep" target="_blank">X</a>
+    <a href="https://www.linkedin.com/in/danielbernalm/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/afterxleep" target="_blank">GitHub</a>
+    <a href="mailto:danielbernal@hey.com">danielbernal@hey.com</a>
+  </div>
 </section>
 
 <script>
