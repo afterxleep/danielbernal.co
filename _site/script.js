@@ -1,7 +1,8 @@
 async function loadLatestPost() {
     try {
-        // Fetch the latest post HTML
-        const response = await fetch('/writing/so-many-things-at-once.html');
+        // Fetch the latest post HTML (URL set by Jekyll)
+        const postUrl = window.LATEST_POST_URL || '/writing/so-many-things-at-once.html';
+        const response = await fetch(postUrl);
         const html = await response.text();
 
         // Parse the HTML to extract meta tags
@@ -11,9 +12,8 @@ async function loadLatestPost() {
         const excerpt = doc.querySelector('meta[name="excerpt"]')?.content || '';
         const quote = doc.querySelector('meta[name="quote"]')?.content || '';
         const postTitle = doc.querySelector('article h1')?.textContent || '';
-        const url = '/writing/so-many-things-at-once.html';
 
-        displayStatement({ title: excerpt, text: quote, link: url, postTitle: postTitle });
+        displayStatement({ title: excerpt, text: quote, link: postUrl, postTitle: postTitle });
     } catch (error) {
         console.error('Error loading latest post:', error);
     }

@@ -1,3 +1,6 @@
+---
+layout: none
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,7 +61,9 @@
         <section class="writing">
             <h2>Writing</h2>
             <ul class="project-list">
-                <li><a href="/writing/developers-who-survive-2026.html">Beautiful code is a liability</a></li>
+                {% for post in site.data.posts offset:1 limit:5 %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
             </ul>
             <p style="margin-top: 30px;"><a href="/writing/" class="view-all-link">View All →</a></p>
         </section>
@@ -95,6 +100,10 @@
         </footer>
     </div>
 
+    <script>
+        // Set latest post URL from Jekyll data
+        window.LATEST_POST_URL = '{{ site.data.posts[0].url }}';
+    </script>
     <script src="script.js"></script>
     <script>
         // Get system preference
