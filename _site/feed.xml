@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_US"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://danielbernal.co/feed.xml" rel="self" type="application/atom+xml" /><link href="https://danielbernal.co/" rel="alternate" type="text/html" hreflang="en_US" /><updated>2026-01-08T03:19:14+01:00</updated><id>https://danielbernal.co/feed.xml</id><title type="html">Daniel Bernal</title><subtitle>Not done yet</subtitle><author><name>Daniel Bernal</name></author><entry><title type="html">So many things at once</title><link href="https://danielbernal.co/writing/so-many-things-at-once.html" rel="alternate" type="text/html" title="So many things at once" /><published>2026-01-08T00:00:00+01:00</published><updated>2026-01-08T00:00:00+01:00</updated><id>https://danielbernal.co/writing/so-many-things-at-once</id><content type="html" xml:base="https://danielbernal.co/writing/so-many-things-at-once.html"><![CDATA[<p>I don’t remember the last time I wanted to do this many things at once.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_US"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_US" /><updated>2026-01-09T01:09:22+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Daniel Bernal</title><subtitle>Not done yet</subtitle><author><name>Daniel Bernal</name></author><entry><title type="html">So many things at once</title><link href="http://localhost:4000/writing/so-many-things-at-once.html" rel="alternate" type="text/html" title="So many things at once" /><published>2026-01-08T00:00:00+01:00</published><updated>2026-01-08T00:00:00+01:00</updated><id>http://localhost:4000/writing/so-many-things-at-once</id><content type="html" xml:base="http://localhost:4000/writing/so-many-things-at-once.html"><![CDATA[<p>I don’t remember the last time I wanted to do this many things at once.</p>
 
 <p>Some idea hits at midnight and by 2am there’s a working prototype. One side project becomes three. A chat turns into code before I can even finish my coffee.</p>
 
@@ -12,7 +12,7 @@
 
 <p>I don’t know if this pace is sustainable or if I’m just riding a wave that will crash. But right now, I’d rather have too many things calling for attention than spend another decade filtering myself before I start.</p>
 
-<p>Its a mess, but that’s the the point.</p>]]></content><author><name>Daniel Bernal</name></author><summary type="html"><![CDATA[The time between idea and something real is gone.]]></summary></entry><entry><title type="html">Beautiful code is a liability</title><link href="https://danielbernal.co/writing/developers-who-survive-2026.html" rel="alternate" type="text/html" title="Beautiful code is a liability" /><published>2026-01-07T00:00:00+01:00</published><updated>2026-01-07T00:00:00+01:00</updated><id>https://danielbernal.co/writing/beautiful-code-is-a-liability</id><content type="html" xml:base="https://danielbernal.co/writing/developers-who-survive-2026.html"><![CDATA[<p>Developers who survive 2026 won’t be the best coders. They’ll be the fastest.</p>
+<p>Its a mess, but that’s the the point.</p>]]></content><author><name>Daniel Bernal</name></author><summary type="html"><![CDATA[The time between idea and something real is gone.]]></summary></entry><entry><title type="html">Beautiful code is a liability</title><link href="http://localhost:4000/writing/developers-who-survive-2026.html" rel="alternate" type="text/html" title="Beautiful code is a liability" /><published>2026-01-07T00:00:00+01:00</published><updated>2026-01-07T00:00:00+01:00</updated><id>http://localhost:4000/writing/beautiful-code-is-a-liability</id><content type="html" xml:base="http://localhost:4000/writing/developers-who-survive-2026.html"><![CDATA[<p>Developers who survive 2026 won’t be the best coders. They’ll be the fastest.</p>
 
 <p>The best coders I know are scared. Not publicly, but In long threads defending practices that won’t matter in eighteen months.</p>
 
@@ -34,4 +34,36 @@
 
 <p>We are not competing with AI. We competing with developers who use it don’t flinch.</p>
 
-<p>They’re not waiting for your code review. Or their own.</p>]]></content><author><name>Daniel Bernal</name></author><summary type="html"><![CDATA[Developers who survive 2026 won't be the best coders. They'll be the fastest.]]></summary></entry></feed>
+<p>They’re not waiting for your code review. Or their own.</p>]]></content><author><name>Daniel Bernal</name></author><summary type="html"><![CDATA[Developers who survive 2026 won't be the best coders. They'll be the fastest.]]></summary></entry><entry><title type="html">Why Your iOS Automation Setup Doesn’t Work</title><link href="http://localhost:4000/writing/why-your-ios-automation-setup-doesnt-work.html" rel="alternate" type="text/html" title="Why Your iOS Automation Setup Doesn’t Work" /><published>2026-01-06T00:00:00+01:00</published><updated>2026-01-06T00:00:00+01:00</updated><id>http://localhost:4000/writing/why-your-ios-automation-setup-doesnt-work</id><content type="html" xml:base="http://localhost:4000/writing/why-your-ios-automation-setup-doesnt-work.html"><![CDATA[<p>I spent months trying to make AI coding assistants work with iOS development. It was painful.</p>
+
+<p>Apple ships five different command-line tools. <code class="language-plaintext highlighter-rouge">xcodebuild</code> handles compilation. <code class="language-plaintext highlighter-rouge">simctl</code> manages simulators. <code class="language-plaintext highlighter-rouge">devicectl</code> talks to physical devices (but only iOS 17+). <code class="language-plaintext highlighter-rouge">xcrun</code> finds and runs Xcode tools. <code class="language-plaintext highlighter-rouge">xcode-select</code> switches between Xcode versions. Each has its own flag syntax, its own output format, its own failure modes.</p>
+
+<p>Building an app and running it on a simulator requires orchestrating three separate tools:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>xcodebuild <span class="nt">-workspace</span> MyApp.xcworkspace <span class="se">\</span>
+  <span class="nt">-scheme</span> MyApp <span class="se">\</span>
+  <span class="nt">-destination</span> <span class="s1">'platform=iOS Simulator,name=iPhone 16,OS=18.1'</span> <span class="se">\</span>
+  <span class="nt">-derivedDataPath</span> ./build build
+
+xcrun simctl boot <span class="s2">"iPhone 16"</span>
+xcrun simctl <span class="nb">install</span> <span class="s2">"iPhone 16"</span> ./build/Build/Products/Debug-iphonesimulator/MyApp.app
+xcrun simctl launch <span class="s2">"iPhone 16"</span> com.example.MyApp
+</code></pre></div></div>
+
+<p>Four commands. Hardcoded paths. A destination string that breaks if you don’t have exactly that simulator version. And this is the happy path.</p>
+
+<p>When I started using Claude to help me build iOS apps, I hit a wall. It would generate xcodebuild commands that looked right but failed. It didn’t know which simulator runtimes I had installed, which devices were connected, or where my derived data lived. I’d paste the error back. It would try something different. Still fail. Twenty minutes debugging a build command instead of building the app.</p>
+
+<p>The fragmentation exists because Apple built these tools over fifteen years for different purposes. CI systems adapted by wrapping everything in Ruby. Fastlane became the standard because it hid the complexity. But Fastlane wasn’t designed for AI agents.</p>
+
+<p>So I built something that was.</p>
+
+<p>I’ve been working on <a href="https://flowdeck.studio">FlowDeck</a> for the past few months. It’s a CLI that wraps all of Apple’s tools into a unified interface designed for AI agents. Eight verbs instead of eighty-four flags. <code class="language-plaintext highlighter-rouge">build</code>, <code class="language-plaintext highlighter-rouge">run</code>, <code class="language-plaintext highlighter-rouge">test</code>, <code class="language-plaintext highlighter-rouge">clean</code>, <code class="language-plaintext highlighter-rouge">logs</code>, <code class="language-plaintext highlighter-rouge">stop</code>, <code class="language-plaintext highlighter-rouge">context</code>, <code class="language-plaintext highlighter-rouge">init</code>. Each does one thing. Structured outputs. Predictable errors.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flowdeck run <span class="nt">-S</span> <span class="s2">"iPhone 16"</span>
+</code></pre></div></div>
+
+<p>Same result as those four commands above. Figures out the workspace, boots the simulator, builds, installs, launches. If something fails, it tells you why with an error code the AI can actually parse.</p>
+
+<p>The interface shapes what’s possible. A fragmented interface means fragmented AI capabilities. A unified interface means I can finally build iOS apps with Claude the same way I’d work on a web project.</p>
+
+<p>The toolchain fragmentation is Apple’s problem. I got tired of waiting for them to fix it.</p>]]></content><author><name>Daniel Bernal</name></author><summary type="html"><![CDATA[Apple ships five different command-line tools for iOS development. They don't talk to each other. This broke my AI-assisted workflow, so I fixed it.]]></summary></entry></feed>

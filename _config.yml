@@ -25,6 +25,13 @@ lang: en_US
 # Build settings
 markdown: kramdown
 permalink: /writing/:title.html
+highlighter: rouge
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
 # Exclude files
 exclude:
