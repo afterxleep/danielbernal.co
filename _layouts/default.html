@@ -290,72 +290,112 @@
     }
 
     /* ==================== */
-    /* WRITING ARCHIVE      */
+    /* WRITING PAGE         */
     /* ==================== */
 
-    .archive h1 {
-      font-size: clamp(2rem, 6vw, 2.8rem);
+    .writing-hero h1 {
+      font-size: clamp(3rem, 10vw, 5.5rem);
       font-weight: 800;
-      letter-spacing: -0.03em;
-      line-height: 1.05;
+      letter-spacing: -0.04em;
+      line-height: 1;
       margin-bottom: 48px;
       color: var(--text);
     }
 
-    .archive-month {
-      color: var(--accent);
-      font-size: 0.8rem;
+    /* Featured / Latest Post */
+    .featured-post {
+      margin-bottom: 0;
+    }
+
+    .featured-label {
+      font-size: 0.72rem;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-top: 36px;
-      margin-bottom: 14px;
+      letter-spacing: 0.15em;
+      color: var(--accent);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
 
-    .archive h2:first-of-type {
-      margin-top: 0;
+    .featured-label::before {
+      content: '';
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      background: var(--accent);
+      border-radius: 50%;
     }
 
-    .archive-list {
-      list-style: none;
-    }
-
-    .archive-list li {
-      margin-bottom: 12px;
-    }
-
-    .archive-list a {
-      color: var(--text);
+    .featured-link {
       text-decoration: none;
-      font-size: 1.05rem;
-      font-weight: 500;
+      display: block;
+    }
+
+    .featured-title {
+      font-size: clamp(1.6rem, 5vw, 2.4rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 20px;
+      color: var(--text);
       transition: color 0.2s;
     }
 
-    .archive-list a:hover {
+    .featured-link:hover .featured-title {
       color: var(--accent);
     }
 
-    .archive-list .date {
-      color: var(--text-subtle);
+    .featured-quote {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      max-width: 540px;
     }
 
-    /* View All */
-    .view-all {
-      margin-top: -20px;
-      margin-bottom: 50px;
-    }
-
-    .view-all-link {
+    .featured-read {
       color: var(--accent);
       text-decoration: none;
       font-size: 1rem;
       font-weight: 600;
-      transition: opacity 0.2s;
+      transition: color 0.2s;
     }
 
-    .view-all-link:hover {
-      opacity: 0.8;
+    .featured-read:hover {
+      color: var(--accent-hover);
+    }
+
+    /* Previous Posts */
+    .previous-posts {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .prev-post {
+    }
+
+    .prev-post-title {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 6px;
+      transition: color 0.2s;
+    }
+
+    .prev-post-title:hover {
+      color: var(--accent);
+    }
+
+    .prev-post-excerpt {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--text-muted);
+      margin: 0;
     }
 
     /* ==================== */

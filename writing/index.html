@@ -4,22 +4,28 @@ title: Writing
 permalink: /writing/
 ---
 
-<section class="archive">
+{% assign latest = site.posts.first %}
+
+<section class="writing-hero">
   <h1>Writing</h1>
-  {% assign current_month = "" %}
-  {% for post in site.posts %}
-    {% assign post_month = post.date | date: "%B %Y" %}
-    {% if post_month != current_month %}
-      {% if current_month != "" %}
-        </ul>
-      {% endif %}
-      <h2 class="archive-month">{{ post_month }}</h2>
-      <ul class="archive-list">
-      {% assign current_month = post_month %}
-    {% endif %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+</section>
+
+<section class="featured-post">
+  <div class="featured-label">Latest</div>
+  <a href="{{ latest.url }}" class="featured-link">
+    <h2 class="featured-title">{{ latest.excerpt }}</h2>
+  </a>
+  <p class="featured-quote">{{ latest.quote }}</p>
+  <a href="{{ latest.url }}" class="featured-read">{{ latest.title }} →</a>
+</section>
+
+<hr>
+
+<section class="previous-posts">
+  {% for post in site.posts offset:1 %}
+    <div class="prev-post">
+      <a href="{{ post.url }}" class="prev-post-title">{{ post.title }}</a>
+      <p class="prev-post-excerpt">{{ post.excerpt }}</p>
+    </div>
   {% endfor %}
-  </ul>
 </section>
