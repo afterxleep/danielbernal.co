@@ -3,58 +3,45 @@ layout: default
 title: Home
 ---
 
-<section class="manifesto">
-  <div class="latest-label">Latest</div>
-  <div class="statement" id="statement"></div>
+<section class="intro">
+  <h1>Daniel Bernal</h1>
+  <p><strong>I got tired of waiting for Apple to fix their own tooling. So I'm fixing it myself.</strong></p>
+  <p><a href="https://flowdeck.studio">FlowDeck</a> is a full development environment for Apple platforms that doesn't need Xcode. I built it because building for iOS shouldn't require a 15GB IDE, and every AI coding agent chokes the moment you try to ship an app. One tool to build, test, debug, and deploy — the workflow Apple should have shipped but won't.</p>
+  <p>I also write. About shipping. About the gap between what this industry says it values and what it actually rewards. About the organizational rot that turns good engineers into meeting attendees. Some of it lives on <a href="https://stakeholdertherapy.com">Stakeholder Therapy</a> under a thin veil of fiction. The rest lives <a href="/writing/">here</a>.</p>
+  <p>Based in Spain. Unreasonably opinionated about developer tools, build systems, and most things.</p>
+  <p><strong><a href="mailto:danielbernal@hey.com">danielbernal@hey.com</a></strong></p>
 </section>
 
-<section class="recent-posts">
-  <h2>Previous</h2>
-  <ul class="post-list">
-    {% for post in site.posts offset:1 limit:5 %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<hr>
+
+<section class="building">
+  <h2>What I'm Building</h2>
+  <p><strong><a href="https://flowdeck.studio">FlowDeck</a></strong> — Build, debug, test, and deploy for Apple platforms without Xcode. Works from the terminal, VS Code, or Cursor. AI agents can actually ship iOS apps with it. The workflow Apple should have built.</p>
+  <p><strong><a href="https://apps.apple.com/es/app/bouncer-spam-text-blocker/id1457476313">Bouncer</a></strong> — Kills spam SMS on iOS. One job. Does it.</p>
+  <p><strong><a href="https://stakeholdertherapy.com">Stakeholder Therapy</a></strong> — Sharp writing about work, people, and the systems that grind both down. Fictional. Obviously.</p>
 </section>
 
-<section class="view-all">
-  <a href="/writing/" class="view-all-link">View All →</a>
+<hr>
+
+<section class="writing-link">
+  <h2><a href="/writing/">Writing →</a></h2>
 </section>
 
-<section class="recent-posts">
-  <h2>Projects</h2>
-  <ul class="post-list">
-    <li><a href="https://flowdeck.studio" target="_blank">FlowDeck</a> — Opinionated tools for Apple developers.</li>
-    <li><a href="https://apps.apple.com/es/app/bouncer-spam-text-blocker/id1457476313?l=en-GB" target="_blank">Bouncer</a> — Filter unwanted SMS messages on iOS.</li>
-    <li><a href="https://stakeholdertherapy.com" target="_blank">Stakeholder Therapy</a> — Unfiltered takes on life, work and people. (Fictional. Obviously.)</li>
-  </ul>
+<hr>
+
+<section class="hire-me">
+  <h2>Hire Me</h2>
+  <p>I don't do staff roles. I don't do roadmap theater. I don't do "AI strategy" decks that die in staging.</p>
+  <p>I ship products. Fast. With AI agents doing real work, not generating slides. If your team is still debating architecture while your competitors are shipping, I can help them stop talking and start delivering.</p>
+  <p>Limited engagements. Remote. You're not hiring a consultant. You're hiring someone who ships.</p>
+  <p><strong><a href="mailto:danielbernal@hey.com">danielbernal@hey.com</a></strong></p>
 </section>
 
-<section class="about-section">
-  <h2>About</h2>
-  <p class="about-bio">👋 I'm Daniel. I mass-produce artisanal AI slop. Hand-prompted, small batch. Been building for Apple too long, now making opinionated tools.</p>
-  <div class="about-links">
-    <a href="https://x.com/afterxleep" target="_blank">X</a>
-    <a href="https://www.linkedin.com/in/danielbernalm/" target="_blank">LinkedIn</a>
-    <a href="https://github.com/afterxleep" target="_blank">GitHub</a>
-    <a href="mailto:danielbernal@hey.com">danielbernal@hey.com</a>
-  </div>
-</section>
+<hr>
 
-<script>
-// Load latest post dynamically
-async function loadLatestPost() {
-    const container = document.getElementById('statement');
-
-    // Get the latest post data from Jekyll
-    {% assign latest = site.posts.first %}
-
-    container.innerHTML = `
-        <h1>{{ latest.excerpt }}</h1>
-        <p>{{ latest.quote }}</p>
-        <a href="{{ latest.url }}">{{ latest.title }} →</a>
-    `;
-}
-
-loadLatestPost();
-</script>
+<div class="social-links">
+  <a href="https://x.com/afterxleep" target="_blank">X</a> &middot;
+  <a href="https://www.linkedin.com/in/danielbernalm/" target="_blank">LinkedIn</a> &middot;
+  <a href="https://github.com/afterxleep" target="_blank">GitHub</a> &middot;
+  <a href="mailto:danielbernal@hey.com">danielbernal@hey.com</a>
+</div>
