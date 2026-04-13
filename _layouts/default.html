@@ -92,6 +92,11 @@
       padding-bottom: 0;
     }
 
+    /* Hide nav on homepage — the h1 already has the name */
+    .layout-default .site-header {
+      display: none;
+    }
+
     .site-nav-left a {
       color: var(--text);
       text-decoration: none;
@@ -112,6 +117,11 @@
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+    }
+
+    /* Add top padding on homepage since nav is hidden */
+    .layout-default .container {
+      padding-top: 48px;
     }
 
     /* Post pages */
