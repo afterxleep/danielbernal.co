@@ -722,8 +722,25 @@
     }
 
 
+    // Obfuscate email from bots
+    function initEmail() {
+      var u = 'danielbernal';
+      var d = 'hey.com';
+      var links = document.querySelectorAll('.email-link');
+      var talks = document.querySelectorAll('.email-link-talk');
+      links.forEach(function(el) {
+        el.href = 'mai' + 'lto:' + u + '@' + d;
+        el.textContent = u + '@' + d;
+      });
+      talks.forEach(function(el) {
+        el.href = 'mai' + 'lto:' + u + '@' + d;
+        el.textContent = "Let's talk";
+      });
+    }
+
     // Run on page load
     initTheme();
+    initEmail();
   </script>
 </body>
 </html>
