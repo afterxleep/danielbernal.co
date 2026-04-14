@@ -93,7 +93,7 @@
     }
 
     /* Hide nav on homepage — the h1 already has the name */
-    .layout-default .site-header {
+    .layout-home .site-header {
       display: none;
     }
 
@@ -120,7 +120,7 @@
     }
 
     /* Add top padding on homepage since nav is hidden */
-    .layout-default .container {
+    .layout-home .container {
       padding-top: 48px;
     }
 
@@ -153,11 +153,11 @@
     }
 
     .intro h1 {
-      font-size: clamp(2rem, 6vw, 2.8rem);
+      font-size: clamp(3rem, 10vw, 5.5rem);
       font-weight: 800;
-      letter-spacing: -0.03em;
-      line-height: 1.05;
-      margin-bottom: 28px;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin-bottom: 48px;
       color: var(--text);
     }
 
@@ -652,7 +652,7 @@
     gtag('config', 'G-C6K3PKXGS1');
   </script>
 </head>
-<body class="layout-{{ page.layout }}">
+<body class="layout-{{ page.layout }}{% if page.url == '/' %} layout-home{% endif %}">
   <button class="theme-toggle" onclick="toggleTheme()">Dark</button>
 
   <header class="site-header">
@@ -671,7 +671,7 @@
     <footer>
       <div class="footer-content">
         <div class="footer-left">
-          <span id="footer-year"></span>
+          Daniel Bernal - 2026
         </div>
       </div>
     </footer>
@@ -721,8 +721,6 @@
       }
     }
 
-    // Set current year in footer
-    document.getElementById('footer-year').textContent = new Date().getFullYear();
 
     // Run on page load
     initTheme();
