@@ -2,7 +2,8 @@
 layout: post
 title: "Beautiful code is a liability"
 date: 2026-01-07
-permalink: /writing/developers-who-survive-2026.html
+redirect_from:
+  - /writing/developers-who-survive-2026.html
 excerpt: "Developers who survive 2026 won't be the best coders. They'll be the fastest."
 quote: "Code is not art. Code is not craftsmanship anymore. It's disposable."
 ---

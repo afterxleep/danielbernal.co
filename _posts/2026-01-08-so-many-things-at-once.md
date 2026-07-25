@@ -2,7 +2,8 @@
 layout: post
 title: "So many things at once"
 date: 2026-01-08
-permalink: /writing/so-many-things-at-once.html
+redirect_from:
+  - /writing/so-many-things-at-once.html
 excerpt: "The time between idea and something real is gone."
 quote: "I used to filter ideas by effort and complexity. Now nothing takes too long, and I'm drowning in my own enthusiasm."
 ---

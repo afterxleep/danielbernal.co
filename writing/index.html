@@ -1,31 +1,5 @@
 ---
-layout: default
-title: Writing
 permalink: /writing/
+redirect_to: /blog/
+sitemap: false
 ---
-
-{% assign latest = site.posts.first %}
-
-<section class="writing-hero">
-  <h1>Writing</h1>
-</section>
-
-<section class="featured-post">
-  <div class="featured-label">Latest</div>
-  <a href="{{ latest.url }}" class="featured-link">
-    <h2 class="featured-title">{{ latest.excerpt }}</h2>
-  </a>
-  <p class="featured-quote">{{ latest.quote }}</p>
-  <a href="{{ latest.url }}" class="featured-read">{{ latest.title }} →</a>
-</section>
-
-<hr>
-
-<section class="previous-posts">
-  {% for post in site.posts offset:1 %}
-    <div class="prev-post">
-      <a href="{{ post.url }}" class="prev-post-title">{{ post.title }}</a>
-      <p class="prev-post-excerpt">{{ post.excerpt }}</p>
-    </div>
-  {% endfor %}
-</section>

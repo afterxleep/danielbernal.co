@@ -2,7 +2,8 @@
 layout: post
 title: "Why Your iOS Automation Setup Doesn't Work"
 date: 2026-01-06
-permalink: /writing/why-your-ios-automation-setup-doesnt-work.html
+redirect_from:
+  - /writing/why-your-ios-automation-setup-doesnt-work.html
 excerpt: "Apple ships five different command-line tools for iOS development. They don't talk to each other. This broke my AI-assisted workflow, so I fixed it."
 quote: "A fragmented interface means fragmented AI capabilities."
 ---

@@ -1,0 +1,46 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+{% assign latest = site.posts.first %}
+{% if latest.quote %}
+  {% assign lead = latest.quote %}
+{% else %}
+  {% assign lead = latest.excerpt | strip_html | strip_newlines | truncatewords: 40 %}
+{% endif %}
+
+<section class="writing-hero">
+  <h1>Blog</h1>
+</section>
+
+<section class="featured-post">
+  <div class="featured-label">Latest</div>
+  <a href="{{ latest.url }}" class="featured-link">
+    <h2 class="featured-title">{{ latest.title }}</h2>
+  </a>
+  <p class="featured-quote">{{ lead }}</p>
+  <a href="{{ latest.url }}" class="featured-read">Read it →</a>
+</section>
+
+<hr>
+
+<section class="archive">
+  {% assign current_month = "" %}
+  {% for post in site.posts offset:1 %}
+    {% assign post_month = post.date | date: "%B %Y" %}
+    {% if post_month != current_month %}
+      {% if current_month != "" %}
+        </ul>
+      {% endif %}
+      <h2 class="archive-month">{{ post_month }}</h2>
+      <ul class="archive-list">
+      {% assign current_month = post_month %}
+    {% endif %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
