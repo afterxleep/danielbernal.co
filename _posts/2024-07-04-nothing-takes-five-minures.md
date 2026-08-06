@@ -4,6 +4,8 @@ title: "Nothing takes five minutes"
 date: 2024-07-04
 ---
 
+![Featured image](/images/scott.jpeg)
+
 “It will just take you five minutes” is one of the most toxic lines you can hear.
 
 Nothing ever takes “just five minutes”. You might spend the time tweaking a color or writing a line of code, but work doesn’t happen in a vacuum. There are context switches, interruptions, back-and-forth discussions, and, more importantly, the mental overhead of getting out and back to your zone. 

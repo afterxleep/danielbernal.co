@@ -4,6 +4,8 @@ title: "The invisible traits"
 date: 2025-02-18
 ---
 
+![Featured image](/images/sam-quek-w40ZS1TAxPU-unsplash-copy.jpeg)
+
 I’m often labeled an asshole because I question everything. People who don’t know me think I don’t give a fuck, but it’s the opposite. I care so deeply it kinda hurts.
 
 It’s not about being right or proving a point; it’s about refusing to accept broken things as normal and settling for half-assed solutions. I can’t stay quiet.
@@ -20,3 +22,5 @@ While I don’t think I’ll ever master the art of picking battles, I’m learn
 
 While not perfect, pausing helps a little. Intensity matters a lot, but pausing helps with understanding its reasons.
 
+Photo by [Sam Quek](https://unsplash.com/@samuelqyx?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-shadow-of-a-person-looking-out-of-a-window-w40ZS1TAxPU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+{: .photo-credit}

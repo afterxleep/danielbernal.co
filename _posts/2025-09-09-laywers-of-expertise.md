@@ -4,6 +4,8 @@ title: "Lawyers of expertise"
 date: 2025-09-09
 ---
 
+![Featured image](/images/scott-webb-9aPxwfZusmE-unsplash.jpg)
+
 Real work happens in the details outsiders won’t see. Tradeoffs between perfect and possible. Hundreds of choices that compound into something that actually works.
 
 But having to explain those choices to people who weren’t there feels like translating a foreign language. Then, weeks of context get reduced to “why didn’t you just do X?”. Complexity vanishes, the nuance disappears, and suddenly your expertise sounds like an excuse.
@@ -14,3 +16,5 @@ Trust dies as we all become lawyers of expertise, forced to justify well-thought
 
 Some places build cultures that break the people who care the most.​​​​​​​​​​​​​​​ Others understand that expertise earned through decisions deserves respect, not cross-examination. These places don’t just build better products; they build better people.
 
+Photo by [Scott Webb](https://unsplash.com/@scottwebb?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/orange-and-black-glass-building-at-daytime-9aPxwfZusmE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+{: .photo-credit}

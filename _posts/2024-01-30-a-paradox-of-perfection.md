@@ -4,6 +4,8 @@ title: "A paradox of perfection"
 date: 2024-01-30
 ---
 
+![Featured image](/images/duality-1480x846.jpg)
+
 There’s a narrative in tech companies that often goes untold: “Open product feedback.” It’s a tale of transformation. Not the kind celebrated in startup blogs, but the kind that slowly eats into the company itself. A vibrant and innovative culture turned into an over-calculated shadow of its past.
 
 Imagine a young startup unburdened by bureaucracy. In the early days, open feedback is the lifeblood of innovation. Ideas flow freely, unencumbered by hierarchy or fear. Mistakes are not just tolerated but celebrated as stepping stones towards becoming better. This environment is electric and dynamic. Magic happens, and disruptive products are born.

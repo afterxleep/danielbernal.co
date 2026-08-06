@@ -4,8 +4,13 @@ title: "Try the unconventional"
 date: 2024-06-25
 ---
 
+![Featured image](/images/chuck-1480x617.jpg)
+
 Standards made sense 100 years ago. Efficiency and consistency were vital then. Today, they often don’t fit.
 
 You need strict standards to build a plane, but Rock wouldn’t exist if Chuck Berry hadn’t tried the unconventional.
 
 Stiffness leads to bureaucracy, boredom, overthinking, and predictability. It can get you ISO-certified if that's your jam, but the best things come from breaking your own rules.
+
+[Photo: Chuck Berry via [Rolling Stone]](https://www.rollingstone.com/music/music-features/chuck-berry-farewell-to-the-father-of-rock-118589/)
+{: .photo-credit}

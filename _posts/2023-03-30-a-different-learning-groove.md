@@ -4,6 +4,8 @@ title: "A different learning groove"
 date: 2023-03-30
 ---
 
+![Featured image](/images/learning-1480x988.jpg)
+
 Not all learning has to be confined within classroom walls or follow a rigid checklist. Often, the most valuable lessons emerge as we venture off the beaten path.
 
 As someone who embraces “Experiential learning” – learning by doing and making mistakes – my approach differs from the traditional method of lectures, readings, and exercises. Instead, I set a goal and dive right into it.
@@ -24,3 +26,5 @@ Instead of creating the perfect all-in-one learning path, companies should consi
 
 It’s disheartening, as who wouldn’t want to have engaged employees with diverse approaches to problem-solving, innovation, and collaboration? –– And on the other hand, who wouldn’t want to work in an environment that values personal growth and encourages learning in one’s unique way? –– Embracing various learning styles fosters a more inclusive workplace and promotes creative thinking and adaptability, ultimately contributing to your success as a company.
 
+Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash]](https://unsplash.com/photos/c7ZIR8tMFAY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+{: .photo-credit}

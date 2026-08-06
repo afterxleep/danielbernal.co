@@ -4,6 +4,8 @@ title: "The multiple priorities conundrum"
 date: 2023-01-27
 ---
 
+![Featured image](/images/priorities-1480x1973.jpg)
+
 Let’s assume you lead a development team and you’re given the following list of priorities.
 
 **Next year’s priorities:**
@@ -47,3 +49,5 @@ This single priority also gives you a baseline to understand and measure progres
 
 So next time someone comes to you with an extensive priority list, think twice, question what is essential, and reduce it to a single phrase. Then use that to decide where to put your focus and attention.
 
+Photo by [Ch_pski](https://unsplash.com/@ch_pski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash]](https://unsplash.com/photos/bylXfUFJylU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+{: .photo-credit}

@@ -4,6 +4,8 @@ title: "AI: Convenience Vs. Curiosity"
 date: 2023-02-13
 ---
 
+![Featured image](/images/ai-1480x1433.jpg)
+
 AI blowing us away with its superhuman abilities is cool, but that’s the tip of the iceberg. The real magic of AI, especially in search, is its availability and affordability.
 
 With traditional search engines, you still have to dig and check a few sites before finding what you’re looking for. This helps ensure the source is trustworthy and allows you to explore and form your own opinions. (Not everyone does this, but the option is there.)
@@ -16,3 +18,5 @@ This is the beginning of a cultural shift. As users living through it, we are re
 
 So is not about AI replacing us. It’s using it to enhance our abilities while relying on our critical thinking and curiosity to keep learning and innovating.
 
+Photo by [DeepMind](https://unsplash.com/@deepmind?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash]](https://unsplash.com/photos/rXy5Zlmw3qY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+{: .photo-credit}

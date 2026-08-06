@@ -4,6 +4,8 @@ title: "The status quo bias"
 date: 2023-06-01
 ---
 
+![Featured image](/images/walking-1480x988.jpg)
+
 Many times, we become victims of our own choices. Not just the bad ones, but even worse, the choices that stick around well past their expiration date.
 
 We become hostages to the ‘business as usual’ mentality, a cognitive straightjacket that stifles change and breeds complacency, and all those stubborn bad choices that we can’t just seem to shake off. That’s the Status Quo bias.
@@ -16,3 +18,5 @@ I’m a harsh critic of everything I’m a part of, and can’t keep my mouth sh
 
 Challenging the status quo invariably leads to ruffled feathers, frazzled nerves, and tons of shit thrown your way. Yet, despite the discomfort, it’s a good path to catalyze change; real and permanent change.
 
+Photo by [Harsh Hupta](https://unsplash.com/fr/@imharsh081?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash]](https://unsplash.com/photos/nVDB1IGq64s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+{: .photo-credit}
