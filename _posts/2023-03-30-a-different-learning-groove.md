@@ -2,6 +2,7 @@
 layout: post
 title: "A different learning groove"
 date: 2023-03-30
+image: /images/learning-1480x988.jpg
 ---
 
 ![Featured image](/images/learning-1480x988.jpg)

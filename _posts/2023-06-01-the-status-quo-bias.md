@@ -2,6 +2,7 @@
 layout: post
 title: "The status quo bias"
 date: 2023-06-01
+image: /images/walking-1480x988.jpg
 ---
 
 ![Featured image](/images/walking-1480x988.jpg)

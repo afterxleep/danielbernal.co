@@ -2,6 +2,7 @@
 layout: post
 title: "Alignment"
 date: 2025-12-13
+image: /images/sangga-rima-roman-selia-Nvwza6WtIpc-unsplash.jpg
 ---
 
 ![Featured image](/images/sangga-rima-roman-selia-Nvwza6WtIpc-unsplash.jpg)

@@ -2,6 +2,7 @@
 layout: post
 title: "Decisions By Fatigue"
 date: 2024-07-17
+image: /images/hasan.jpeg
 ---
 
 ![Featured image](/images/hasan.jpeg)

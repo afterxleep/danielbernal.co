@@ -2,6 +2,7 @@
 layout: post
 title: "The multiple priorities conundrum"
 date: 2023-01-27
+image: /images/priorities-1480x1973.jpg
 ---
 
 ![Featured image](/images/priorities-1480x1973.jpg)

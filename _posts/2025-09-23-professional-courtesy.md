@@ -2,6 +2,7 @@
 layout: post
 title: "Professional courtesy"
 date: 2025-09-23
+image: /images/jean-carlo-emer-bsODYwWcMJU-unsplash.jpg
 ---
 
 ![Featured image](/images/jean-carlo-emer-bsODYwWcMJU-unsplash.jpg)

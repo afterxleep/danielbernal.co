@@ -2,6 +2,7 @@
 layout: post
 title: "Too many in the room"
 date: 2025-01-07
+image: /images/pawel-czerwinski-6lQDFGOB1iw-unsplash-1480x2220.jpg
 ---
 
 ![Featured image](/images/pawel-czerwinski-6lQDFGOB1iw-unsplash-1480x2220.jpg)

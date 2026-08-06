@@ -2,6 +2,7 @@
 layout: post
 title: "Cut the office hours bullshit"
 date: 2024-06-20
+image: /images/capuzimatti-1480x617.jpg
 ---
 
 ![Featured image](/images/capuzimatti-1480x617.jpg)

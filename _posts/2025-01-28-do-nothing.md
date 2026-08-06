@@ -2,6 +2,7 @@
 layout: post
 title: "Do Nothing"
 date: 2025-01-28
+image: /images/lukas-s-8K2Lkhz2Yyo-unsplash-1-e1738626141705.jpg
 ---
 
 ![Featured image](/images/lukas-s-8K2Lkhz2Yyo-unsplash-1-e1738626141705.jpg)

@@ -2,6 +2,7 @@
 layout: post
 title: "Simple dies here"
 date: 2025-02-25
+image: /images/steve-gribble-KGnLRfwRs84-unsplash.jpg
 ---
 
 ![Featured image](/images/steve-gribble-KGnLRfwRs84-unsplash.jpg)

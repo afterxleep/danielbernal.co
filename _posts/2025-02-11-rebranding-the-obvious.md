@@ -2,6 +2,7 @@
 layout: post
 title: "Rebranding the obvious"
 date: 2025-02-11
+image: /images/shane-rounce-5f4xGaQnM1E-unsplash-copy-e1738626223160.jpeg
 ---
 
 ![Featured image](/images/shane-rounce-5f4xGaQnM1E-unsplash-copy-e1738626223160.jpeg)

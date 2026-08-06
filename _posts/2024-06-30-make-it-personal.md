@@ -2,6 +2,7 @@
 layout: post
 title: "Make it personal"
 date: 2024-06-30
+image: /images/eduardo-soares-4m5Mx5NeZFU-unsplash-copy-1480x833.jpeg
 ---
 
 ![Featured image](/images/eduardo-soares-4m5Mx5NeZFU-unsplash-copy-1480x833.jpeg)

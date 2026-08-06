@@ -2,6 +2,7 @@
 layout: post
 title: "Convenient amnesia"
 date: 2025-03-18
+image: /images/douglas-schneiders-OncBwvf2gmU.jpg
 ---
 
 ![Featured image](/images/douglas-schneiders-OncBwvf2gmU.jpg)

@@ -2,6 +2,7 @@
 layout: post
 title: "It’s not about the hours"
 date: 2024-07-31
+image: /images/andy-watkins-L6O2GaNSsWU-unsplash-copy.jpeg
 ---
 
 ![Featured image](/images/andy-watkins-L6O2GaNSsWU-unsplash-copy.jpeg)

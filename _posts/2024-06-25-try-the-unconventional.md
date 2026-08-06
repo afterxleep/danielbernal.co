@@ -2,6 +2,7 @@
 layout: post
 title: "Try the unconventional"
 date: 2024-06-25
+image: /images/chuck-1480x617.jpg
 ---
 
 ![Featured image](/images/chuck-1480x617.jpg)

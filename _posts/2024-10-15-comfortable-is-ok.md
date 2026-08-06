@@ -2,6 +2,7 @@
 layout: post
 title: "Comfortable is OK"
 date: 2024-10-15
+image: /images/anna-pascale-QE-EpRr8OkM-unsplash-copy.jpeg
 ---
 
 ![Featured image](/images/anna-pascale-QE-EpRr8OkM-unsplash-copy.jpeg)

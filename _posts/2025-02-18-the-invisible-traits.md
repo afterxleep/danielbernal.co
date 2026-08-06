@@ -2,6 +2,7 @@
 layout: post
 title: "The invisible traits"
 date: 2025-02-18
+image: /images/sam-quek-w40ZS1TAxPU-unsplash-copy.jpeg
 ---
 
 ![Featured image](/images/sam-quek-w40ZS1TAxPU-unsplash-copy.jpeg)

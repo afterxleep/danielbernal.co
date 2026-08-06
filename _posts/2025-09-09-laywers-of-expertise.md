@@ -2,6 +2,7 @@
 layout: post
 title: "Lawyers of expertise"
 date: 2025-09-09
+image: /images/scott-webb-9aPxwfZusmE-unsplash.jpg
 ---
 
 ![Featured image](/images/scott-webb-9aPxwfZusmE-unsplash.jpg)

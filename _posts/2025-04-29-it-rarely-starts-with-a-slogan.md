@@ -2,6 +2,7 @@
 layout: post
 title: "It rarely starts with a slogan"
 date: 2025-04-29
+image: /images/shimon-aoki-POTR4so7Nw4-unsplash.jpg
 ---
 
 ![Featured image](/images/shimon-aoki-POTR4so7Nw4-unsplash.jpg)

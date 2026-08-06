@@ -2,6 +2,7 @@
 layout: post
 title: "Dissidents"
 date: 2025-08-11
+image: /images/IMG_1831.jpeg
 ---
 
 ![Featured image](/images/IMG_1831.jpeg)

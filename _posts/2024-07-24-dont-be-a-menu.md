@@ -2,6 +2,7 @@
 layout: post
 title: "Don’t be a menu"
 date: 2024-07-24
+image: /images/rawkkim-1ApuKajC5JE-unsplash.jpg
 ---
 
 ![Featured image](/images/rawkkim-1ApuKajC5JE-unsplash.jpg)

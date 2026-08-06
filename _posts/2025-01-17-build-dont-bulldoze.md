@@ -2,6 +2,7 @@
 layout: post
 title: "Build, don’t Bulldoze"
 date: 2025-01-17
+image: /images/build.jpeg
 ---
 
 ![Featured image](/images/build.jpeg)

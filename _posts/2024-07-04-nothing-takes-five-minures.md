@@ -2,6 +2,7 @@
 layout: post
 title: "Nothing takes five minutes"
 date: 2024-07-04
+image: /images/scott.jpeg
 ---
 
 ![Featured image](/images/scott.jpeg)

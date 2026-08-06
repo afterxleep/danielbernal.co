@@ -2,6 +2,7 @@
 layout: post
 title: "Decision laundering"
 date: 2025-09-30
+image: /images/ana-maria-stancu-_OsC7iODF30-unsplash.jpg
 ---
 
 ![Featured image](/images/ana-maria-stancu-_OsC7iODF30-unsplash.jpg)

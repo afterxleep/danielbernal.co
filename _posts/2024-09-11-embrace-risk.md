@@ -2,6 +2,7 @@
 layout: post
 title: "Embrace Risk"
 date: 2024-09-11
+image: /images/meric-dagli-XkcnfE_GO30-unsplash-copy.jpeg
 ---
 
 ![Featured image](/images/meric-dagli-XkcnfE_GO30-unsplash-copy.jpeg)

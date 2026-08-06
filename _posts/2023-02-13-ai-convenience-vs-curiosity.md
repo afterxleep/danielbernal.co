@@ -2,6 +2,7 @@
 layout: post
 title: "AI: Convenience Vs. Curiosity"
 date: 2023-02-13
+image: /images/ai-1480x1433.jpg
 ---
 
 ![Featured image](/images/ai-1480x1433.jpg)

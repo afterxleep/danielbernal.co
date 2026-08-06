@@ -2,6 +2,7 @@
 layout: post
 title: "Emotional insurance fraud"
 date: 2025-06-16
+image: /images/richard-bell-HV8PJoUsQ-A-unsplash.jpg
 ---
 
 ![Featured image](/images/richard-bell-HV8PJoUsQ-A-unsplash.jpg)

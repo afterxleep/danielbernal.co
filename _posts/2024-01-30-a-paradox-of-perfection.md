@@ -2,6 +2,7 @@
 layout: post
 title: "A paradox of perfection"
 date: 2024-01-30
+image: /images/duality-1480x846.jpg
 ---
 
 ![Featured image](/images/duality-1480x846.jpg)

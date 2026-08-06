@@ -2,6 +2,7 @@
 layout: post
 title: "Lower your seat"
 date: 2024-06-23
+image: /images/route66-1480x617.jpg
 ---
 
 ![Featured image](/images/route66-1480x617.jpg)

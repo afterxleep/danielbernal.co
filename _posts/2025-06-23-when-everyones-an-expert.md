@@ -2,6 +2,7 @@
 layout: post
 title: "When everyone’s an expert"
 date: 2025-06-23
+image: /images/cosmin-serban-VmnOaiN2P90-unsplash.jpg
 ---
 
 ![Featured image](/images/cosmin-serban-VmnOaiN2P90-unsplash.jpg)

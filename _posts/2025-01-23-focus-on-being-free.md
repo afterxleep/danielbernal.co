@@ -2,6 +2,7 @@
 layout: post
 title: "Focus on being free"
 date: 2025-01-23
+image: /images/mari-madriz-FRsmwVdIBOg-unsplash-copy-1480x1139.jpeg
 ---
 
 ![Featured image](/images/mari-madriz-FRsmwVdIBOg-unsplash-copy-1480x1139.jpeg)

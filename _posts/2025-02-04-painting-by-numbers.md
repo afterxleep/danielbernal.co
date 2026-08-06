@@ -2,6 +2,7 @@
 layout: post
 title: "Painting by numbers"
 date: 2025-02-04
+image: /images/victor-iaquA2snPbk-unsplash-1480x2220.jpg
 ---
 
 ![Featured image](/images/victor-iaquA2snPbk-unsplash-1480x2220.jpg)

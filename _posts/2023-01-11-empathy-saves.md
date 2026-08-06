@@ -2,6 +2,7 @@
 layout: post
 title: "Empathy Saves"
 date: 2023-01-11
+image: /images/empathy-saves.jpeg
 ---
 
 ![Featured image](/images/empathy-saves.jpeg)

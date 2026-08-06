@@ -2,6 +2,7 @@
 layout: post
 title: "Optimized for burnout"
 date: 2025-07-22
+image: /images/simon-berger-GFhWRx3xLhg-unsplash.jpg
 ---
 
 ![Featured image](/images/simon-berger-GFhWRx3xLhg-unsplash.jpg)

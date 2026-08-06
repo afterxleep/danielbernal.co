@@ -2,6 +2,7 @@
 layout: post
 title: "0.2 seconds faster"
 date: 2023-06-14
+image: /images/faster-1480x987.jpg
 ---
 
 ![Featured image](/images/faster-1480x987.jpg)

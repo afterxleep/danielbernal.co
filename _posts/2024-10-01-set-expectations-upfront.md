@@ -2,6 +2,7 @@
 layout: post
 title: "Set expectations upfront"
 date: 2024-10-01
+image: /images/thomas-stephan-mUcYC3-MtMk-unsplash-copy.jpeg
 ---
 
 ![Featured image](/images/thomas-stephan-mUcYC3-MtMk-unsplash-copy.jpeg)

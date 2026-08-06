@@ -2,6 +2,7 @@
 layout: post
 title: "Breaking the ‘sync’"
 date: 2024-02-23
+image: /images/desk.jpg
 ---
 
 ![Featured image](/images/desk.jpg)
